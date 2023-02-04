@@ -25,12 +25,12 @@ Button/Tooltip/ResearchRavenEnergyUpgrade=<c val="FFFFFF">비장의 무기입니
 Button/Tooltip/Snipe=<c val="FFFFFF">더이상의 자세한 설명은 생략한다.</c>
 Button/Tooltip/TerranInfantryArmorLevel3=<c val="FFFFFF">1초동안 방어력을 극대화시킵니다.<n/>저격당해도 죽지 않습니다.</c>
 DocInfo/Author=butterflo
-DocInfo/DescLong=불가능이란 즉 확률이 없다는 것..<n/>0의 확률. 그것은 "제로(ghost)"의 영역───<n/>운명에데스티니! 유령의고스트를 사살하라!<n/><n/>* 봇 지원<n/>* 2019.02.02 업데이트<n/>* discord.gg/ApDN7MG
-DocInfo/HowToPlayBasic00=[Q] 저격 - 수동으로 조준하는 스킬입니다.
-DocInfo/HowToPlayBasic01=[W] 저항 - 순간적으로 방어력을 극대화시킵니다.
-DocInfo/HowToPlayBasic02=[E] 파동 - 건물 스캔 및 저격수 견제에 사용됩니다.
-DocInfo/HowToPlayWinning00=최후의 1인이 라운드를 승리합니다.
-DocInfo/Name=저격의 스나이퍼
+DocInfo/DescLong=최후의.. 스나이퍼..<n/><n/>* 숨플 삭제<n/>* (구) 저격의 스나이퍼<n/>* 2019.02.16 업데이트
+DocInfo/HowToPlayBasic00=[Q] 저격 - 직선 피해를 입힙니다.
+DocInfo/HowToPlayBasic01=[W] 저항 - 잠시 무적이 됩니다.
+DocInfo/HowToPlayBasic02=[E] 파동 - 상대 견제에 사용됩니다.
+DocInfo/HowToPlayWinning00=최후의 1인이 되세요.
+DocInfo/Name=The Last Sniper
 DocInfo/PatchNote001=아케이드 게시
 DocInfo/PatchNote002=* 서든데스가 추가되었습니다.
 DocInfo/PatchNote003=* 봇의 실력이 매 라운드마다 바뀌는 방식에서 게임 시작시에 고정되는 방식으로 변경되었습니다.
@@ -157,8 +157,12 @@ DocInfo/PatchNote123=
 DocInfo/PatchNote124=* 게임 컨셉이 변경됩니다.
 DocInfo/PatchNote125=- 이제 대부분의 지형지물에 숨을 수 없습니다.
 DocInfo/PatchNote126=- 관통 전적 및 봇 난이도 전적이 삭제됩니다.
+DocInfo/PatchNote127=
+DocInfo/PatchNote128=* 인터페이스가 간소화됩니다.
+DocInfo/PatchNote129=* 이제 적응형 AI를 사용합니다.
+DocInfo/PatchNote130=* 적응형 AI는 플레이어의 실력에 맞추어 행동합니다.
 Effect/Name/SnipeDamage=저격 피해
-LoadingScreen/Tip=<c val="FFCC00">concept & coding</c> <c val="FFFFFF">butterflo</c><n/><c val="FFCC00">trigger core</c><c val="FFFFFF"> kduk</c>
+LoadingScreen/Tip=<c val="800000">concept & coding</c> <c val="FFFFFF">butterflo</c><n/><c val="800000">trigger core</c><c val="FFFFFF"> kduk</c>
 MapInfo/Player00/Name=중립
 MapInfo/Player01/Name=Agent B
 MapInfo/Player02/Name=Agent C
@@ -173,165 +177,116 @@ MapInfo/Player10/Name=Agent 29
 MapInfo/Player11/Name=CPU
 MapInfo/Player12/Name=적대
 Param/Value/012C5604=명 남음
-Param/Value/0193333C=<n/>
 Param/Value/01B4A8EB=
 Param/Value/02052D3A=<s val="ModCenterSize64Bold">모드: 아레나</s><n/><s val="ModCenterSize32Bold"><c val="FFFF00">방장으로부터 응답이 없습니다!</c>
-Param/Value/04125415=
-Param/Value/04FEC1FE=<s val="ModCenterSize20Bold"><c val="FFFF00">라운드 
-Param/Value/0AA112D3= ( 
+Param/Value/04FEC1FE=<s val="Sniper24Bold"><c val="FFFF00">라운드 
 Param/Value/0B160C4A=<c val="FFFFFF"> 자멸 (감전)</c>
 Param/Value/0C4A1CAA=승 달성.
-Param/Value/0D4E0DE2=<s val="ModCenterSize32Bold">자연의 네이쳐</s>
-Param/Value/0E725E58=%
-Param/Value/1007E6D5=승
-Param/Value/10931E19=% )
-Param/Value/156A81A5=명 남음
-Param/Value/18A14074=<s val="ModCenterSize16Bold">우주 맵입니다.<n/><n/>지형물: 개인벙커, 실드배터리<n/>서든데스: 낙하기 투하, 맵 좁아짐
-Param/Value/19648436=<s val="ModCenterSize32Bold"><c val="80FFFF">목표: 라운드 
+Param/Value/0D4E0DE2=<s val="Sniper24Bold"><c val="FFFFFF">자연의 네이쳐</s></c>
+Param/Value/15FC2CCA=<s val="Sniper64Bold"><c val="FFFFFF">레일건[R] <c val="FF2000">OFF</c></c>
+Param/Value/18A14074=<s val="Sniper16Bold"><c val="FFFFFF">우주 맵입니다.<n/><n/>지형물: 개인벙커, 실드배터리<n/>서든데스: 낙하기 투하, 맵 좁아짐</c>
+Param/Value/19648436=<s val="Sniper24Bold"><c val="80FFFF">목표: 라운드 
 Param/Value/1B9DD2DE=
 Param/Value/1D64CBAB=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
 Param/Value/1DB86D59=</c> 
-Param/Value/1EFB40A4=<s val="ModCenterSize32Bold">용암의 볼케이노</s>
-Param/Value/1F83B756=저격의스나이퍼를 플레이해주셔서 감사드립니다:)<n/>- 제작자 butterflo
+Param/Value/1EFB40A4=<s val="Sniper24Bold">용암의 볼케이노</s>
 Param/Value/215FD1AD=2
-Param/Value/24B0B4AC=<s val="ModCenterSize20Bold"><c val="80FF00">라운드 종료<n/>
+Param/Value/24B0B4AC=<s val="Sniper24Bold"><c val="80FF00">라운드 종료<n/></c><c val="FFFF00">무승부: 생존자 없음.</c>
+Param/Value/271D4D0D=승
 Param/Value/27B58FA1=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
-Param/Value/2A01837A=<s val="ModCenterSize64Bold"><c val="FFFF00">▶
-Param/Value/2B77EAC4=:
+Param/Value/2A01837A=<s val="Sniper64Bold"><c val="FFFF00">>>
 Param/Value/2C7A97B2=<s val="ModCenterSize64Bold"><c val="80FF00">3승
 Param/Value/2DEDE9CC=<c val="FFFF00">180초 경과 : <n/>서든데스가 시작되었습니다. 맵이 점점 좁아집니다!
-Param/Value/30A67177= 
 Param/Value/31B2C2B7=<c val="4040FF">]</c>
 Param/Value/34B581E0= : 
 Param/Value/361E4633=<s val="ModCenterSize20Bold"><c val="FF4040">[</c>
-Param/Value/36465514=<s val="ModCenterSize20Bold"><c val="80FF00">봇 있음</c>
 Param/Value/3806D306= 
 Param/Value/3B7AFF33=<s val="ModCenterSize32Bold"><c val="FF4040">[</c>
-Param/Value/3C0B1FD1=<s val="ModCenterSize20Bold"><c val="80FF00">플레이어 정보</c>
 Param/Value/3CF24334=승을 달성하였습니다.
 Param/Value/3D8F6D57=<c val="00FF00">무한의 큐브</c> 맵이 선택되었습니다.
-Param/Value/3F72B7C9=</c><c val="FFFF00">무승부: 생존자 없음.</c>
-Param/Value/402E45C5=<s val="ModCenterSize20Bold"><c val="FFFFFF">환영합니다 <c val="80FF00">
-Param/Value/40C6FB21=<s val="ModCenterSize20Bold"><c val="00FFFF">목표: 라운드 
-Param/Value/42DB3628=<s val="ModCenterSize16Bold">높낮이가 있는 뜨거운 맵입니다.<n/><n/>지형물: 시야 차단 암석(고정)<n/>서든데스: 용암 쇄도<n/></s><s val="ModCenterSize16Bold"><c val="FFFF00">레일건을 사용합니다.</s></c>
+Param/Value/40C6FB21=<s val="Sniper24Bold"><c val="00FFFF">목표: 라운드 
+Param/Value/42DB3628=<s val="Sniper16Bold"><c val="FFFFFF">높낮이가 있는 뜨거운 맵입니다.<n/><n/>지형물: 시야 차단 암석(고정)<n/>서든데스: 용암 쇄도<n/><c val="FFFF00">레일건을 사용합니다.</s></c></c>
 Param/Value/45542E4F=<c val="FFFFFF"> (감전)</c>
-Param/Value/46871B49=</c><c val="FFFF00">무승부: 생존자 없음.</c>
 Param/Value/470B89B9=<c val="FFFFFF"> (레일건)</c>
-Param/Value/48B84844=<s val="ModCenterSize16Bold"><c val="80FF00">999
+Param/Value/49B91AC3=<s val="Sniper64Bold"><c val="80FF00">
 Param/Value/4AC918C4=</c><c val="4040FF"> ]</c>
 Param/Value/4BFBA809=<s val="ModCenterSize20Bold">라운드 10 : 전투 개시!</s>
 Param/Value/4F25F63D=<c val="00FF00">우주의 스페이스</c> 맵이 선택되었습니다.
 Param/Value/4F97E408=
-Param/Value/55CCEE3D=<s val="ModCenterSize20Bold"><c val="FF0000">
-Param/Value/5A50E22C=<s val="ModCenterSize32Bold"><c val="80FFFF">매치 종료!<n/><s val="ModCenterSize28Bold"><c val="FF4040">레드팀</c>이 
-Param/Value/5B382D15=<s val="ModCenterSize16Bold"><c val="80FF00">999
-Param/Value/5D333B6B=<c val="FFFF00">킬 못하고 죽음 :<n/><c val="FFFFFF">다음 라운드에 보호막이 적용됩니다.</c>
-Param/Value/5FAE1AC5=<s val="ModCenterSize16Bold"><c val="FFFFFF">봇이 있으면 전적이 계산되지 않습니다.<n/><n/>* 봇 정보<n/></c>
+Param/Value/55CCEE3D=<s val="Sniper24Bold"><c val="FF0000">
+Param/Value/5A50E22C=<s val="Sniper24Bold"><c val="80FFFF">매치 종료!</c><n/><c val="FF4040">레드팀</c>이 
 Param/Value/62859487=승을 달성하였습니다.
 Param/Value/63266638=10초 후 게임이 종료됩니다.
-Param/Value/635C2266=<s val="ModCenterSize16Bold"><c val="80FF00">
 Param/Value/64807EEF=<s val="ModCenterSize14Bold"><c val="FFFF00">플레이어
 Param/Value/648679CC=<c val="FFFFFF"> (화염)</c>
-Param/Value/675B5AED=<s val="ModCenterSize52Bold">모드: 팀 데스매치</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
-Param/Value/6A16CD6F=<s val="ModCenterSize64Bold"><c val="80FF00">
+Param/Value/668086AC=<s val="Sniper64Bold"><c val="FFFFFF">레일건[R] <c val="80FF00">ON</c></c>
+Param/Value/675B5AED=<s val="Sniper48Bold">모드: 팀 대전</s><n/><s val="Sniper24Bold"><c val="80FF00">방장: </c>
 Param/Value/6B607A69=구버전의 저장소가 발견되어 갱신을 완료하였습니다.
-Param/Value/6D4DACE6=<s val="ModCenterSize20Bold"><c val="80FF00">라운드 종료<n/>
+Param/Value/6D4DACE6=<s val="Sniper24Bold"><c val="80FF00">라운드 종료<n/></c><c val="FFFF00">무승부: 생존자 없음.</c>
 Param/Value/6D75486B= : 
-Param/Value/6DB99606=<s val="ModCenterSize20Bold">플레이어 정보
 Param/Value/6DBB4CCC=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
 Param/Value/6E63BCC7=
-Param/Value/75BE9F9A=
 Param/Value/79BF271A=<c val="0000FF">]]</c>
 Param/Value/7A315107=순위표
 Param/Value/7B3851A7=<c val="FFFFFF"> (저격)</c>
-Param/Value/7CDDE49B=
 Param/Value/7FA3B2EA= : 
-Param/Value/805A86AA=<s val="ModCenterSize32Bold"><c val="80FF00">라운드 종료<n/><s val="ModCenterSize28Bold"><c val="4040FF">블루</c>팀 생존.
+Param/Value/805A86AA=<s val="Sniper24Bold"><c val="80FF00">라운드 종료<n/><c val="4040FF">블루</c>팀 생존.
 Param/Value/81A754BE=
-Param/Value/82352365=<s val="ModCenterSize20Bold"><c val="80FFFF">매치 종료!<n/><c val="FFFFFF">
+Param/Value/82352365=<s val="Sniper24Bold"><c val="80FFFF">매치 종료!<n/><c val="FFFFFF">
 Param/Value/82CB7827=<s val="ModCenterSize20Bold">코비드 레일건 충전 완료
-Param/Value/8329ACD5=저장소 오류
 Param/Value/8469773E=
-Param/Value/871D1198=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">가운데 버튼으로 게임을 시작합니다.</c></s>
+Param/Value/871D1198=<n/><s val="Sniper24Bold"><c val="80FFFF">가운데 버튼으로 게임을 시작합니다.</c></s>
 Param/Value/8785CF2F=..
 Param/Value/87D6811B=승
 Param/Value/87E43999=<c val="FFFF00">서든데스</c><c val="FFFFFF"> >> </c>
-Param/Value/88F712D8=</c> - 
 Param/Value/8CCEFFAC=<c val="4040FF">]</c>
-Param/Value/8E0FE9BE=<s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
-Param/Value/8ECBFDF6=
-Param/Value/8ECE8E44=</c> <c val="FFFFFF">레벨 
+Param/Value/8E0FE9BE=<s val="Sniper24Bold"><c val="80FF00">방장: </c><c val="FFFFFF">
+Param/Value/8E24C481=9999
 Param/Value/9223E502=
 Param/Value/924837FD=<c val="00FF00">자연의 네이쳐</c> 맵이 선택되었습니다.
 Param/Value/94327A55=<s val="ModCenterSize14Bold"><c val="FFFF00">
 Param/Value/97C8F7EA=<s val="ModCenterSize20Bold"><c val="FF0000">[[</c>
-Param/Value/97E953B0=<n/>    명중률 
 Param/Value/98E836E9=<c val="FFFFFF"> 자멸 (화염)</c>
 Param/Value/99DECE97=<s val="ModCenterSize64Bold">모드: 아레나</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
-Param/Value/9A276EA7=<s val="ModCenterSize16Bold">많은 방이 있는 맵입니다.<n/><n/>지형물: 많은 방<n/>서든데스: (미구현)<n/></s><s val="ModCenterSize16Bold"><c val="FFFF00">(레일건 없음)<n/>(1전1승)</s></c>
 Param/Value/9AB5D30C=<s val="ModCenterSize64Bold">레일건[R] <c val="80FF00">ON</c></c>
-Param/Value/9AFAF184=<s val="ModCenterSize14Bold"><c val="FFFF00">킬/데스
-Param/Value/9B841E08=<s val="ModCenterSize20Bold">봇 있음
-Param/Value/9D172280=<s val="ModCenterSize20Bold"><c val="80FF00">저장소 초기화 완료</c>
 Param/Value/9FE5311C=</c><c val="FF4040"> ]</c>
-Param/Value/A0B687CD=<s val="ModCenterSize64Bold">모드: 아레나</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
+Param/Value/A0B687CD=<s val="Sniper48Bold"><c val="FFFFFF">모드: 개인전</c></s><n/><s val="Sniper24Bold"><c val="80FF00">방장: </c>
 Param/Value/A1755587=완료: 플레이카운트 기준으로 호스트를 설정합니다.
-Param/Value/A481D28E=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
-Param/Value/A6F44A65=<s val="ModCenterSize32Bold"><c val="80FFFF">매치 종료!<n/><s val="ModCenterSize28Bold"><c val="4040FF">블루팀</c>이 
+Param/Value/A481D28E=<n/><s val="Sniper24Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
+Param/Value/A6F44A65=<s val="Sniper24Bold"><c val="80FFFF">매치 종료!</c><n/><c val="4040FF">블루팀</c>이 
 Param/Value/A8E7B273=
-Param/Value/A9F8D2BF=<s val="ModCenterSize20Bold">
-Param/Value/AAD0E4C5=<s val="ModCenterSize64Bold">레일건[R] <c val="80FF00">ON</c></c>
-Param/Value/AB40EBD3=<c val="FFFF00">보호막 적용 :<n/><c val="FFFFFF">저격을 1회 막아줍니다. 힘내세요!</c>
-Param/Value/AC79C16E=<c val="FFFFFF">저격의 스나이퍼를 플레이해주셔서 감사드립니다:)<n/>- 제작자 butterflo</c>
-Param/Value/ADA170FF=
+Param/Value/A9F8D2BF=<s val="Sniper24Bold">
 Param/Value/B14DB180=<n/>전투 개시!</s>
-Param/Value/B1A81876=<c val="80FF00">
-Param/Value/B4EA0BC2=<s val="ModCenterSize14Bold">
 Param/Value/B50915CF=<s val="ModCenterSize20Bold"><c val="FF0000">코비드 레일건 충전 완료</c>
-Param/Value/B78D0629=<s val="ModCenterSize20Bold"><c val="80FF00">라운드 종료</c><n/><c val="FF4040">레드</c>팀 생존.
-Param/Value/B8EBF5F5=<s val="ModCenterSize16Bold">
+Param/Value/B78D0629=<s val="Sniper24Bold"><c val="80FF00">라운드 종료</c><n/><c val="FF4040">레드</c>팀 생존.
+Param/Value/B8EBF5F5=<s val="Sniper16Bold">
 Param/Value/B98D9155=승
-Param/Value/BAF056EA=<s val="ModCenterSize16Bold"><c val="80FF00">
 Param/Value/BBB2E778=<c val="FFFF00">큐브가 흔들립니다. 구조가 바뀐 것 같습니다.
-Param/Value/BBC7A738=<s val="ModCenterSize14Bold"><c val="FFFFFF">
-Param/Value/BE95257D=<s val="ModCenterSize64Bold">레일건[R] <c val="FF2000">OFF</c></c>
+Param/Value/BE95257D=<s val="Sniper64Bold"><c val="FFFFFF">레일건[R] <c val="FF2000">OFF</c></c>
 Param/Value/C45CFF6B=<s val="ModCenterSize52Bold">모드: 팀 데스매치</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
-Param/Value/C45EA7B4=<s val="ModCenterSize64Bold"><c val="80FF00">
-Param/Value/C6536667=<s val="ModCenterSize16Bold"><c val="80FF00">999
-Param/Value/C714C4F0=<s val="ModCenterSize20Bold"><c val="FFFF00">라운드 준비</c><n/>
+Param/Value/C714C4F0=<s val="Sniper24Bold"><c val="FFFF00">라운드 준비</c><n/>
 Param/Value/C7BF680A=<c val="00FF00">용암의 볼케이노</c> 맵이 선택되었습니다.
 Param/Value/C840B0AB=<s val="ModCenterSize14Bold"><c val="FFFF00">승
-Param/Value/C9EE629B=<s val="ModCenterSize32Bold">우주의 스페이스</s>
-Param/Value/C9EFA6AA=
+Param/Value/C9EE629B=<s val="Sniper24Bold"><c val="FFFFFF">우주의 스페이스</s></c>
 Param/Value/CE2A7A5D=1
-Param/Value/D3832AFB=<s val="ModCenterSize14Bold">
-Param/Value/D3DC98E5=승
-Param/Value/D593C59F=<s val="ModCenterSize32Bold">무한의 큐브</s>
 Param/Value/D612CF94=승
-Param/Value/D7BA8319=<s val="ModCenterSize20Bold"><c val="00FFFF">목표: 라운드 
+Param/Value/D7BA8319=<s val="Sniper24Bold"><c val="00FFFF">목표: 라운드 
 Param/Value/D92DE192=
 Param/Value/D99A6E67=</c><c val="4040FF">[ </c><c val="FFFFFF">
 Param/Value/DA7E690F=<c val="FFFF00">
-Param/Value/DE843BEB=<n/>
 Param/Value/E035B4F7=<c val="FFFFFF">
-Param/Value/E13EF125=님!
 Param/Value/E16D6EA1=
 Param/Value/E4216853=<c val="FFFF00">지형이 불안정해집니다! 가까운 언덕으로 올라가세요!
 Param/Value/E5515842=<s val="ModCenterSize14Bold"><c val="FFFFFF">
-Param/Value/E86E9A41=<s val="ModCenterSize32Bold">
-Param/Value/E8ACEBD5=<c val="FFFF00">저장소 오류</c>
 Param/Value/E9B4328E=명 남음
 Param/Value/EC8817AD=</c><c val="FFFFFF"> >> </c>
 Param/Value/ED28EEFE=<s val="ModCenterSize52Bold">모드: 팀 데스매치</s><n/><s val="ModCenterSize32Bold"><c val="FFFF00">방장으로부터 응답이 없습니다!</c>
-Param/Value/EE984843=승
-Param/Value/F03FE3EC=<s val="ModCenterSize16Bold">자연 맵입니다.<n/><n/>지형물: 바위, 나무, 웅덩이<n/>서든데스: 불의 장막<n/><s val="ModCenterSize16Bold"><c val="FFFF40">(숙련자용)<n/>(레일건 없음)</c></s>
-Param/Value/F0A88DF9=<s val="ModCenterSize20Bold"><c val="80FF00">라운드 종료<n/>
-Param/Value/F0F524FF=/
-Param/Value/F3A656CF=봇이 있으면 전적이 계산되지 않습니다.
+Param/Value/F03FE3EC=<s val="Sniper16Bold"><c val="FFFFFF">자연 맵입니다.<n/><n/>지형물: 바위, 나무, 웅덩이<n/>서든데스: 불의 장막<n/><c val="FFFF40">(숙련자용)<n/>(레일건 없음)</c></s></c>
+Param/Value/F0A88DF9=<s val="Sniper24Bold"><c val="80FF00">라운드 종료<n/>
 Param/Value/F47368FE=저장소 불러오는 중..
 Param/Value/F56629DE=<s val="ModCenterSize14Bold"><c val="FFFF">
 Param/Value/F5B9124B=<c val="FFFF00">180초 경과 : <n/>서든데스가 시작되었습니다. 불의 장막이 움직입니다!<n/>가까운 웅덩이에 들어가면 불의 장막을 피할 수 있습니다.
-Param/Value/F8DFC780=<s val="ModCenterSize64Bold"><c val="FFFF00">◀
+Param/Value/F8DFC780=<s val="Sniper64Bold"><c val="FFFF00"><<
 Param/Value/FB641794=<c val="80FFFF">팔로잉 모드<n/></c>엔터키를 누르면 다른 플레이어의 유닛을 팔로잉합니다.
 Param/Value/FD056EDC=</c> 생존.
 Param/Value/FF519FF8=</c><c val="FF4040">[ </c><c val="FFFFFF">

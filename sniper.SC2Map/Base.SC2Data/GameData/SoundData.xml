@@ -143,6 +143,15 @@
     <CSound id="VoidRay_WeaponEnd">
         <Category value="Ambient"/>
     </CSound>
+    <CSound id="WidowMine_ArmedBeep">
+        <Category value="Ambient"/>
+        <Chance value="100"/>
+        <DupeDestroyCount value="16"/>
+        <DupeHistoryCount value="16"/>
+        <DupeMuteCount value="10"/>
+        <Pitch value="0.000000,0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
     <CSound id="Zerg_ExplosionSlime">
         <Category value="Ambient"/>
         <Pitch value="2.000000,2.000000"/>

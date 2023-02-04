@@ -3,10 +3,7 @@
 <Asset path="assets\textures\ui_scorescreen_splash_thorner03.dds" Type="Image"/>
 <Asset path="assets\textures\ui_scorescreen_splash_ttosh01.dds" Type="Image"/>
 <Asset path="assets\textures\ui_scorescreen_splash_ttosh02.dds" Type="Image"/>
-<Asset path="assets\textures\btn-research-terran-techreactor.dds" Type="Image"/>
-<Asset path="assets\textures\ui_scorescreen_splash_tzeratul02.dds" Type="Image"/>
 <Asset path="assets\textures\btn-upgrade-terran-corvidreactor.dds" Type="Image"/>
-<Asset path="assets\textures\btn-building-terran-techreactor.dds" Type="Image"/>
 <Asset path="assets\textures\ui_scorescreen_splash_tvalerian02a.dds" Type="Image"/>
 <Asset path="assets\textures\ui_scorescreen_splash_tvalerian02b.dds" Type="Image"/>
 <Actor id="SYSTEM_ActorConfig"/>
@@ -25,7 +22,6 @@
 <Actor id="ForestMold8"/>
 <Behavior id="PulseFlameDeBuff"/>
 <Behavior id="ResistLimiterRemoval"/>
-<Behavior id="StimpackProtect"/>
 <Effect id="EMPDamage"/>
 <Effect id="PulseFlameDamage"/>
 <Effect id="PulseZapRepeat"/>
@@ -62,6 +58,7 @@
 <Sound id="UI_TutorialSelect"/>
 <Sound id="TUIWarningPing"/>
 <Sound id="SwarmHost_EmptyBubbleLaunch"/>
+<Sound id="WidowMine_ArmedBeep" Variations="0"/>
 <Sound id="Obliterate_Charge"/>
 <Sound id="VoodooLockdownImpact"/>
 <Sound id="MindSplatterExplodeSound"/>

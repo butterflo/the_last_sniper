@@ -68,6 +68,7 @@
         <TerrainDeformerFlags index="UseUnitFootprint" value="1"/>
         <TerrainDeformerFlags index="RestoreOnDestroy" value="1"/>
         <Flags index="AddToExternalFinder" value="1"/>
+        <FogVisibility value="Visible"/>
     </CActorTerrainDeformer>
     <CActorTerrainDeformer id="ForestMold8">
         <EditorCategories value="DoodadType:Environment"/>
@@ -77,6 +78,7 @@
         <TerrainDeformerFlags index="UseUnitFootprint" value="1"/>
         <TerrainDeformerFlags index="RestoreOnDestroy" value="1"/>
         <Flags index="AddToExternalFinder" value="1"/>
+        <FogVisibility value="Visible"/>
     </CActorTerrainDeformer>
     <!--                                                                                         -->
     <!-- Ghost ................................................................................. -->

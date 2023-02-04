@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="us-ascii"?>
-<Catalog>
-    <CGameUI id="Dflt">
-        <WorldConsoleBottom value="0"/>
-        <CustomLayoutFileArray value="abstractui.xml"/>
-    </CGameUI>
-</Catalog>

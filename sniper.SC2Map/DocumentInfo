@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocInfo>
     <Icon>
-        <Value>v3_225.png</Value>
+        <Value>last_225.png</Value>
     </Icon>
     <Dependencies>
         <Value>bnet:Liberty (Mod)/0.0/999,file:Mods/Liberty.SC2Mod</Value>
@@ -16,7 +16,7 @@
     </Dependencies>
     <Screenshot>
         <File>
-            <Value>v3_800.png</Value>
+            <Value>last_800.png</Value>
         </File>
         <CaptionId>
             <Value>1</Value>
@@ -54,6 +54,7 @@
             <Value>2.2</Value>
             <Value>2.3</Value>
             <Value>2.4</Value>
+            <Value>2.5</Value>
         </Version>
         <Date>
             <Value>8/2/2012</Value>
@@ -78,6 +79,7 @@
             <Value>1/24/2016</Value>
             <Value>6/23/2017</Value>
             <Value>2/2/2019</Value>
+            <Value>2/17/2019</Value>
         </Date>
         <Notes>
             <Value>1</Value>
@@ -101,7 +103,8 @@
             <Value>114</Value>
             <Value>115,116,117,118,119</Value>
             <Value>120,121,122,123</Value>
-            <Value>124,125,126</Value>
+            <Value>124,125,126,127,128</Value>
+            <Value>129,130</Value>
         </Notes>
     </PatchNote>
     <Preload>
