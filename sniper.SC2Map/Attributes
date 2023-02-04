@@ -36,6 +36,9 @@
         <AttributeHidden Namespace="999" Id="3004"/>
         <AttributeHidden Namespace="999" Id="3010"/>
         <AttributeHidden Namespace="0" Id="1"/>
+        <AttributeHidden Namespace="999" Id="3000"/>
+        <AttributeHidden Namespace="999" Id="4000"/>
+        <AttributeHidden Namespace="999" Id="3015"/>
         <Attribute Namespace="999" Id="1001">
             <Default>
                 <Slot Id="Global"/>
@@ -47,8 +50,11 @@
             <Default>
                 <Slot Id="Global"/>
                 <Value Id="1180791666"/>
-                <Locked/>
             </Default>
+            <ValueHidden Id="1399615346"/>
+            <ValueHidden Id="1399615351"/>
+            <ValueHidden Id="1315926637"/>
+            <ValueHidden Id="1180791668"/>
         </Attribute>
         <Attribute Namespace="999" Id="3006">
             <Default>
@@ -72,7 +78,6 @@
             <Default>
                 <Slot Id="Global"/>
                 <Value Id="48"/>
-                <Locked/>
             </Default>
         </Attribute>
         <Attribute Namespace="999" Id="2000">
@@ -138,6 +143,9 @@
         <AttributeHidden Namespace="999" Id="3004"/>
         <AttributeHidden Namespace="999" Id="3010"/>
         <AttributeHidden Namespace="0" Id="1"/>
+        <AttributeHidden Namespace="999" Id="4000"/>
+        <AttributeHidden Namespace="999" Id="3015"/>
+        <AttributeHidden Namespace="999" Id="3000"/>
         <Attribute Namespace="999" Id="1001">
             <Default>
                 <Slot Id="Global"/>
@@ -156,8 +164,11 @@
             <Default>
                 <Slot Id="Global"/>
                 <Value Id="1180791666"/>
-                <Locked/>
             </Default>
+            <ValueHidden Id="1399615346"/>
+            <ValueHidden Id="1399615351"/>
+            <ValueHidden Id="1315926637"/>
+            <ValueHidden Id="1180791668"/>
         </Attribute>
         <Attribute Namespace="999" Id="3006">
             <Default>
@@ -209,6 +220,12 @@
             <Default>
                 <Slot Id="Global"/>
                 <Value Id="2"/>
+            </Default>
+        </Attribute>
+        <Attribute Namespace="999" Id="3015">
+            <Default>
+                <Slot Id="Global"/>
+                <Value Id="48"/>
             </Default>
         </Attribute>
     </Variant>

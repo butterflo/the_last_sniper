@@ -8,7 +8,6 @@
 <Asset path="assets\textures\ui_scorescreen_splash_tvalerian02b.dds" Type="Image"/>
 <Actor id="SYSTEM_ActorConfig"/>
 <Actor id="BunkerWrecked"/>
-<Actor id="Crate" Variations="0"/>
 <Actor id="DecalProtoss" Variations="0"/>
 <Actor id="FanVent" Variations="1"/>
 <Actor id="HavenFoliage"/>
@@ -78,7 +77,6 @@
 <Soundtrack id="Music_EndCreditsD"/>
 <Soundtrack id="Music_Silence"/>
 <Terrain id="UlnarEx1"/>
-<Unit id="SupplyDepot"/>
 <Unit id="Bunker"/>
 <Unit id="Ghost"/>
 <Unit id="Beacon_Protoss"/>

@@ -160,7 +160,7 @@
           <Anchor side="Top" relative="$parent" pos="0" offset="-20"/>
           <Anchor side="Left" relative="$parent" pos=".57" offset="0"/>
           <Width val="100"/>
-          <Height val="100"/>
+          <Height val="80"/>
           <Visible val="False"/>
         </Frame>
         <Frame type="Label" name="ShieldLabel">
@@ -168,9 +168,11 @@
         </Frame>
         <Frame type="Label" name="LifeLabel">
           <Width val="200"/>
+          <Style val="SniperVitalLabel"/>
         </Frame>
         <Frame type="Label" name="EnergyLabel">
           <Width val="200"/>
+          <Style val="SniperVitalLabel"/>
         </Frame>
       </Frame>
     </Frame>

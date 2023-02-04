@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <!--                                                                                         -->
     <!-- Baneling .............................................................................. -->
@@ -48,12 +48,18 @@
     <CActorDoodad id="BunkerWrecked">
         <Footprint value="Footprint6x6PathingBlocker"/>
     </CActorDoodad>
+    <CActorRange id="EMPRange">
+        <On index="1" removed="1"/>
+        <On index="2" removed="1"/>
+        <On index="3" removed="1"/>
+        <On index="4" removed="1"/>
+    </CActorRange>
     <CActorDoodad id="FanVent">
         <Footprint value="Footprint2x2DoodadBlockLOS"/>
     </CActorDoodad>
     <!-- ...Fire!............................................................................... -->
     <CActorRegionCircle id="FirebatTreeKiller">
-        <On index="0" Terms="Effect.EMPSearch; At Effect" Send="Create"/>
+        <On index="0" Terms="Effect.EMPSearch; At Effect"/>
         <On index="1" Terms="ActorCreation" Send="QueryRegion ::Self TreeBurnQuery AgainstCenter"/>
         <On index="2" Terms="Effect.EMPSearch; At Effect" Send="Destroy"/>
         <On index="3" removed="1"/>
@@ -132,6 +138,13 @@
     <CActorBeamSimple id="GhostSnipeAttackBeam">
         <On Terms="ActorCreation" Send="SetTintColor {255,255,255 4.000000}"/>
     </CActorBeamSimple>
+    <!-- Snipe                                                                                   -->
+    <CActorRange id="GhostSnipeRange">
+        <On index="1" removed="1"/>
+        <On index="2" removed="1"/>
+        <On index="3" removed="1"/>
+        <On index="4" removed="1"/>
+    </CActorRange>
     <CActorDoodad id="HavenFoliage">
         <FogVisibility value="Dimmed"/>
         <DoodadFlags index="PauseAnimsWhileFogged" value="0"/>
@@ -207,7 +220,7 @@
         <ModelFlags index="WireframeRender" value="1"/>
     </CActorDoodad>
     <CActorQueryResponse id="TreeBurnQuery">
-        <OnResponse index="0" Target="_Burnable" Send="Signal TreeFire"/>
+        <OnResponse index="0" Send="Signal TreeFire"/>
         <OnResponse index="1" removed="1"/>
     </CActorQueryResponse>
     <CActorDoodad id="WreckedBattlecruiser">

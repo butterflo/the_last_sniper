@@ -597,15 +597,17 @@ void gf_setnametags ();
 void gf_setally ();
 text gf_btntext_railgun (bool lp_on);
 text gf_btntext_wincount ();
+void gf_display_map_select_text ();
 void gf_camera_shuffle ();
 void gf_forestdeform (int lp_i);
 void gf_forestrandom (int lp_i, point lp_location, int lp_type);
-bool gf_is_path_open (point lp_current_location, point lp_unit_location, int lp_environment, int lp_skill_type);
+bool gf_is_path_open (point lp_current_location, point lp_unit_location, int lp_environment);
 void gf_activate_spectator (int lp_player);
 text gf_getdeathtext (int lp_a, int lp_d, int lp_reason);
 void gf_burnFX (unit lp_cASTER, unit lp_uNIT, bool lp_oN_FLAG);
 void gf_stop_round_triggers ();
 void gf_finish_round (int lp_result);
+void gf_display_target_score_text ();
 void gf_finish ();
 void gf_playerexit (int lp_p);
 void gf_board_update_display ();
@@ -811,6 +813,22 @@ text gf_btntext_wincount () {
     return lv_txt;
 }
 
+void gf_display_map_select_text () {
+    // Automatic Variable Declarations
+    int auto5342703A_val;
+
+    // Implementation
+    auto5342703A_val = gv_const_gametype;
+    if (auto5342703A_val == 1) {
+        UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/A0B687CD") + PlayerName(gv_host) + StringExternal("Param/Value/A481D28E")));
+    }
+    else if (auto5342703A_val == 2) {
+        UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/675B5AED") + PlayerName(gv_host) + StringExternal("Param/Value/6DBB4CCC")));
+    }
+    else {
+    }
+}
+
 void gf_camera_shuffle () {
     // Automatic Variable Declarations
     const int autoE272F3A5_ae = gv_const_maxdisc;
@@ -941,7 +959,7 @@ void gf_forestrandom (int lp_i, point lp_location, int lp_type) {
     }
 }
 
-bool gf_is_path_open (point lp_current_location, point lp_unit_location, int lp_environment, int lp_skill_type) {
+bool gf_is_path_open (point lp_current_location, point lp_unit_location, int lp_environment) {
     // Automatic Variable Declarations
     int auto5B600B64_val;
 
@@ -1182,7 +1200,7 @@ void gf_finish_round (int lp_result) {
             Wait(1.0, c_timeGame);
             gf_board_update_display();
             Wait(4.0, c_timeGame);
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/40C6FB21") + IntToText(gv_round_limit) + StringExternal("Param/Value/D612CF94")));
+            gf_display_target_score_text();
             Wait(5.0, c_timeGame);
             TriggerExecute(gt_reset, true, false);
         }
@@ -1206,7 +1224,7 @@ void gf_finish_round (int lp_result) {
             gf_board_update_display();
             Wait(4.0, c_timeGame);
             if ((gv_bOARD_WINS[gv_rOUND_WINNER] < gv_round_limit)) {
-                UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/D7BA8319") + IntToText(gv_round_limit) + StringExternal("Param/Value/B98D9155")));
+                gf_display_target_score_text();
                 Wait(5.0, c_timeGame);
                 TriggerExecute(gt_reset, true, false);
             }
@@ -1255,7 +1273,7 @@ void gf_finish_round (int lp_result) {
         gf_board_update_display();
         Wait(4.0, c_timeGame);
         if ((gv_bOARD_WINS[PlayerGroupPlayer(gv_team_group[1], 1)] < gv_round_limit) && (gv_bOARD_WINS[PlayerGroupPlayer(gv_team_group[2], 1)] < gv_round_limit)) {
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/19648436") + IntToText(gv_round_limit) + StringExternal("Param/Value/87D6811B")));
+            gf_display_target_score_text();
             Wait(5.0, c_timeGame);
             TriggerExecute(gt_reset, true, false);
         }
@@ -1265,6 +1283,12 @@ void gf_finish_round (int lp_result) {
     }
     else {
     }
+}
+
+void gf_display_target_score_text () {
+    // Automatic Variable Declarations
+    // Implementation
+    UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/40C6FB21") + IntToText(gv_round_limit) + StringExternal("Param/Value/D612CF94")));
 }
 
 void gf_finish () {
@@ -1704,11 +1728,8 @@ bool gt_phase1_menu_Func (bool testConds, bool runActions) {
     int lv_j;
 
     // Automatic Variable Declarations
-    int auto5342703A_val;
     const int auto52629BCE_n = 10;
     int auto52629BCE_i;
-    int autoD4E00DF0_val;
-    int auto87D98CFD_val;
 
     // Variable Initialization
 
@@ -1717,15 +1738,7 @@ bool gt_phase1_menu_Func (bool testConds, bool runActions) {
         return true;
     }
 
-    auto5342703A_val = gv_const_gametype;
-    if (auto5342703A_val == 1) {
-        UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/A0B687CD") + PlayerName(gv_host) + StringExternal("Param/Value/A481D28E")));
-    }
-    else if (auto5342703A_val == 2) {
-        UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/675B5AED") + PlayerName(gv_host) + StringExternal("Param/Value/6DBB4CCC")));
-    }
-    else {
-    }
+    gf_display_map_select_text();
     DialogCreate(644, 542, c_anchorCenter, 0, 144, true);
     libNtve_gf_CreateDialogItemButton(DialogLastCreated(), 594, 164, c_anchorTop, 0, 25, StringExternal("Param/Value/18A14074"), StringExternal("Param/Value/C9EE629B"), "");
     gv_btn_space = DialogControlLastCreated();
@@ -1740,30 +1753,14 @@ bool gt_phase1_menu_Func (bool testConds, bool runActions) {
     for (auto52629BCE_i = 1; auto52629BCE_i <= auto52629BCE_n; auto52629BCE_i += 1) {
         Wait(37.5, c_timeReal);
         SoundPlay(SoundLink("ArmorySwannRaynor00050", -1), PlayerGroupAll(), 100.0, 0.0);
-        autoD4E00DF0_val = gv_const_gametype;
-        if (autoD4E00DF0_val == 1) {
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/02052D3A")));
-        }
-        else if (autoD4E00DF0_val == 2) {
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/ED28EEFE")));
-        }
-        else {
-        }
+        UIDisplayMessage(PlayerGroupAll(), c_messageAreaSubtitle, StringExternal("Param/Value/5F7FA20E"));
         Wait(7.5, c_timeReal);
         SoundPlay(SoundLink("Ghost_SnipeLaunch", -1), PlayerGroupAll(), 100.0, 0.0);
         SoundPlay(SoundLink("TValerian02ARaynor00051", -1), PlayerGroupAll(), 100.0, 0.0);
         GameOver(gv_host, c_gameOverDefeat, false, false);
         PlayerGroupRemove(gv_humanplayers, gv_host);
         gv_host = PlayerGroupPlayer(gv_humanplayers, RandomInt(1, PlayerGroupCount(gv_humanplayers)));
-        auto87D98CFD_val = gv_const_gametype;
-        if (auto87D98CFD_val == 1) {
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/99DECE97") + PlayerName(gv_host) + StringExternal("Param/Value/27B58FA1")));
-        }
-        else if (auto87D98CFD_val == 2) {
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaDirective, (StringExternal("Param/Value/C45CFF6B") + PlayerName(gv_host) + StringExternal("Param/Value/1D64CBAB")));
-        }
-        else {
-        }
+        gf_display_map_select_text();
     }
     return true;
 }
@@ -2833,7 +2830,7 @@ bool gt_snipe_linedamage_Func (bool testConds, bool runActions) {
     lv_i = 1;
     for ( ; ( (auto20AD557E_ai >= 0 && lv_i <= auto20AD557E_ae) || (auto20AD557E_ai < 0 && lv_i >= auto20AD557E_ae) ) ; lv_i += auto20AD557E_ai ) {
         lv_current_location = libNtve_gf_PointOffsetTowardsPoint(lv_unit_location, (IntToFixed(lv_i) * 0.5), lv_target_location);
-        auto467CEF3A_val = gf_is_path_open(lv_current_location, null, gv_environment, 0);
+        auto467CEF3A_val = gf_is_path_open(lv_current_location, lv_unit_location, gv_environment);
         if (auto467CEF3A_val == true) {
             UnitCreateEffectPoint(lv_u, "SnipeDamage2", lv_current_location);
         }

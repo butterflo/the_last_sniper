@@ -1,4 +1,4 @@
-Abil/EditorPrefix/EMP=SS -
+﻿Abil/EditorPrefix/EMP=SS -
 Abil/EditorPrefix/NovaSnipe=SS -
 Abil/EditorPrefix/Snipe=SS -
 Abil/EditorPrefix/Stimpack=SS -
@@ -21,6 +21,8 @@ Behavior/EditorPrefix/ResistLimiterRemoval=SS -
 Behavior/EditorPrefix/Stimpack=SS -
 Effect/EditorPrefix/SnipeDamage2=유령 -
 Effect/EditorPrefix/SnipeDamage22=유령 -
+Effect/EditorSuffix/SnipeDamage2=반경1/4
+Effect/EditorSuffix/SnipeDamage22=반경1
 Effect/Name/NovaSnipe=레일건 (피해)
 Effect/Name/PulseFlameApplyBehavior=파동 화염 동작 적용
 Effect/Name/PulseFlameDamage=파동 화염 피해
