@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlacedObjects Version="27">
-    <ObjectCamera Id="30" Position="40,216,0" Rotation="3.1408" Scale="1,1,1" Name="Camera_008" Color="0,0,0,0" CameraTarget="40,216">
+    <ObjectCamera Id="30" Position="40,216,0" Rotation="3.1406" Scale="1,1,1" Name="Camera_008" Color="0,0,0,0" CameraTarget="40,216">
         <CameraValue Index="FieldOfView" Value="90"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="200"/>
         <CameraValue Index="ShadowClip" Value="200"/>
         <CameraValue Index="Distance" Value="10"/>
         <CameraValue Index="Pitch" Value="90"/>
-        <CameraValue Index="Yaw" Value="179.97"/>
+        <CameraValue Index="Yaw" Value="179.9584"/>
         <CameraValue Index="HeightOffset" Value="-2.5"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
@@ -15,31 +15,14 @@
         <CameraValue Index="BokehFStop" Value="0.0163"/>
         <CameraValue Index="BokehMaxCoC" Value="1"/>
     </ObjectCamera>
-    <ObjectCamera Id="27" Position="40,216,0" Rotation="3.1408" Scale="1,1,1" Name="Camera_005" Color="0,0,0,0" CameraTarget="40,216">
+    <ObjectCamera Id="27" Position="40,216,0" Rotation="3.1406" Scale="1,1,1" Name="Camera_005" Color="0,0,0,0" CameraTarget="40,216">
         <CameraValue Index="FieldOfView" Value="90"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="200"/>
         <CameraValue Index="ShadowClip" Value="200"/>
         <CameraValue Index="Distance" Value="10"/>
         <CameraValue Index="Pitch" Value="90"/>
-        <CameraValue Index="Yaw" Value="179.97"/>
-        <CameraValue Index="HeightOffset" Value="-2.5"/>
-        <CameraValue Index="FocalDepth" Value="8"/>
-        <CameraValue Index="FalloffStart" Value="0.0002"/>
-        <CameraValue Index="FalloffEnd" Value="8"/>
-        <CameraValue Index="FalloffStartNear" Value="0.0002"/>
-        <CameraValue Index="FalloffEndNear" Value="0.0002"/>
-        <CameraValue Index="BokehFStop" Value="0.0163"/>
-        <CameraValue Index="BokehMaxCoC" Value="1"/>
-    </ObjectCamera>
-    <ObjectCamera Id="9" Position="40,216,0" Rotation="3.1408" Scale="1,1,1" Name="Camera_001" Color="0,0,0,0" CameraTarget="40,216">
-        <CameraValue Index="FieldOfView" Value="90"/>
-        <CameraValue Index="NearClip" Value="0.0998"/>
-        <CameraValue Index="FarClip" Value="200"/>
-        <CameraValue Index="ShadowClip" Value="200"/>
-        <CameraValue Index="Distance" Value="10"/>
-        <CameraValue Index="Pitch" Value="90"/>
-        <CameraValue Index="Yaw" Value="179.97"/>
+        <CameraValue Index="Yaw" Value="179.9584"/>
         <CameraValue Index="HeightOffset" Value="-2.5"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
@@ -49,14 +32,14 @@
         <CameraValue Index="BokehFStop" Value="0.0163"/>
         <CameraValue Index="BokehMaxCoC" Value="1"/>
     </ObjectCamera>
-    <ObjectCamera Id="26" Position="40,216,0" Rotation="3.1408" Scale="1,1,1" Name="Camera_004" Color="0,0,0,0" CameraTarget="40,216">
+    <ObjectCamera Id="9" Position="40,216,0" Rotation="3.1406" Scale="1,1,1" Name="Camera_001" Color="0,0,0,0" CameraTarget="40,216">
         <CameraValue Index="FieldOfView" Value="90"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="200"/>
         <CameraValue Index="ShadowClip" Value="200"/>
         <CameraValue Index="Distance" Value="10"/>
         <CameraValue Index="Pitch" Value="90"/>
-        <CameraValue Index="Yaw" Value="179.97"/>
+        <CameraValue Index="Yaw" Value="179.9584"/>
         <CameraValue Index="HeightOffset" Value="-2.5"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
@@ -66,14 +49,14 @@
         <CameraValue Index="BokehFStop" Value="0.0163"/>
         <CameraValue Index="BokehMaxCoC" Value="1"/>
     </ObjectCamera>
-    <ObjectCamera Id="25" Position="40,216,0" Rotation="3.1408" Scale="1,1,1" Name="Camera_003" Color="0,0,0,0" CameraTarget="40,216">
+    <ObjectCamera Id="26" Position="40,216,0" Rotation="3.1406" Scale="1,1,1" Name="Camera_004" Color="0,0,0,0" CameraTarget="40,216">
         <CameraValue Index="FieldOfView" Value="90"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="200"/>
         <CameraValue Index="ShadowClip" Value="200"/>
         <CameraValue Index="Distance" Value="10"/>
         <CameraValue Index="Pitch" Value="90"/>
-        <CameraValue Index="Yaw" Value="179.97"/>
+        <CameraValue Index="Yaw" Value="179.9584"/>
         <CameraValue Index="HeightOffset" Value="-2.5"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
@@ -83,14 +66,14 @@
         <CameraValue Index="BokehFStop" Value="0.0163"/>
         <CameraValue Index="BokehMaxCoC" Value="1"/>
     </ObjectCamera>
-    <ObjectCamera Id="28" Position="40,216,0" Rotation="3.1408" Scale="1,1,1" Name="Camera_006" Color="0,0,0,0" CameraTarget="40,216">
+    <ObjectCamera Id="25" Position="40,216,0" Rotation="3.1406" Scale="1,1,1" Name="Camera_003" Color="0,0,0,0" CameraTarget="40,216">
         <CameraValue Index="FieldOfView" Value="90"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="200"/>
         <CameraValue Index="ShadowClip" Value="200"/>
         <CameraValue Index="Distance" Value="10"/>
         <CameraValue Index="Pitch" Value="90"/>
-        <CameraValue Index="Yaw" Value="179.97"/>
+        <CameraValue Index="Yaw" Value="179.9584"/>
         <CameraValue Index="HeightOffset" Value="-2.5"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
@@ -100,14 +83,14 @@
         <CameraValue Index="BokehFStop" Value="0.0163"/>
         <CameraValue Index="BokehMaxCoC" Value="1"/>
     </ObjectCamera>
-    <ObjectCamera Id="24" Position="40,216,0" Rotation="3.1408" Scale="1,1,1" Name="Camera_002" Color="0,0,0,0" CameraTarget="40,216">
+    <ObjectCamera Id="28" Position="40,216,0" Rotation="3.1406" Scale="1,1,1" Name="Camera_006" Color="0,0,0,0" CameraTarget="40,216">
         <CameraValue Index="FieldOfView" Value="90"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="200"/>
         <CameraValue Index="ShadowClip" Value="200"/>
         <CameraValue Index="Distance" Value="10"/>
         <CameraValue Index="Pitch" Value="90"/>
-        <CameraValue Index="Yaw" Value="179.97"/>
+        <CameraValue Index="Yaw" Value="179.9584"/>
         <CameraValue Index="HeightOffset" Value="-2.5"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
@@ -117,14 +100,31 @@
         <CameraValue Index="BokehFStop" Value="0.0163"/>
         <CameraValue Index="BokehMaxCoC" Value="1"/>
     </ObjectCamera>
-    <ObjectCamera Id="29" Position="40,216,0" Rotation="3.1408" Scale="1,1,1" Name="Camera_007" Color="0,0,0,0" CameraTarget="40,216">
+    <ObjectCamera Id="24" Position="40,216,0" Rotation="3.1406" Scale="1,1,1" Name="Camera_002" Color="0,0,0,0" CameraTarget="40,216">
         <CameraValue Index="FieldOfView" Value="90"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="200"/>
         <CameraValue Index="ShadowClip" Value="200"/>
         <CameraValue Index="Distance" Value="10"/>
         <CameraValue Index="Pitch" Value="90"/>
-        <CameraValue Index="Yaw" Value="179.97"/>
+        <CameraValue Index="Yaw" Value="179.9584"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="FalloffStartNear" Value="0.0002"/>
+        <CameraValue Index="FalloffEndNear" Value="0.0002"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectCamera Id="29" Position="40,216,0" Rotation="3.1406" Scale="1,1,1" Name="Camera_007" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="200"/>
+        <CameraValue Index="ShadowClip" Value="200"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Yaw" Value="179.9584"/>
         <CameraValue Index="HeightOffset" Value="-2.5"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
@@ -141,23 +141,23 @@
     <ObjectUnit Id="178" Position="160,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="573" Position="96,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="566" Position="96,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="194" Position="136,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="557" Position="120,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="194" Position="136,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="589" Position="144,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="169" Position="136,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="582" Position="120,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="171" Position="127,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="169" Position="136,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="580" Position="129,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="171" Position="127,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="591" Position="151,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="192" Position="153,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="559" Position="127,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="192" Position="153,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="584" Position="129,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="172" Position="129,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="579" Position="127,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="174" Position="120,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="172" Position="129,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="577" Position="136,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="165" Position="103,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="174" Position="120,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="586" Position="160,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="165" Position="103,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="181" Position="144,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="190" Position="144,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="561" Position="112,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
@@ -166,16 +166,16 @@
     <ObjectUnit Id="563" Position="103,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="188" Position="153,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="183" Position="151,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="173" Position="120,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="578" Position="136,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="166" Position="105,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="173" Position="120,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="585" Position="160,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="166" Position="105,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="196" Position="129,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="587" Position="151,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="175" Position="127,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="576" Position="105,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="191" Position="151,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="175" Position="127,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="592" Position="153,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="191" Position="151,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="180" Position="153,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="571" Position="103,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="560" Position="129,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
@@ -200,10 +200,10 @@
     <ObjectUnit Id="583" Position="127,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="588" Position="153,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="590" Position="144,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="170" Position="136,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="581" Position="120,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
-    <ObjectUnit Id="193" Position="136,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="170" Position="136,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectUnit Id="558" Position="120,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="193" Position="136,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
     <ObjectDoodad Id="313" Position="128.5,137.5,3.994" Scale="1,1,1" Type="Crate">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -548,7 +548,7 @@
     <ObjectDoodad Id="140" Variation="1" Position="95,199,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="167" Position="40,216,2.9948" Scale="1,1,1" Type="TOZhakulDasLibraryPitDoodad">
+    <ObjectDoodad Id="167" Variation="1" Position="40,216,2.9931" Rotation="3.9267" Scale="0.75,0.75,0.75" Type="TOZhakulDasLibraryPitDoodad">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -731,7 +731,7 @@
     <ObjectDoodad Id="365" Position="118.5,106.5,4.0173" Scale="1,1,1" Type="Crate">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="168" Position="40,216,-2.0046" Scale="0.25,0.25,1" Type="TerrainObjectZhakulLibraryLargeDoodad">
+    <ObjectDoodad Id="168" Position="40,216,2.9931" Rotation="2.356" Scale="0.5,0.5,0.5" Type="TerrainObjectZhakulLibraryLargeDoodad">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -1316,6 +1316,6 @@
     <ObjectPoint Id="1601060614" Position="22,198,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor0" Color="0,0,0,0"/>
     <ObjectPoint Id="1469715834" Position="164,180,0" Scale="1,1,1" Type="Normal" Name="Forest_SD_anchor1" Color="0,0,0,0"/>
     <ObjectPoint Id="576696175" Position="58,198,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor1" Color="0,0,0,0"/>
-    <ObjectPoint Id="632776355" Position="22,234,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor3" Color="0,0,0,0"/>
     <ObjectPoint Id="1328576880" Position="58,234,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor2" Color="0,0,0,0"/>
+    <ObjectPoint Id="632776355" Position="22,234,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor3" Color="0,0,0,0"/>
 </PlacedObjects>

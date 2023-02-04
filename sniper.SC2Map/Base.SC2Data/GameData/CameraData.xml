@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CCamera id="SpacePlatform">
+        <ParamInitial index="ShadowClip" value="400.000000"/>
+        <ParamInitial index="Yaw" value="0.000000"/>
         <ZoomTable index="0">
             <Param index="Distance" Value="50.000000"/>
             <Param index="Pitch" Value="90.000000"/>
@@ -23,7 +25,5 @@
         </ZoomTable>
         <ZoomDefault value="4"/>
         <HeightDisplacementFactor value="0.500000"/>
-        <ParamInitial index="ShadowClip" value="400.000000"/>
-        <ParamInitial index="Yaw" value="0.000000"/>
     </CCamera>
 </Catalog>

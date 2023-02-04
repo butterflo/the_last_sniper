@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Preload>
 <Asset path="assets\textures\ui_scorescreen_splash_thorner03.dds" Type="Image"/>
 <Asset path="assets\textures\ui_scorescreen_splash_ttosh01.dds" Type="Image"/>
@@ -16,7 +16,7 @@
 <Actor id="Lavafall" Variations="5"/>
 <Actor id="TarsonisArrow"/>
 <Actor id="TerrainObjectZhakulLibraryLargeDoodad"/>
-<Actor id="TOZhakulDasLibraryPitDoodad" Variations="0"/>
+<Actor id="TOZhakulDasLibraryPitDoodad" Variations="1"/>
 <Actor id="TTosh01FlameGeyser" Variations="1"/>
 <Actor id="ForestMold4"/>
 <Actor id="ForestMold8"/>
@@ -35,11 +35,9 @@
 <Model id="HighTemplarPsiStormModel"/>
 <Model id="TimeWarpLaunch"/>
 <Model id="TimeWarp"/>
-<Model id="Decal"/>
 <Model id="FireMedium"/>
 <Model id="SmokePillarsTall"/>
 <Model id="SmokeMedium"/>
-<Model id="ResourceBlocker"/>
 <Model id="ObliterateExplosion"/>
 <Model id="WallOfFire"/>
 <Sound id="Zerg_ExplosionSlime" Variations="0"/>
@@ -73,7 +71,6 @@
 <Sound id="TValerian02ARaynor00051"/>
 <Sound id="SC_Shell_Kerrigan_Psi_PowerBall"/>
 <Sound id="Event_Space02_CameraQuake"/>
-<Sound id="UI_CelestialArray_entry"/>
 <Sound id="buzzer"/>
 <Soundtrack id="Ambience_Haven"/>
 <Soundtrack id="Ambience_Redstone"/>

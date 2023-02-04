@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CLight id="Agria">
         <ToDInfoArray index="0">
@@ -124,7 +124,7 @@
             <Param index="ColorizationSaturation" value="-0.100000"/>
             <Param index="ColorizationBlend" value="0.000000"/>
             <Param index="ShadowPenumbraSize" value="2.000000"/>
-            <DirectionalLight index="Key" Color="0.247059,0.247059,0.247059" SpecColorMultiplier="1.000000"/>
+            <DirectionalLight index="Key" Color="0.250980,0.250980,0.250980" ColorMultiplier="8.000000" SpecColorMultiplier="1.000000"/>
             <DirectionalLight index="Fill" Color="0.000000,0.000000,0.000000" ColorMultiplier="0.000000"/>
             <DirectionalLight index="Back" Color="0.000000,0.000000,0.000000" ColorMultiplier="0.000000"/>
         </ToDInfoArray>
