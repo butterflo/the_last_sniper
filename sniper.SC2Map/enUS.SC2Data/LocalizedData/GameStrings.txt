@@ -18,14 +18,13 @@ Button/Name/EMP=Pulse
 Button/Name/ResearchRavenEnergyUpgrade=Railgun
 Button/Name/Snipe=Snipe!!
 Button/Name/TerranInfantryArmorLevel3=Resist
-Button/Tooltip/Baneling=???
 Button/Tooltip/EMP=<c val="FFFFFF">Utility grenade.<n/>Armed with scan and mana-burn effects.<n/>Also interacts with environment.
 Button/Tooltip/Ghost=
 Button/Tooltip/ResearchRavenEnergyUpgrade=<c val="FFFFFF">Can target anywhere. Hitbox is 4x wider.</c>
 Button/Tooltip/Snipe=<c val="FFFFFF">You have something on your face.</c>
 Button/Tooltip/TerranInfantryArmorLevel3=<c val="FFFFFF">Absorbs all damage for one second.
 DocInfo/Author=butterflo
-DocInfo/DescLong=Top-down view survival shooter.<n/><n/>* skill-oriented oldschool gaming
+DocInfo/DescLong=Top-down view survival shooter.<n/><n/>* Skill-oriented oldschool gaming.
 DocInfo/HowToPlayBasic00=[Q] - Fires your weapon. All attacks require manual targeting.
 DocInfo/HowToPlayBasic01=[W] - Hardens your armor. Absorbs all damange.
 DocInfo/HowToPlayBasic02=[E] - EMP grenade. Tactical advantage.
@@ -154,8 +153,8 @@ DocInfo/PatchNote120=- Battle.net issues are resolved now! This allows map updat
 DocInfo/PatchNote121=- Integrated all updates published in "Sniping Sniper 0".
 DocInfo/PatchNote122=- "Sniping Sniper 0" is removed.
 DocInfo/PatchNote123=
-DocInfo/PatchNote124=* A core gameplay change is introduced.
-DocInfo/PatchNote125=- Player units now cannot hide in doodads.
+DocInfo/PatchNote124=* This update introduces a major change in game design.
+DocInfo/PatchNote125=- Player units now cannot hide.
 DocInfo/PatchNote126=- Removed stats.
 DocInfo/PatchNote127=
 DocInfo/PatchNote128=* Simplified UI.
@@ -165,10 +164,10 @@ DocInfo/PatchNote131=* The Last Station: updated to be playable on Low graphics.
 DocInfo/PatchNote132=* The Last Station: made the center doodad smaller to prevent hiding in it.
 DocInfo/PatchNote133=* Spectating now uses Tab key instead of Enter key.
 DocInfo/PatchNote134=* Fixed where snipe was not doing any damage in the volcano map.
-DocInfo/PatchNote135=* Vitals are now more legible.
+DocInfo/PatchNote135=* Health and energy vitals are now more legible.
 DocInfo/PatchNote136=* Updated enUS localization which used to be mostly broken.
-DocInfo/PatchNote137=* Updated game logo.
-DocInfo/PatchNote138=
+DocInfo/PatchNote137=* Synchronized game versions between all regions.
+DocInfo/PatchNote138=* Updated game logo.
 LoadingScreen/Tip=<s val="Sniper16Bold"><c val="800000">developer</c>  <c val="FFFFFF">butterflo</c>
 MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Agent B
@@ -184,236 +183,93 @@ MapInfo/Player10/Name=Agent 29
 MapInfo/Player11/Name=CPU
 MapInfo/Player12/Name=Hostile
 Param/Value/012C5604=P LEFT
-Param/Value/01B4A8EB=
-Param/Value/028D620B=<c val="0000FF">]]</c>
-Param/Value/04125415=
 Param/Value/04FEC1FE=<s val="Sniper24Bold"><c val="FFFF00">Round 
-Param/Value/08E5C837=<s val="ModCenterSize16Bold"><c val="FF0080">wins
-Param/Value/0A251F6A=<n/>
-Param/Value/0AA112D3= ( 
-Param/Value/0B160C4A=<c val="FFFFFF"> self-kill (electrocuted></c>
 Param/Value/0C4A1CAA= rounds
-Param/Value/0C5F12B7=%
 Param/Value/0D4E0DE2=<s val="Sniper24Bold"><c val="FFFFFF">The Last Forest</c></s>
-Param/Value/0E725E58=%</c> <c val="FFFFFF">( 
-Param/Value/1007E6D5= WINS
-Param/Value/10931E19=% )
-Param/Value/13865F6A=%</c><n/><c val="FF0000">
-Param/Value/13971080=
-Param/Value/156A81A5=P LEFT
 Param/Value/15FC2CCA=<s val="Sniper64Bold"><c val="FFFFFF">Railgun [R] <c val="FF2000">OFF</c></c>
 Param/Value/18A14074=<s val="Sniper16Bold"><c val="FFFFFF">Fight in space.<n/><n/>Spawns: bunkers (blocks sight)<n/>Timer: play area becomes smaller</c></c>
-Param/Value/1B9DD2DE=
-Param/Value/1C17B1DC=</c><c val="4040FF"> ]</c>
-Param/Value/1CE4D532=
 Param/Value/1DB86D59=</c> won 
 Param/Value/1EFB40A4=<s val="Sniper24Bold"><c val="FFFFFF">The Last Volcano</c></s>
-Param/Value/1F65E5CD=
 Param/Value/215FD1AD=2
-Param/Value/241A8428=<c val="4040FF">]</c>
 Param/Value/24B0B4AC=<s val="Sniper24Bold"><c val="80FF00">Round complete<n/></c><c val="FFFF00">draw : no survivors</c>
-Param/Value/262999D0=</c><c val="FF4040"> ]</c>
 Param/Value/271D4D0D= Wins
-Param/Value/27305B67=<s val="ModCenterSize20Bold"><c val="80FF00">
-Param/Value/27A0FA00=<c val="80FF00">Bank OK!</c>
 Param/Value/2A01837A=<s val="Sniper64Bold"><c val="FFFF00">>
-Param/Value/2B77EAC4=:
-Param/Value/2C7A97B2=<s val="ModCenterSize64Bold"><c val="80FF00">5 WINS
 Param/Value/2DEDE9CC=<c val="FFFF00">Timer reached: <n/>Sudden death mode starts
 Param/Value/31B2C2B7=<c val="4040FF">]</c>
-Param/Value/31E708CF=% -> after 
-Param/Value/32DFDC2E=<s val="ModCenterSize16Bold"><c val="80FF00">
-Param/Value/34727F74=<s val="ModCenterSize20Bold"><c val="80FF00">
 Param/Value/34B581E0= : 
-Param/Value/34CAA9AA= WINS
-Param/Value/34F86591=
-Param/Value/361E4633=<s val="ModCenterSize32Bold"><c val="FF4040">[</c>
-Param/Value/36F996CE=%</c><n/><c val="FF0000">
+Param/Value/361E4633=<s val="ModCenterSize20Bold"><c val="FF4040">[</c>
 Param/Value/3806D306= 
 Param/Value/3B7AFF33=<s val="ModCenterSize32Bold"><c val="FF4040">[</c>
-Param/Value/3C0B1FD1=<s val="ModCenterSize20Bold"><c val="80FF00">Player stats</c></s>
 Param/Value/3CF24334= rounds
-Param/Value/3E2ADC65=3S <c val="80FF00">x
-Param/Value/3FE50DCD=<s val="ModCenterSize40Bold"><c val="FF0000">[[</c>
-Param/Value/3FFDF66B=</c> )<n/>
-Param/Value/402E45C5=<s val="ModCenterSize20Bold"><c val="FFFFFF">Welcome <c val="80FF00">
-Param/Value/405222D5=2S <c val="FF2000">x
 Param/Value/40C6FB21=<s val="Sniper24Bold"><c val="00FFFF">Objective: win 
 Param/Value/42DB3628=<s val="Sniper16Bold"><c val="FFFFFF">Fight on a volcano.<n/><n/>Terrain: rock pillars (blocks sight), high grounds<n/>Timer: lava rises<n/><n/><c val="FFFF00">(Uses railgun)</c>
-Param/Value/4439CF04=<s val="ModCenterSize20Bold"><c val="80FF00">
-Param/Value/45542E4F=<c val="FFFFFF"> (ELECTROCUTED)</c>
-Param/Value/46871B49=</c><c val="FFFF00">DRAW</c>
-Param/Value/470B89B9=<c val="FFFFFF"> (RAILGUN)</c>
-Param/Value/48B84844=<s val="ModCenterSize16Bold"><c val="80FF00">999
 Param/Value/49B91AC3=<s val="Sniper64Bold"><c val="80FF00">
 Param/Value/4AC918C4=</c><c val="4040FF"> ]</c>
-Param/Value/4BFBA809=<s val="ModCenterSize20Bold">라운드 10 : 전투 개시!</s>
-Param/Value/4CCAD568=</c> )<n/>
-Param/Value/4F25F63D=Map selected: "The Last Station"
-Param/Value/4F97E408=
-Param/Value/4FC01AF9=<s val="ModCenterSize20Bold"><c val="80FF00">
-Param/Value/5226C6CC=<s val="ModCenterSize20Bold"><c val="80FFFF">SPECTATOR MODE<n/></c>To prevent chat abusing, Pressing Enter cancels spectator mode and creates spectator unit instead.
-Param/Value/52BA7EC8=</c><c val="FFFF00">Accuracy 
-Param/Value/5315A212=<s val="ModCenterSize16Bold"><c val="80FF00">999
-Param/Value/54A36050=<n/>
-Param/Value/54A4CCC2=<s val="ModCenterSize16Bold"><c val="80FF00">
+Param/Value/4F25F63D=Map selected: <c val="00FF00">"The Last Station"</c>
 Param/Value/55CCEE3D=<s val="Sniper24Bold"><c val="FF0000">
 Param/Value/5A50E22C=<s val="Sniper24Bold"><c val="80FFFF">Game over<n/><c val="FF4040">Red team</c> won 
-Param/Value/5B382D15=<s val="ModCenterSize16Bold"><c val="80FF00">999
-Param/Value/5D333B6B=<s val="ModCenterSize20Bold"><c val="FFFF00">Killed w/o any score :<n/><c val="FFFFFF">Personal Shield will be applied on next round.</c>
 Param/Value/5F7FA20E=<c val="FFFF00">Alert: the host needs to choose a map to continue.<n/>Otherwise the host will be ejected.</c>
 Param/Value/62859487= rounds
 Param/Value/63266638=This session will now close in 10 seconds.
-Param/Value/635C2266=<s val="ModCenterSize16Bold"><c val="80FF00"
 Param/Value/64807EEF=<s val="ModCenterSize14Bold"><c val="FFFF00">Player
-Param/Value/648679CC=<c val="FFFFFF"> (BURNT)</c>
-Param/Value/65E5F022=:
 Param/Value/668086AC=<s val="Sniper64Bold"><c val="FFFFFF">Railgun [R] <c val="80FF00">ON</c></c>
 Param/Value/675B5AED=<s val="Sniper48Bold"><c val="FFFFFF">MODE: Team Match</c></s><n/><n/><s val="Sniper24Bold"><c val="80FF00">HOST: </c>
-Param/Value/6801631B=</c> / 
-Param/Value/69146317=</c> / 
-Param/Value/6A16CD6F=<s val="ModCenterSize64Bold"><c val="80FF00">
-Param/Value/6A302FA6=<s val="ModCenterSize16Bold"><c val="80FF00">player
+Param/Value/6D4DACE6=<s val="Sniper24Bold"><c val="80FF00">Round complete<n/></c><c val="FFFF00">draw : no survivors</c>
 Param/Value/6D75486B= : 
 Param/Value/6DBB4CCC=<n/><s val="Sniper24Bold"><c val="80FFFF">Select a map:</c></s>
-Param/Value/6E63BCC7=
-Param/Value/70E4BF66=:
-Param/Value/71FECDB2= ROUNDS
-Param/Value/724CE7D3=<s val="ModCenterSize32Bold"><c val="FF2000">WARNING!<n/><s val="ModCenterSize28Bold">
-Param/Value/744D6766=<s val="ModCenterSize32Bold"><c val="FF4040">[</c>
-Param/Value/7526E373=</c><c val="FFFFFF"> - skill level</c><c val="FF0000"><n/>
-Param/Value/75BE9F9A=
-Param/Value/78EF325A=</c><c val="FF4040">[ </c><c val="FFFFFF">
 Param/Value/79BF271A=<c val="0000FF">]]</c>
 Param/Value/7A315107=<s val="Sniper16Bold">Leaderboard
-Param/Value/7B3851A7=<c val="FFFFFF"> (SNIPE)</c>
-Param/Value/7CDDE49B=
 Param/Value/7FA3B2EA= : 
-Param/Value/7FD79AFE=<s val="ModCenterSize32Bold"><c val="80FFFF">OBJECTIVE: WIN 
-Param/Value/805A86AA=<s val="ModCenterSize32Bold"><c val="80FF00">ROUND FINISHED<n/><s val="ModCenterSize28Bold"><c val="4040FF">BLUE TEAM</c> wins!
+Param/Value/805A86AA=<s val="Sniper24Bold"><c val="80FF00">Round complete<n/><c val="4040FF">Blue team</c> wins
 Param/Value/81A754BE=
 Param/Value/82352365=<s val="Sniper24Bold"><c val="80FFFF">Game over<n/>
 Param/Value/82CB7827=<s val="Sniper16Bold">RAILGUN READY
-Param/Value/8329ACD5=<s val="ModCenterSize20Bold"><c val="FFFFFF">Bank ERROR</c>
-Param/Value/8469773E=
-Param/Value/84F2EB2E=
-Param/Value/86AF59D0=</c><c val="4040FF">[ </c><c val="FFFFFF">
 Param/Value/871D1198=<n/><s val="Sniper24Bold"><c val="80FFFF">Click the center button to start.</c></s>
-Param/Value/87587D15=</c><c val="FFFFFF"> mastery </c><c val="FF0000"><n/>
 Param/Value/8785CF2F=..
-Param/Value/87E43999=<c val="FFFF00">SuddenDeath</c><c val="FFFFFF"> >>> </c>
-Param/Value/88B09F8A=<s val="ModCenterSize16">didn't fire
-Param/Value/88F712D8=</c> - 
 Param/Value/8CCEFFAC=<c val="4040FF">]</c>
 Param/Value/8E0FE9BE=<s val="Sniper24Bold"><c val="80FF00">HOST: </c><c val="FFFFFF">
 Param/Value/8E24C481=9999
-Param/Value/8E42F9D1=<s val="ModCenterSize16">
-Param/Value/8ECBFDF6=
-Param/Value/9223E502=
-Param/Value/924837FD=Map selected: "The Last Forest"
+Param/Value/924837FD=Map selected: <c val="00FF00">"The Last Forest"</c>
 Param/Value/94327A55=<s val="ModCenterSize14Bold"><c val="FFFF00">
-Param/Value/97C8F7EA=<s val="ModCenterSize40Bold"><c val="FF0000">[[</c>
-Param/Value/98E836E9=<c val="FFFFFF"> self infliction (BURNT)</c>
-Param/Value/9AB5D30C=<s val="ModCenterSize64Bold">레일건[R] <c val="80FF00">ON</c></c>
-Param/Value/9B2BAC0A=<s val="ModCenterSize20Bold"><c val="80FF00">
-Param/Value/9B4F4EC4=
+Param/Value/97C8F7EA=<s val="ModCenterSize20Bold"><c val="FF0000">[[</c>
 Param/Value/9FE5311C=</c><c val="FF4040"> ]</c>
 Param/Value/A0B687CD=<s val="Sniper48Bold"><c val="FFFFFF">MODE: Deathmatch</c></s><n/><n/><s val="Sniper24Bold"><c val="80FF00">HOST: </c>
-Param/Value/A15738CC=
 Param/Value/A1755587=Complete: host player selected with the most playcount.
-Param/Value/A21904A5=%
-Param/Value/A3F867EF=%
 Param/Value/A481D28E=<n/><s val="Sniper24Bold"><c val="80FFFF">Select a map:</c></s>
 Param/Value/A6F44A65=<s val="Sniper24Bold"><c val="80FFFF">Game over<n/><c val="4040FF">Blue team</c> won 
-Param/Value/A7C53D2C=</c> / 
-Param/Value/A8E7B273=
 Param/Value/A9F8D2BF=<s val="Sniper24Bold">
-Param/Value/AAD0E4C5=<s val="ModCenterSize64Bold">Railgun[R] <c val="80FF00">ON</c></c>
-Param/Value/AB40EBD3=<s val="ModCenterSize20Bold"><c val="FFFF00">Shield Active :</c><n/><c val="FFFFFF">One-time protection from lethal damage. Keep it up!</c>
-Param/Value/AD5F0BBC=<c val="80FF00">Bank INIT.</c>
-Param/Value/ADA170FF=
-Param/Value/B0821122=% )
-Param/Value/B0C7C08D=</c> - 
 Param/Value/B14DB180=<n/>FIGHT!</s>
-Param/Value/B1A81876=<c val="80FF00">
-Param/Value/B4EA0BC2=<s val="ModCenterSize16">
 Param/Value/B50915CF=<s val="Sniper16Bold"><c val="FF0000">RAILGUN READY</c></s>
-Param/Value/B76022EA=
-Param/Value/B78D0629=<s val="ModCenterSize32Bold"><c val="80FF00">ROUND FINISHED<n/><s val="ModCenterSize28Bold"><c val="FF404F">RED TEAM</c> wins!
-Param/Value/B8EBF5F5=<s val="ModCenterSize20Bold">
-Param/Value/BA4C2BA9=4S <c val="00FFFF">x
-Param/Value/BAF056EA=<s val="ModCenterSize16Bold"><c val="80FF00">
-Param/Value/BBC7A738=<s val="ModCenterSize16">
-Param/Value/BE95257D=<s val="ModCenterSize64Bold">Railgun[R] <c val="FF2000">OFF</c></c>
-Param/Value/C38BDA67=New record!
-Param/Value/C45EA7B4=<s val="ModCenterSize64Bold"><c val="80FF00">
+Param/Value/B78D0629=<s val="Sniper24Bold"><c val="80FF00">Round complete</c><n/><c val="FF4040">Red team</c> wins
 Param/Value/C714C4F0=<s val="Sniper24Bold"><c val="FFFF00">Round begins in</c><n/>
-Param/Value/C7BF680A=Map selected: "The Last Volcano"
+Param/Value/C7BF680A=Map selected: <c val="00FF00">"The Last Volcano"</c>
 Param/Value/C840B0AB=<s val="ModCenterSize14Bold"><c val="FFFF00">Wins
 Param/Value/C9EE629B=<s val="Sniper24Bold"><c val="FFFFFF">The Last Station</c></s>
-Param/Value/C9EFA6AA=
-Param/Value/CA56B0E5=<s val="ModCenterSize20Bold"><c val="80FFFF">SPECTATOR MODE<n/></c>To prevent chat abusing, Pressing Enter cancels spectator mode and creates spectator unit instead.
-Param/Value/CCC58D08=
-Param/Value/CD710FF8=
-Param/Value/CDC7B8C0=<s val="ModCenterSize20Bold"><c val="80FFFF">FOLLOW CAM MODE<n/></c>Press Enter to follow other unit.
-Param/Value/CE065606=</c> <c val="FFFF00">BOT 
 Param/Value/CE2A7A5D=1
-Param/Value/D1361B04=<s val="ModCenterSize20Bold"><c val="80FF00">
-Param/Value/D2AD047F=
-Param/Value/D3832AFB=<s val="ModCenterSize16">
-Param/Value/D3DC98E5= WINS
-Param/Value/D4774FFE=<n/>
-Param/Value/D5009B66=%</c> <c val="FFFFFF">( 
 Param/Value/D612CF94= rounds
-Param/Value/D92DE192=
 Param/Value/D99A6E67=</c><c val="4040FF">[ </c><c val="FFFFFF">
-Param/Value/DA7E690F=<c val="80FF00">
-Param/Value/DE843BEB=<n/>
-Param/Value/DECEBC7D= ( 
-Param/Value/E035B4F7=<c val="FF0080">
-Param/Value/E074CA0E=<s val="ModCenterSize20Bold"><c val="80FF00">
-Param/Value/E0A3E97B=<s val="ModCenterSize20Bold"><c val="80FF00">
-Param/Value/E13EF125=
-Param/Value/E16D6EA1=
-Param/Value/E4216853=<c val="FFFF00">Alert: lava 
+Param/Value/E4216853=<c val="FFFF00">Alert: lava warning!
 Param/Value/E5515842=<s val="ModCenterSize14Bold"><c val="80FF00">
-Param/Value/E5AF1C4B= : 
-Param/Value/E7B2E9AD=:
-Param/Value/E86E9A41=<s val="ModCenterSize32Bold">
-Param/Value/E87E199B=</c> / 
 Param/Value/E9B4328E=P LEFT
-Param/Value/EBCE972D=%<n/>
-Param/Value/EC8817AD=</c><c val="FFFFFF"> >>> </c>
-Param/Value/EDB80808=<s val="ModCenterSize20Bold"><c val="80FFFF">SPECTATOR MODE<n/></c>To prevent chat abusing, Pressing Enter cancels spectator mode and creates spectator unit instead.
-Param/Value/EE984843= WINS
 Param/Value/F03FE3EC=<s val="Sniper16Bold"><c val="FFFFFF">Fight in woods.<n/><n/>Spawns: rocks, trees, ponds<n/>Timer: wall of fire<n/><n/><c val="FFFF40">(No railgun)</c></s></c>
 Param/Value/F0A88DF9=<s val="Sniper24Bold"><c val="80FF00">Round complete<n/>
-Param/Value/F0F524FF=/
-Param/Value/F19903EE=%<n/>
-Param/Value/F47368FE=Loading bank..
-Param/Value/F56629DE=<s val="ModCenterSize14Bold"><c val="80FFFF">
-Param/Value/F5B9124B=<s val="ModCenterSize20Bold"><c val="FFFF00">180s :<n/>Sudden Death Engaged
+Param/Value/F47368FE=Loading game data..
+Param/Value/F5B9124B=<c val="FFFF00">180s :<n/>Sudden Death Engaged
 Param/Value/F8DFC780=<s val="ModCenterSize64Bold"><c val="FFFF00"><
-Param/Value/F906C240=
 Param/Value/FB641794=<c val="80FFFF">Follow cam mode<n/></c>Press [ TAB ] key to watch other players.
-Param/Value/FBA12766= : 
 Param/Value/FD056EDC=</c> wins
-Param/Value/FD877FED=
 Param/Value/FF519FF8=</c><c val="FF4040">[ </c><c val="FFFFFF">
-Unit/LifeArmorName/ZergGroundArmor=???
 Unit/Name/Beacon_Protoss=Shrine
 Unit/Name/Beacon_Terran=Singularity
 Unit/Name/Bunker=Newdepot
 Unit/Name/DestructibleRock4x4=Rock
 Unit/Name/Ghost=Agent
-Unit/Name/Pylon=Pylon
 Unit/Name/SpiderMine=TreeDummy
-Unit/Name/SupplyDepot=CubeGate
-Unit/Name/SupplyDepotLowered=CubeGate Open
 Unit/Name/TerranDropPod=Pod
 Variant001/ModeDesc=..
 Variant001/ModeName=FFA
 Variant002/ModeDesc=..
 Variant002/ModeName=TDM
+e_cmdCooldown=<s val="ModCenterSize16Bold"><c val="FFFF00">Cooldown is active</c></s>
 e_cmdNotEnoughEnergy=<s val="ModCenterSize16Bold"><c val="FFFF00">Not enough energy.</c></s>
 e_cmdYouCantIssueCommandsToThatUnit=<s val="ModCenterSize16Bold"><c val="FFFF00">Cannot accept orders now.</c></s>
