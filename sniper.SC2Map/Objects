@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlacedObjects Version="27">
+    <ObjectCamera Id="30" Position="40,216,0" Scale="1,1,1" Name="Camera_008" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="1000"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Roll" Value="180"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectCamera Id="27" Position="40,216,0" Scale="1,1,1" Name="Camera_005" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="1000"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Roll" Value="180"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="FalloffStartNear" Value="0.0002"/>
+        <CameraValue Index="FalloffEndNear" Value="0.0002"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectCamera Id="9" Position="40,216,0" Scale="1,1,1" Name="Camera_001" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="2000"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Roll" Value="180"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="FalloffStartNear" Value="0.0002"/>
+        <CameraValue Index="FalloffEndNear" Value="0.0002"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectCamera Id="26" Position="40,216,0" Scale="1,1,1" Name="Camera_004" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="1000"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Roll" Value="180"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="FalloffStartNear" Value="0.0002"/>
+        <CameraValue Index="FalloffEndNear" Value="0.0002"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectCamera Id="25" Position="40,216,0" Scale="1,1,1" Name="Camera_003" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="1000"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Roll" Value="180"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="FalloffStartNear" Value="0.0002"/>
+        <CameraValue Index="FalloffEndNear" Value="0.0002"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectCamera Id="28" Position="40,216,0" Scale="1,1,1" Name="Camera_006" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="1000"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Roll" Value="180"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="FalloffStartNear" Value="0.0002"/>
+        <CameraValue Index="FalloffEndNear" Value="0.0002"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectCamera Id="24" Position="40,216,0" Scale="1,1,1" Name="Camera_002" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="1000"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Roll" Value="180"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="FalloffStartNear" Value="0.0002"/>
+        <CameraValue Index="FalloffEndNear" Value="0.0002"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectCamera Id="29" Position="40,216,0" Scale="1,1,1" Name="Camera_007" Color="0,0,0,0" CameraTarget="40,216">
+        <CameraValue Index="FieldOfView" Value="90"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="1000"/>
+        <CameraValue Index="Distance" Value="10"/>
+        <CameraValue Index="Pitch" Value="90"/>
+        <CameraValue Index="Roll" Value="180"/>
+        <CameraValue Index="HeightOffset" Value="-2.5"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffStart" Value="0.0002"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+        <CameraValue Index="BokehFStop" Value="0.0163"/>
+        <CameraValue Index="BokehMaxCoC" Value="1"/>
+    </ObjectCamera>
+    <ObjectUnit Id="564" Position="105,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="575" Position="103,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="176" Position="129,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="187" Position="151,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="18" Position="112,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="185" Position="160,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="178" Position="160,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="573" Position="96,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="566" Position="96,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="557" Position="120,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="194" Position="136,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="589" Position="144,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="582" Position="120,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="169" Position="136,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="580" Position="129,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="171" Position="127,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="591" Position="151,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="559" Position="127,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="192" Position="153,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="584" Position="129,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="579" Position="127,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="172" Position="129,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="577" Position="136,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="174" Position="120,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="586" Position="160,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="165" Position="103,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="181" Position="144,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="190" Position="144,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="561" Position="112,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="570" Position="112,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="568" Position="105,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="563" Position="103,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="188" Position="153,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="183" Position="151,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="578" Position="136,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="173" Position="120,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="585" Position="160,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="166" Position="105,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="196" Position="129,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="587" Position="151,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="576" Position="105,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="175" Position="127,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="592" Position="153,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="191" Position="151,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="180" Position="153,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="571" Position="103,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="560" Position="129,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="20" Position="103,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="31" Position="96,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="562" Position="112,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="569" Position="112,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="182" Position="144,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="189" Position="144,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="22" Position="105,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="574" Position="96,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="565" Position="96,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="186" Position="160,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="177" Position="160,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="179" Position="151,144,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="184" Position="153,160,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="567" Position="103,136,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="572" Position="105,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="3" Position="112,153,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="195" Position="127,120,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="36" Position="96,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="583" Position="127,112,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="588" Position="153,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="590" Position="144,103,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="581" Position="120,105,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="170" Position="136,151,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="558" Position="120,127,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectUnit Id="193" Position="136,129,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot"/>
+    <ObjectDoodad Id="313" Position="128.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="151" Variation="1" Position="95,221,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="338" Position="103.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="252" Position="161.5,152.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="402" Position="150.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="60" Variation="1" Position="111,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="87" Variation="1" Position="161,185,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="121" Variation="1" Position="137,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="279" Position="161.5,126.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="210" Position="118.5,151.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="380" Position="128.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="37" Variation="1" Position="121,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="395" Position="161.5,106.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="78" Variation="1" Position="149,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="142" Variation="1" Position="95,203,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="288" Position="153.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="229" Position="102.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="331" Position="101.5,118.5,4.0168" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="270" Position="142.5,129.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="160" Variation="1" Position="95,239,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="357" Position="105.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="203" Position="113.5,154.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="11" Variation="1" Position="41.5,126.5,4.015" Scale="1,1,1" Type="TTosh01FlameGeyser" TintColor="255,0,0 7.000000">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="96" Variation="1" Position="161,203,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="75" Variation="1" Position="101,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="32" Position="36.5,216,4.0017" Scale="1,1,1" Type="DecalProtoss">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="398" Position="161.5,103.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="224" Position="106.5,142.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="334" Position="106.5,118.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="139" Variation="1" Position="95,197,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="293" Position="118.5,130.5,4.019" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="352" Position="113.5,101.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="206" Position="113.5,151.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="267" Position="150.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="101" Variation="1" Position="161,213,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="14" Variation="5" Position="78,128,-4.0046" Rotation="4.7121" Scale="4,4,4" Type="Lavafall" TintColor="255,128,0 7.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="343" Position="94.5,104.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="249" Position="142.5,150.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="316" Position="125.5,137.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="146" Variation="1" Position="95,211,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="82" Variation="1" Position="139,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="407" Position="154.5,113.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="57" Variation="1" Position="105,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="124" Variation="1" Position="143,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="23" Position="17,210,3.995" Scale="0.7998,0.7998,0.7998" Type="BunkerWrecked">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="215" Position="137.5,153.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="377" Position="127.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="274" Position="142.5,125.5,4.017" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="234" Position="126.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="324" Position="113.5,128.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="129" Variation="1" Position="153,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="303" Position="137.5,126.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="65" Variation="1" Position="123,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="42" Variation="1" Position="105,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="388" Position="125.5,113.5,4.017" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="111" Variation="1" Position="161,233,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="4" Position="58,198,3.9953" Rotation="2.356" Scale="4,4,4" Type="TarsonisArrow">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="362" Position="103.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="257" Position="151.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="88" Variation="1" Position="161,187,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="51" Variation="1" Position="123,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="349" Position="113.5,105.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="243" Position="126.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="310" Position="130.5,118.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="152" Variation="1" Position="95,223,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="221" Position="101.5,142.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="371" Position="137.5,106.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="280" Position="161.5,125.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="118" Variation="1" Position="161,247,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="408" Position="153.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="54" Variation="1" Position="129,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="93" Variation="1" Position="161,197,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="307" Position="125.5,118.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="157" Variation="1" Position="95,233,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="344" Position="94.5,103.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="246" Position="142.5,153.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="285" Position="153.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="216" Position="137.5,151.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="374" Position="137.5,103.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="115" Variation="1" Position="161,241,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="132" Variation="1" Position="159,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="298" Position="118.5,125.5,4.017" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="239" Position="130.5,161.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="321" Position="94.5,126.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="47" Variation="1" Position="115,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="385" Position="128.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="68" Variation="1" Position="129,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="106" Variation="1" Position="161,223,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="260" Position="152.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="367" Position="118.5,104.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="123" Variation="1" Position="141,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="16" Variation="5" Position="2,128,-4.0214" Rotation="1.5705" Scale="4,4,4" Type="Lavafall" TintColor="255,128,0 7.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="382" Position="130.5,94.5,4.017" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="208" Position="118.5,153.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="277" Position="161.5,129.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="254" Position="161.5,151.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="336" Position="105.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="149" Variation="1" Position="95,217,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="315" Position="126.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="85" Variation="1" Position="157,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="62" Variation="1" Position="115,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="400" Position="161.5,101.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="201" Position="94.5,150.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="359" Position="106.5,113.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="162" Variation="1" Position="95,243,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="268" Position="149.5,161.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="98" Variation="1" Position="161,207,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="76" Variation="1" Position="145,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="393" Position="142.5,102.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="39" Variation="1" Position="99,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="329" Position="103.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="231" Position="137.5,150.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="290" Position="151.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="140" Variation="1" Position="95,199,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="167" Position="40,216,2.9948" Scale="1,1,1" Type="TOZhakulDasLibraryPitDoodad">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="265" Position="152.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="204" Position="113.5,152.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="354" Position="102.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="12" Variation="1" Position="38.5,126.5,4.0166" Scale="1,1,1" Type="TTosh01FlameGeyser" TintColor="255,0,0 7.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="103" Variation="1" Position="161,217,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="396" Position="161.5,104.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="34" Position="40,219.5,4.002" Rotation="4.7121" Scale="1,1,1" Type="DecalProtoss">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="73" Variation="1" Position="97,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="295" Position="118.5,128.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="137" Variation="1" Position="95,193,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="332" Position="104.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="226" Position="105.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="21" Position="46,192,3.995" Scale="0.7998,0.7998,0.7998" Type="BunkerWrecked">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="126" Variation="1" Position="147,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="272" Position="142.5,127.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="379" Position="125.5,94.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="213" Position="137.5,154.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="144" Variation="1" Position="95,207,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="318" Position="94.5,129.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="251" Position="161.5,154.5,4.0185" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="341" Position="94.5,106.5,4.017" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="59" Variation="1" Position="109,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="405" Position="153.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="80" Variation="1" Position="153,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="6" Position="22,234,3.9953" Rotation="5.4975" Scale="4,4,4" Type="TarsonisArrow">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="109" Variation="1" Position="161,229,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="259" Position="149.5,142.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="198" Position="94.5,153.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="360" Position="105.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="301" Position="137.5,129.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="131" Variation="1" Position="157,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="326" Position="113.5,127.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="232" Position="137.5,149.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="390" Position="142.5,105.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="40" Variation="1" Position="101,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="67" Variation="1" Position="127,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="282" Position="150.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="369" Position="118.5,102.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="223" Position="105.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="116" Variation="1" Position="161,243,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="49" Variation="1" Position="119,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="90" Variation="1" Position="161,191,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="154" Variation="1" Position="95,227,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="308" Position="128.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="241" Position="128.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="351" Position="113.5,102.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="372" Position="137.5,104.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="218" Position="113.5,149.5,4.019" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="287" Position="154.5,137.5,4.018" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="113" Variation="1" Position="161,237,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="95" Variation="1" Position="161,201,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="52" Variation="1" Position="125,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="410" Position="151.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="244" Position="125.5,161.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="346" Position="94.5,101.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="159" Variation="1" Position="95,237,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="305" Position="127.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="104" Variation="1" Position="161,219,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="365" Position="118.5,106.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="168" Position="40,216,-2.0046" Scale="0.25,0.25,1" Type="TerrainObjectZhakulLibraryLargeDoodad">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="262" Position="154.5,142.5,4.019" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="323" Position="113.5,130.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="237" Position="129.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="296" Position="118.5,127.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="134" Variation="1" Position="95,187,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="70" Variation="1" Position="133,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="387" Position="126.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="45" Variation="1" Position="111,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="156" Variation="1" Position="95,231,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="306" Position="126.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="247" Position="142.5,152.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="345" Position="94.5,102.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="55" Variation="1" Position="131,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="409" Position="152.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="92" Variation="1" Position="161,195,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="114" Variation="1" Position="161,239,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="284" Position="152.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="375" Position="137.5,102.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="217" Position="113.5,150.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="384" Position="129.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="46" Variation="1" Position="113,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="69" Variation="1" Position="131,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="299" Position="137.5,130.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="133" Variation="1" Position="95,185,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="320" Position="94.5,127.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="238" Position="130.5,142.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="261" Position="153.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="366" Position="118.5,105.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="107" Variation="1" Position="161,225,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="64" Variation="1" Position="119,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="389" Position="142.5,106.5,4.017" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="43" Variation="1" Position="107,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="325" Position="113.5,129.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="235" Position="125.5,142.5,4.018" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="302" Position="137.5,127.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="128" Variation="1" Position="151,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="197" Position="94.5,154.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="363" Position="102.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="256" Position="161.5,149.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="110" Variation="1" Position="161,231,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="5" Position="58,234,3.9953" Rotation="3.9267" Scale="4,4,4" Type="TarsonisArrow">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="242" Position="127.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="348" Position="113.5,104.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="153" Variation="1" Position="95,225,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="311" Position="130.5,137.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="89" Variation="1" Position="161,189,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="50" Variation="1" Position="121,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="412" Position="149.5,113.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="119" Variation="1" Position="133,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="370" Position="118.5,101.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="220" Position="102.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="281" Position="151.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="335" Position="106.5,137.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="225" Position="106.5,161.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="292" Position="149.5,137.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="138" Variation="1" Position="95,195,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="74" Variation="1" Position="99,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="399" Position="161.5,102.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="33" Position="43.5,216,4.0021" Rotation="3.1413" Scale="1,1,1" Type="DecalProtoss">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="100" Variation="1" Position="161,211,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="15" Variation="5" Position="40,90,0.8142" Rotation="3.1413" Scale="4,4,4" Type="Lavafall" TintColor="255,128,0 7.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="207" Position="118.5,154.5,4.0192" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="353" Position="103.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="164" Variation="1" Position="95,247,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="266" Position="151.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="83" Variation="1" Position="141,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="56" Variation="1" Position="103,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="406" Position="154.5,94.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="248" Position="142.5,151.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="342" Position="94.5,105.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="147" Variation="1" Position="95,213,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="317" Position="94.5,130.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="376" Position="137.5,101.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="214" Position="137.5,152.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="275" Position="161.5,130.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="125" Variation="1" Position="145,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="61" Variation="1" Position="113,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="403" Position="149.5,94.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="86" Variation="1" Position="159,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="150" Variation="1" Position="95,219,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="312" Position="129.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="253" Position="161.5,153.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="339" Position="102.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="278" Position="161.5,127.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="381" Position="129.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="211" Position="118.5,150.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="19" Position="64,222,4.0021" Scale="0.7998,0.7998,0.7998" Type="BunkerWrecked">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="120" Variation="1" Position="135,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="289" Position="152.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="143" Variation="1" Position="95,205,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="330" Position="102.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="228" Position="103.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="394" Position="142.5,101.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="79" Variation="1" Position="151,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="10" Variation="1" Position="41.5,129.5,4.0156" Scale="1,1,1" Type="TTosh01FlameGeyser" TintColor="255,0,0 7.000000">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="97" Variation="1" Position="161,205,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="161" Variation="1" Position="95,241,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="271" Position="142.5,128.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="202" Position="94.5,149.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="356" Position="104.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="112" Variation="1" Position="161,235,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="219" Position="103.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="373" Position="137.5,105.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="286" Position="154.5,118.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="347" Position="113.5,106.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="245" Position="142.5,154.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="304" Position="137.5,125.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="158" Variation="1" Position="95,235,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="94" Variation="1" Position="161,199,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="411" Position="150.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="53" Variation="1" Position="127,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="364" Position="101.5,113.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="263" Position="154.5,161.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="105" Variation="1" Position="161,221,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="71" Variation="1" Position="135,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="44" Variation="1" Position="109,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="386" Position="127.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="236" Position="128.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="322" Position="94.5,125.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="135" Variation="1" Position="95,189,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="297" Position="118.5,126.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="258" Position="150.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="361" Position="104.5,113.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="199" Position="94.5,152.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="7" Position="22,198,3.9953" Rotation="0.7851" Scale="4,4,4" Type="TarsonisArrow">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="108" Variation="1" Position="161,227,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="41" Variation="1" Position="103,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="391" Position="142.5,104.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="66" Variation="1" Position="125,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="130" Variation="1" Position="155,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="300" Position="137.5,128.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="233" Position="127.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="327" Position="113.5,126.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="117" Variation="1" Position="161,245,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="283" Position="149.5,118.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="222" Position="104.5,142.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="368" Position="118.5,103.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="309" Position="129.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="155" Variation="1" Position="95,229,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="350" Position="113.5,103.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="240" Position="129.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="48" Variation="1" Position="117,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="91" Variation="1" Position="161,193,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="13" Variation="5" Position="40,166,-4.011" Scale="4,4,4" Type="Lavafall" TintColor="255,128,0 7.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="102" Variation="1" Position="161,215,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="264" Position="153.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="355" Position="101.5,94.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="205" Position="113.5,153.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="136" Variation="1" Position="95,191,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="294" Position="118.5,129.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="227" Position="104.5,161.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="333" Position="105.5,118.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="35" Position="40,212.5,4.0021" Rotation="1.5705" Scale="1,1,1" Type="DecalProtoss">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="397" Position="161.5,105.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="72" Variation="1" Position="137,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="273" Position="142.5,126.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="212" Position="118.5,149.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="378" Position="126.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="127" Variation="1" Position="149,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="404" Position="152.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="58" Variation="1" Position="107,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="81" Variation="1" Position="155,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="319" Position="94.5,128.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="145" Variation="1" Position="95,209,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="340" Position="101.5,137.5,4.019" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="250" Position="142.5,149.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="209" Position="118.5,152.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="383" Position="130.5,113.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="276" Position="161.5,128.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="122" Variation="1" Position="139,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="17" Position="34,240,4.0017" Scale="0.7998,0.7998,0.7998" Type="BunkerWrecked">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="84" Variation="1" Position="143,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="401" Position="151.5,94.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="63" Variation="1" Position="117,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="337" Position="104.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="255" Position="161.5,150.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="314" Position="127.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="148" Variation="1" Position="95,215,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="99" Variation="1" Position="161,209,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="8" Variation="1" Position="38.5,129.5,4.0166" Scale="1,1,1" Type="TTosh01FlameGeyser" TintColor="255,0,0 7.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="358" Position="106.5,94.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="200" Position="94.5,151.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="269" Position="142.5,130.5,4.019" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="163" Variation="1" Position="95,245,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="230" Position="101.5,161.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="328" Position="113.5,125.5,4.0173" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="141" Variation="1" Position="95,201,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="291" Position="150.5,137.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="77" Variation="1" Position="147,183,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="38" Variation="1" Position="97,249,3.9941" Scale="0.75,0.75,0.75" Type="FanVent">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="392" Position="142.5,103.5,3.994" Scale="1,1,1" Type="Crate">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectPoint Id="1876974817" Position="92,252,0" Scale="1,1,1" Type="Normal" Name="Forest_SD_anchor0" Color="0,0,0,0"/>
+    <ObjectPoint Id="1601060614" Position="22,198,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor0" Color="0,0,0,0"/>
+    <ObjectPoint Id="1469715834" Position="164,180,0" Scale="1,1,1" Type="Normal" Name="Forest_SD_anchor1" Color="0,0,0,0"/>
+    <ObjectPoint Id="576696175" Position="58,198,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor1" Color="0,0,0,0"/>
+    <ObjectPoint Id="1328576880" Position="58,234,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor2" Color="0,0,0,0"/>
+    <ObjectPoint Id="632776355" Position="22,234,0" Scale="1,1,1" Type="Normal" Name="Space_SD_anchor3" Color="0,0,0,0"/>
+</PlacedObjects>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+  <Frame name="GameUI/UIContainer/ConsolePanel" type="ConsolePanel" file="GameUI">
+        <Frame type="Model" name="InfopanelModel">
+            <Visible val="false"/>
+        </Frame>
+        
+        <Frame type="Model" name="MinimapModel">
+            <Visible val='False'/>
+        </Frame>
+
+        <Frame type="PortraitPanel" name="PortraitPanel">
+            <Anchor side="Bottom" relative="$parent" pos="Min" offset="-500"/>
+        </Frame>
+        
+        <Frame type="Model" name="CommandPanelModel">
+            <Visible val='False'/>
+        </Frame>
+
+        <Frame type="Frame" name="MinimapStub">
+            <Visible val='False'/>
+        </Frame>
+
+        <Frame type="Frame" name="InfoStub">
+            <Visible val='False'/>
+        </Frame>
+
+        <Frame type="Frame" name="CommandStub">
+            <Visible val='False'/>
+        </Frame>
+  </Frame>
+
+  <Frame type="GameUI" name="GameUI" file="GameUI">
+	<ConsoleWorldBottomOffset val="0"/>
+  </Frame>
+
+  <Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer" file="GameUI">
+    <Frame type="ChatBar" name="ChatBar">
+      <Anchor side="Bottom" relative="$parent" pos="Max" offset="-60"/>
+      <Anchor side="Left" relative="$parent" pos="Min" offset="100"/>
+    </Frame>
+
+    <Frame type="MessageDisplay" name="ChatDisplay">
+      <Anchor side="Bottom" relative="$parent" pos="Max" offset="-156"/>
+      <Anchor side="Left" relative="$parent" pos="Min" offset="100"/>
+      <MaxMessages val="4"/>
+      <MessageDuration val="7000"/>
+      <FadeDuration val="700"/>
+      <Height val="200"/>
+      <Width val="800"/>
+    </Frame>
+  </Frame>
+
+  <Frame type="Frame" name="GameUI/UIContainer/ConsoleUIContainer" file="GameUI">
+    <Frame type="MissionTimePanel" name="MissionTimePanel">
+      <Anchor side="Bottom" relative="$parent" pos="Min" offset="-500"/>
+    </Frame>
+
+    <Frame type="MinimapPanel" name="MinimapPanel">
+      <Visible val='False'/>
+
+      <Frame type="Minimap" name="Minimap">
+        <Visible val='False'/>
+      </Frame>
+      <Frame type='Button' name='GameUI/UIContainer/ConsoleUIContainer/MinimapPanel/ColorButton' file='GameUI'>
+        <Visible val='False'/>
+        <Frame type='Image' name='GameUI/UIContainer/ConsoleUIContainer/MinimapPanel/ColorButton/Icon' file='GameUI'>
+          <Visible val='False'/>
+        </Frame>
+      </Frame>
+
+      <Frame type='Button' name='GameUI/UIContainer/ConsoleUIContainer/MinimapPanel/PingButton' file='GameUI'>
+        <Visible val='False'/>
+        <Frame type='Image' name='GameUI/UIContainer/ConsoleUIContainer/MinimapPanel/PingButton/Icon' file='GameUI'>
+          <Visible val='False'/>
+        </Frame>
+      </Frame>
+
+      <Frame type='Button' name='GameUI/UIContainer/ConsoleUIContainer/MinimapPanel/TerrainButton' file='GameUI'>
+        <Visible val='False'/>
+        <Frame type='Image' name='GameUI/UIContainer/ConsoleUIContainer/MinimapPanel/TerrainButton/Icon' file='GameUI'>
+          <Visible val='False'/>
+        </Frame>
+      </Frame>
+
+    </Frame>
+
+    <Frame type="Image" name="MinimapPanelBorder">
+      <Visible val='False'/>
+    </Frame>
+
+    <Frame type='ControlGroupPanel' name='ControlGroupPanel'>
+      <Anchor side="Bottom" relative="$parent" pos="Min" offset="-500"/>
+    </Frame>
+
+  </Frame>
+</Desc>

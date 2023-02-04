@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Preload>
+<Asset path="assets\textures\ui_scorescreen_splash_thorner03.dds" Type="Image"/>
+<Asset path="assets\textures\ui_scorescreen_splash_ttosh01.dds" Type="Image"/>
+<Asset path="assets\textures\ui_scorescreen_splash_ttosh02.dds" Type="Image"/>
+<Asset path="assets\textures\btn-research-terran-techreactor.dds" Type="Image"/>
+<Asset path="assets\textures\ui_scorescreen_splash_tzeratul02.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-terran-corvidreactor.dds" Type="Image"/>
+<Asset path="assets\textures\btn-building-terran-techreactor.dds" Type="Image"/>
+<Asset path="assets\textures\ui_scorescreen_splash_tvalerian02a.dds" Type="Image"/>
+<Asset path="assets\textures\ui_scorescreen_splash_tvalerian02b.dds" Type="Image"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="BunkerWrecked"/>
+<Actor id="Crate" Variations="0"/>
+<Actor id="DecalProtoss" Variations="0"/>
+<Actor id="FanVent" Variations="1"/>
+<Actor id="HavenFoliage"/>
+<Actor id="HavenTree"/>
+<Actor id="Lavafall" Variations="5"/>
+<Actor id="TarsonisArrow"/>
+<Actor id="TerrainObjectZhakulLibraryLargeDoodad"/>
+<Actor id="TOZhakulDasLibraryPitDoodad" Variations="0"/>
+<Actor id="TTosh01FlameGeyser" Variations="1"/>
+<Actor id="ForestMold4"/>
+<Actor id="ForestMold8"/>
+<Behavior id="PulseFlameDeBuff"/>
+<Behavior id="ResistLimiterRemoval"/>
+<Behavior id="StimpackProtect"/>
+<Effect id="EMPDamage"/>
+<Effect id="PulseFlameDamage"/>
+<Effect id="PulseZapRepeat"/>
+<Effect id="PulseZapRepeatSmall"/>
+<Effect id="ResistForceSearch"/>
+<Effect id="SnipeDamage2"/>
+<Effect id="SnipeDamage22"/>
+<Light id="Agria"/>
+<Light id="Ulnar"/>
+<Light id="AgriaSunset"/>
+<Model id="HighTemplarPsiStormModel"/>
+<Model id="TimeWarpLaunch"/>
+<Model id="TimeWarp"/>
+<Model id="Decal"/>
+<Model id="FireMedium"/>
+<Model id="SmokePillarsTall"/>
+<Model id="SmokeMedium"/>
+<Model id="ResourceBlocker"/>
+<Model id="ObliterateExplosion"/>
+<Model id="WallOfFire"/>
+<Sound id="Zerg_ExplosionSlime" Variations="0"/>
+<Sound id="Uni_DeathFXFireLarge"/>
+<Sound id="Ghost_SnipeLaunch"/>
+<Sound id="Mothership_AttackImpact"/>
+<Sound id="NullCircuit_Explode"/>
+<Sound id="VoidRay_WeaponEnd"/>
+<Sound id="UI_BnetGameFound"/>
+<Sound id="Dog_Howl"/>
+<Sound id="Doodad_SparkBurstLong" Variations="0"/>
+<Sound id="Doodad_SparkBurstShort" Variations="0"/>
+<Sound id="Doodad_SteamBurstLarge" Variations="0"/>
+<Sound id="UI_ScoreScreenMissionName" Variations="0"/>
+<Sound id="UI_ReplayDropdownListSelect" Variations="0"/>
+<Sound id="UI_TutorialSelect"/>
+<Sound id="TUIWarningPing"/>
+<Sound id="SwarmHost_EmptyBubbleLaunch"/>
+<Sound id="Obliterate_Charge"/>
+<Sound id="VoodooLockdownImpact"/>
+<Sound id="MindSplatterExplodeSound"/>
+<Sound id="Tosh_PsiShieldBirth"/>
+<Sound id="Tosh_PsiShieldDeath"/>
+<Sound id="Warbot_FlameThrowerAttackLaunch"/>
+<Sound id="Doodad_DevourerTissueStasisTubeStandLoop"/>
+<Sound id="Tychus04BriefingAlarm"/>
+<Sound id="TUILavaRising"/>
+<Sound id="THorner05SScientist00056" Variations="0"/>
+<Sound id="ArmorySwannRaynor00050"/>
+<Sound id="TValerian02ARaynor00051"/>
+<Sound id="SC_Shell_Kerrigan_Psi_PowerBall"/>
+<Sound id="Event_Space02_CameraQuake"/>
+<Sound id="UI_CelestialArray_entry"/>
+<Sound id="buzzer"/>
+<Soundtrack id="Ambience_Haven"/>
+<Soundtrack id="Ambience_Redstone"/>
+<Soundtrack id="Ambience_BraxisAlpha"/>
+<Soundtrack id="Music_EndCreditsD"/>
+<Soundtrack id="Music_Silence"/>
+<Terrain id="UlnarEx1"/>
+<Unit id="SupplyDepot"/>
+<Unit id="Bunker"/>
+<Unit id="Ghost"/>
+<Unit id="Beacon_Protoss"/>
+<Unit id="Beacon_Terran"/>
+<Unit id="DestructibleRock4x4"/>
+<Unit id="SpiderMineBurrowed"/>
+<Unit id="TerranDropPod"/>
+</Preload>

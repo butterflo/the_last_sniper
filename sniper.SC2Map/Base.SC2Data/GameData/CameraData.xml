@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CCamera id="SpacePlatform">
+        <ZoomTable index="0">
+            <Param index="Distance" Value="50.000000"/>
+            <Param index="Pitch" Value="90.000000"/>
+        </ZoomTable>
+        <ZoomTable index="1">
+            <Param index="Distance" Value="40.000000"/>
+            <Param index="Pitch" Value="90.000000"/>
+        </ZoomTable>
+        <ZoomTable index="2">
+            <Param index="Distance" Value="30.000000"/>
+            <Param index="Pitch" Value="90.000000"/>
+        </ZoomTable>
+        <ZoomTable index="3">
+            <Param index="Distance" Value="20.000000"/>
+            <Param index="Pitch" Value="90.000000"/>
+        </ZoomTable>
+        <ZoomTable index="4">
+            <Param index="Distance" Value="10.000000"/>
+            <Param index="Pitch" Value="90.000000"/>
+        </ZoomTable>
+        <ZoomDefault value="4"/>
+        <HeightDisplacementFactor value="0.500000"/>
+        <ParamInitial index="ShadowClip" value="400.000000"/>
+        <ParamInitial index="Yaw" value="0.000000"/>
+    </CCamera>
+</Catalog>

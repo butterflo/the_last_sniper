@@ -1,0 +1,10 @@
+Button/Hotkey/=T
+Button/Hotkey/E=E
+Button/Hotkey/Q=Q
+Button/Hotkey/R=R
+Button/Hotkey/RavenEnergyUpgrade=T
+Button/Hotkey/W=W
+Button/Hotkey/ade=T
+Button/Hotkey/antryArmorLevel3=A
+Button/Hotkey/ergyUpgrade=T
+Button/Hotkey/orLevel3=A

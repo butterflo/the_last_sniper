@@ -1,0 +1,355 @@
+﻿Abil/Name/EMP=Pulse
+Abil/Name/NovaSnipe=코비드 레일건
+Abil/Name/Snipe=Snipe
+Abil/Name/Stimpack=Resist
+Attribute001/Name=GameModeHK
+Attribute001/Value001/Name=FFA
+Attribute001/Value002/Name=TDM
+Behavior/Name/DiveDebuff=잠수
+Behavior/Name/PulseFlameDeBuff=화염
+Behavior/Name/ResistLimiterRemoval=저항 제한 해제
+Behavior/Name/Stimpack=저항
+Behavior/Name/StimpackProtect=보호
+Behavior/Tooltip/DiveDebuff=잠수 중입니다.<n/><n/>이동속도 50% 감소
+Behavior/Tooltip/PulseFlameDeBuff=내 몸이.. 불타고 있다..<n/><n/><c val="FFFF00">가까운 호수에 뛰어드세요!<n/></c><n/>이동속도 100% 증가<n/>체력 감소 -10/초
+Behavior/Tooltip/StimpackProtect=저격을 1회 막아냅니다.
+Button/Name/Cancel=취소
+Button/Name/EMP=파동
+Button/Name/ResearchRavenEnergyUpgrade=코비드 레일건
+Button/Name/Snipe=저격!!
+Button/Name/TerranInfantryArmorLevel3=저항
+Button/Tooltip/Baneling=???
+Button/Tooltip/EMP=<c val="FFFFFF">선택한 지점에 파동탄을 투척합니다.<n/>스캔 효과와 마나번 효과가 있습니다.</c>
+Button/Tooltip/Ghost=
+Button/Tooltip/ResearchRavenEnergyUpgrade=<c val="FFFFFF">비장의 무기입니다. 저격에 비해 4배 넓은 범위를 관통하며, 라운드 시작 후 60초가 지난 후부터 사용할 수 있습니다.</c>
+Button/Tooltip/Snipe=<c val="FFFFFF">더이상의 자세한 설명은 생략한다.</c>
+Button/Tooltip/TerranInfantryArmorLevel3=<c val="FFFFFF">1초동안 방어력을 극대화시킵니다.<n/>저격당해도 죽지 않습니다.</c>
+DocInfo/Author=butterflo
+DocInfo/DescLong=불가능이란 즉 확률이 없다는 것..<n/>0의 확률. 그것은 "제로(ghost)"의 영역───<n/>운명에데스티니! 유령의고스트를 사살하라!<n/><n/>* 봇 지원<n/>* 2019.02.02 업데이트<n/>* discord.gg/ApDN7MG
+DocInfo/HowToPlayBasic00=[Q] 저격 - 수동으로 조준하는 스킬입니다.
+DocInfo/HowToPlayBasic01=[W] 저항 - 순간적으로 방어력을 극대화시킵니다.
+DocInfo/HowToPlayBasic02=[E] 파동 - 건물 스캔 및 저격수 견제에 사용됩니다.
+DocInfo/HowToPlayWinning00=최후의 1인이 라운드를 승리합니다.
+DocInfo/Name=저격의 스나이퍼
+DocInfo/PatchNote001=아케이드 게시
+DocInfo/PatchNote002=* 서든데스가 추가되었습니다.
+DocInfo/PatchNote003=* 봇의 실력이 매 라운드마다 바뀌는 방식에서 게임 시작시에 고정되는 방식으로 변경되었습니다.
+DocInfo/PatchNote004=* 이제 봇의 실력을 채팅창 대신 화면 우측의 팁에서 볼 수 있습니다.
+DocInfo/PatchNote005=* 모든 플레이어가 볼수 있었던 '저장소 확인' 팁을 자신만 볼수 있도록 변경하였습니다.
+DocInfo/PatchNote006=
+DocInfo/PatchNote007=@ 관전자가 전체 맵을 볼수 있게 될 경우 채팅을 통해 사람들의 위치를 알려줄 수 있습니다.
+DocInfo/PatchNote008=@ 관전자 활용 방안을 구상중입니다:)
+DocInfo/PatchNote009=* 모드 선택 화면이 추가되었습니다.
+DocInfo/PatchNote010=- 현재 개인전 모드만 구현되었으며, 라운드 5승(설정 가능)을 달성하면 게임이 종료됩니다.
+DocInfo/PatchNote011=
+DocInfo/PatchNote012=* 이제 각 플레이어의 전적을 화면 우측의 팁에서 볼 수 있습니다.
+DocInfo/PatchNote013=
+DocInfo/PatchNote014=* 관전 방식이 변경되어 사망시 전체 맵을 볼 수 있습니다.
+DocInfo/PatchNote015=- 위치 노출 방지를 위해 엔터키를 누르면 시야가 축소되고 관전자 유닛이 생성됩니다.
+DocInfo/PatchNote016=
+DocInfo/PatchNote017=* 서든데스 타이머가 210초에서 180초로 변경되었습니다.
+DocInfo/PatchNote018=
+DocInfo/PatchNote019=@ 테스트 모드 : 분노 게이지
+DocInfo/PatchNote020=@ 채팅창에 -set avengers 1 을 입력하면 테스트 모드가 활성화됩니다.
+DocInfo/PatchNote021=@ 시험용으로 넣은 것이므로 참고 및 피드백 부탁드립니다:)
+DocInfo/PatchNote022=* 이제 게임 시작 시 레일건 사용 여부를 선택할 수 있습니다.
+DocInfo/PatchNote023=* 특정 조건에서 레일건에 저항을 사용할 수 없었던 문제를 수정하였습니다.
+DocInfo/PatchNote024=* 2인이 남은 상태에서 크로스카운터가 일어날 경우 라운드가 종료되지 않던 문제를 수정하였습니다.
+DocInfo/PatchNote025=
+DocInfo/PatchNote026=@ 부정적인 평가라도 도움이 된다면 감사히 받겠습니다.
+DocInfo/PatchNote027=@ 게임에서 진다고 화풀이식으로 평가하는 행위는 삼가주세요.
+DocInfo/PatchNote028=@ 분노의 발동 조건이 확률적으로 정해지는 방식에서 100%를 채우는 방식으로 변경되었습니다.
+DocInfo/PatchNote029=* 새로운 맵이 추가되었습니다.
+DocInfo/PatchNote030=* 새로운 맵이 추가되었습니다.
+DocInfo/PatchNote031=- '자연의 네이쳐'는 나무, 바위, 웅덩이 등의 자연 지형을 활용하는 맵입니다.
+DocInfo/PatchNote032=- 숙련자용 컨셉으로 제작되었으며, 이 맵에서는 레일건을 사용할 수 없습니다.
+DocInfo/PatchNote033=- 곳곳에 바위가 많습니다. 바위는 시야를 가립니다.
+DocInfo/PatchNote034=- 곳곳에 나무가 많습니다. 나무에 파동 스킬을 사용해 보세요. 따뜻해집니다.
+DocInfo/PatchNote035=- 곳곳에 웅덩이가 있습니다. 웅덩이 안에서는 이동이 느려지며 총이 촉촉해집니다.
+DocInfo/PatchNote036=- 따뜻한 나무 근처에 있으면 유닛에 불이 붙습니다!! 으아아!! 가까운 웅덩이에 뛰어드세요!!
+DocInfo/PatchNote037=- 웅덩이에 파동을 사용하면 감전 데미지를 입힐수 있습니다.
+DocInfo/PatchNote038=
+DocInfo/PatchNote039=* 이제 저격으로 멀티킬을 달성하면 메시지가 표시됩니다. 일타이피를 노려보세요!
+DocInfo/PatchNote040=* '자연의 네이쳐' 맵의 불의 장벽 서든데스를 피할 수 있는 방법이 추가되었습니다.
+DocInfo/PatchNote041=* 서든데스로 요원 2인 이상이 동시에 사망할 경우 라운드가 종료되지 않던 문제를 수정하였습니다.
+DocInfo/PatchNote042=* 모드 선택 화면에서 플레이어가 퇴장할 경우 유닛이 중복으로 생성되던 문제를 수정하였습니다.
+DocInfo/PatchNote043=* '자연의 네이쳐' 맵에서 간헐적으로 이동할 수 없는 지역이 생기던 문제를 수정하였습니다.
+DocInfo/PatchNote044=* 팀 데스매치 모드가 추가되었습니다.
+DocInfo/PatchNote045=- 로비 입장 전에 정보창 아래에서 게임 모드를 설정할수 있습니다.
+DocInfo/PatchNote046=- 다른 팀의 요원을 모두 사살하면 라운드를 승리합니다.
+DocInfo/PatchNote047=
+DocInfo/PatchNote048=* 이제 한 게임에 최대 10인까지 플레이할 수 있습니다.
+DocInfo/PatchNote049=* '자연의 네이쳐' 맵의 그래픽을 수정하였습니다.
+DocInfo/PatchNote050=* '자연의 네이쳐' 맵에서 간헐적으로 이동할 수 없는 지역이 생기던 문제를 수정하였습니다.
+DocInfo/PatchNote051=- 이 문제는 저번에도 수정한거 같습니다(..)
+DocInfo/PatchNote052=
+DocInfo/PatchNote053=* 숨어있던 레벨 낮은 벌레들을 잡았습니다.
+DocInfo/PatchNote054=- '용암의 볼케이노'는 지형의 높낮이가 있는 뜨거운 맵입니다.
+DocInfo/PatchNote055=- 이 맵에서는 랜덤한 장애물이 생성되지 않습니다.
+DocInfo/PatchNote056=- 지형이 불안정합니다. 용암 쇄도를 조심하세요!
+DocInfo/PatchNote057= 
+DocInfo/PatchNote058=* 분노 게이지 옵션이 추가되었습니다.
+DocInfo/PatchNote059=- 0킬 상태에서 사살당하면 분노 게이지가 일정량 상승합니다.
+DocInfo/PatchNote060=- 분노 게이지가 100%를 넘어가면 '분노' 스킬을 사용할 수 있습니다. 크킄..
+DocInfo/PatchNote061=- '우주의 스페이스'와 '용암의 볼케이노'에서 사용할 수 있습니다.
+DocInfo/PatchNote062=- 밸런스를 위해 킬 달성시 분노 게이지가 초기화됩니다.
+DocInfo/PatchNote063=- 1승을 남겨놓은 상태에서는 분노 게이지가 상승하지 않습니다.
+DocInfo/PatchNote064=
+DocInfo/PatchNote065=* 이제 '자연의 네이쳐' 맵에서 관전자 모드로 상대 팀의 플레이어를 볼 수 없습니다.
+DocInfo/PatchNote066=* '자연의 네이쳐' 맵에서 채팅으로 상대방의 위치를 알려주기 어려워졌습니다.
+DocInfo/PatchNote067=* 가볍지만 중요한 밸런스 패치입니다.
+DocInfo/PatchNote068=- 이제 관전자 유닛이 은폐 상태로 만들어집니다. 이제서야..
+DocInfo/PatchNote069=- 적 요원을 클릭하여 저격할 수 있었던 기능을 막았습니다.
+DocInfo/PatchNote070=- 절대 제가 못해서 그런건 아닙니다[..]
+DocInfo/PatchNote071=@ "저격의 스나이퍼"는 "자유의 날개"와도 호환됩니다!
+DocInfo/PatchNote072=
+DocInfo/PatchNote073=* 화면 아래에 검은 공간이 나타나던 문제를 수정하였습니다.
+DocInfo/PatchNote074=* 화면 왼쪽에 대기 일꾼 버튼과 부대 유닛 버튼이 나타나던 문제를 수정하였습니다.
+DocInfo/PatchNote075=
+DocInfo/PatchNote076=* 제작자 코멘트
+DocInfo/PatchNote077=- 점사도 실력이지 않느냐는 의견을 주신 분들이 계셨습니다.
+DocInfo/PatchNote078=- 제 의견으론, 점사는 실력 인플레이션을 가져와 신규 플레이어 유입을 어렵게 만듭니다.
+DocInfo/PatchNote079=- 스타2는 기본적으로 유닛을 지정해서 공격하면 그 유닛을 한없이 따라가게끔 정해져 있습니다.
+DocInfo/PatchNote080=- 기존 시스템에선 점사를 알고 있는 플레이어와 그렇지 않은 플레이어의 차이가 굉장히 컸구요.
+DocInfo/PatchNote081=- 이제 라운드 시작시 10초간 무적시간이 주어집니다.
+DocInfo/PatchNote082=- 코비드 레일건으로 유닛을 선택하여 공격할수 있던 기능을 막았습니다.
+DocInfo/PatchNote083=* 이제 호스트가 플레이카운트 기준으로 설정됩니다.
+DocInfo/PatchNote084=* 저장소 사용 방식이 변경되었습니다.
+DocInfo/PatchNote085=- 기존 저장소를 사용하시던 분들도 자동으로 적용됩니다.
+DocInfo/PatchNote086=- 코비드 레일건의 그래픽이 변경되었습니다.
+DocInfo/PatchNote087=
+DocInfo/PatchNote088=- 저장소가 정상적으로 작동하지 않던 문제가 수정되었습니다.
+DocInfo/PatchNote089=- 분노 발동시 대상을 자동으로 찾지 않던 문제가 수정되었습니다.
+DocInfo/PatchNote090=- '우주의 스페이스'에서 관전자 유닛이 서든데스에 죽던 문제가 수정되었습니다.
+DocInfo/PatchNote091=- '자연의 네이쳐'에서 불의 장벽 모델이 사라지지 않던 문제가 수정되었습니다.
+DocInfo/PatchNote092=- 분노 옵션을 보호막 밸런싱으로 대체하였습니다.
+DocInfo/PatchNote093=- 킬을 못하고 죽을 경우 다음 라운드에 보호막이 적용됩니다.
+DocInfo/PatchNote094=- 팀 데스매치 모드를 시작할 수 없었던 문제가 수정되었습니다.
+DocInfo/PatchNote095=- 보호막은 1회에 한해 적 공격을 막아줍니다.
+DocInfo/PatchNote096=* 고수도 한때는 뉴비였었다는걸 기억해주시길 바랍니다.
+DocInfo/PatchNote097=- 봇이 저격을 시전하지 않던 문제가 수정되었습니다.
+DocInfo/PatchNote098=- 분노 발동시 게임이 정상적으로 진행되지 않던 문제를 수정하였습니다.
+DocInfo/PatchNote099=- 모드 선택 화면에서 응답이 없는 호스트를 강제퇴장시키기까지의 대기시간이 길어졌습니다.
+DocInfo/PatchNote100=
+DocInfo/PatchNote101=- '우주의 스페이스' 맵이 살짝 작아지고 개편되었습니다.
+DocInfo/PatchNote102=- '자연의 네이쳐' 맵이 살짝 작아지고 최적화되었습니다.
+DocInfo/PatchNote103=- 자연의 네이쳐 맵의 그래픽을 개편하였습니다.
+DocInfo/PatchNote104=@ 이름 변경 게시
+DocInfo/PatchNote105=- 숨어있는 유닛의 윤곽을 볼 수 있었던 문제를 수정하였습니다.
+DocInfo/PatchNote106=- 경과시간 창이 나타나 화면을 가리던 문제를 수정하였습니다.
+DocInfo/PatchNote107=- UI 개편: 이제 채팅창이 왼쪽 아래에 나타납니다.
+DocInfo/PatchNote108=- UI 개편: 순위표가 간소화되었습니다.
+DocInfo/PatchNote109=- UI 개편: 맵 선택창이 간소화되었습니다.
+DocInfo/PatchNote110=
+DocInfo/PatchNote111=- '용암의 볼케이노' 맵에서 서든데스 후 게임을 진행할 수 없던 문제를 수정하였습니다.
+DocInfo/PatchNote112=- '우주의 스페이스' 맵이 변경되었습니다.
+DocInfo/PatchNote113=
+DocInfo/PatchNote114=- '자연의 네이처' 맵의 바위에 숨을 수 있었던 공간이 있었던 문제를 수정하였습니다.
+DocInfo/PatchNote115=* 새로운 맵 '무한의 큐브'가 추가되었습니다.
+DocInfo/PatchNote116=- 숨을 수 있는 장소가 없는 대신, 방이 많은 맵입니다.
+DocInfo/PatchNote117=- 장기전 컨셉으로 제작되었습니다. 이 맵에서는 레일건을 사용할 수 없습니다.
+DocInfo/PatchNote118=- 10배의 체력을 가지고 시작합니다. 그리고, 체력이 회복되지 않습니다.
+DocInfo/PatchNote119=- 1승 달성시 게임을 승리합니다.
+DocInfo/PatchNote120=- 배틀넷 서버 문제가 해결되어 업데이트가 가능해졌습니다.
+DocInfo/PatchNote121=- '저격의 스나이퍼 0'에 별도로 게시되어 있던 업데이트를 통합 적용하였습니다.
+DocInfo/PatchNote122=- 해당 맵은 삭제됩니다.
+DocInfo/PatchNote123=
+DocInfo/PatchNote124=* 게임 컨셉이 변경됩니다.
+DocInfo/PatchNote125=- 이제 대부분의 지형지물에 숨을 수 없습니다.
+DocInfo/PatchNote126=- 관통 전적 및 봇 난이도 전적이 삭제됩니다.
+Effect/Name/SnipeDamage=저격 피해
+LoadingScreen/Tip=<c val="FFCC00">concept & coding</c> <c val="FFFFFF">butterflo</c><n/><c val="FFCC00">trigger core</c><c val="FFFFFF"> kduk</c>
+MapInfo/Player00/Name=중립
+MapInfo/Player01/Name=Agent B
+MapInfo/Player02/Name=Agent C
+MapInfo/Player03/Name=Agent E
+MapInfo/Player04/Name=Agent G
+MapInfo/Player05/Name=Agent K
+MapInfo/Player06/Name=Agent M
+MapInfo/Player07/Name=Agent Q
+MapInfo/Player08/Name=Agent S
+MapInfo/Player09/Name=CPU
+MapInfo/Player10/Name=Agent 29
+MapInfo/Player11/Name=CPU
+MapInfo/Player12/Name=적대
+Param/Value/012C5604=명 남음
+Param/Value/0193333C=<n/>
+Param/Value/01B4A8EB=
+Param/Value/02052D3A=<s val="ModCenterSize64Bold">모드: 아레나</s><n/><s val="ModCenterSize32Bold"><c val="FFFF00">방장으로부터 응답이 없습니다!</c>
+Param/Value/04125415=
+Param/Value/04FEC1FE=<s val="ModCenterSize20Bold"><c val="FFFF00">라운드 
+Param/Value/0AA112D3= ( 
+Param/Value/0B160C4A=<c val="FFFFFF"> 자멸 (감전)</c>
+Param/Value/0C4A1CAA=승 달성.
+Param/Value/0D4E0DE2=<s val="ModCenterSize32Bold">자연의 네이쳐</s>
+Param/Value/0E725E58=%
+Param/Value/1007E6D5=승
+Param/Value/10931E19=% )
+Param/Value/156A81A5=명 남음
+Param/Value/18A14074=<s val="ModCenterSize16Bold">우주 맵입니다.<n/><n/>지형물: 개인벙커, 실드배터리<n/>서든데스: 낙하기 투하, 맵 좁아짐
+Param/Value/19648436=<s val="ModCenterSize32Bold"><c val="80FFFF">목표: 라운드 
+Param/Value/1B9DD2DE=
+Param/Value/1D64CBAB=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
+Param/Value/1DB86D59=</c> 
+Param/Value/1EFB40A4=<s val="ModCenterSize32Bold">용암의 볼케이노</s>
+Param/Value/1F83B756=저격의스나이퍼를 플레이해주셔서 감사드립니다:)<n/>- 제작자 butterflo
+Param/Value/215FD1AD=2
+Param/Value/24B0B4AC=<s val="ModCenterSize20Bold"><c val="80FF00">라운드 종료<n/>
+Param/Value/27B58FA1=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
+Param/Value/2A01837A=<s val="ModCenterSize64Bold"><c val="FFFF00">▶
+Param/Value/2B77EAC4=:
+Param/Value/2C7A97B2=<s val="ModCenterSize64Bold"><c val="80FF00">3승
+Param/Value/2DEDE9CC=<c val="FFFF00">180초 경과 : <n/>서든데스가 시작되었습니다. 맵이 점점 좁아집니다!
+Param/Value/30A67177= 
+Param/Value/31B2C2B7=<c val="4040FF">]</c>
+Param/Value/34B581E0= : 
+Param/Value/361E4633=<s val="ModCenterSize20Bold"><c val="FF4040">[</c>
+Param/Value/36465514=<s val="ModCenterSize20Bold"><c val="80FF00">봇 있음</c>
+Param/Value/3806D306= 
+Param/Value/3B7AFF33=<s val="ModCenterSize32Bold"><c val="FF4040">[</c>
+Param/Value/3C0B1FD1=<s val="ModCenterSize20Bold"><c val="80FF00">플레이어 정보</c>
+Param/Value/3CF24334=승을 달성하였습니다.
+Param/Value/3D8F6D57=<c val="00FF00">무한의 큐브</c> 맵이 선택되었습니다.
+Param/Value/3F72B7C9=</c><c val="FFFF00">무승부: 생존자 없음.</c>
+Param/Value/402E45C5=<s val="ModCenterSize20Bold"><c val="FFFFFF">환영합니다 <c val="80FF00">
+Param/Value/40C6FB21=<s val="ModCenterSize20Bold"><c val="00FFFF">목표: 라운드 
+Param/Value/42DB3628=<s val="ModCenterSize16Bold">높낮이가 있는 뜨거운 맵입니다.<n/><n/>지형물: 시야 차단 암석(고정)<n/>서든데스: 용암 쇄도<n/></s><s val="ModCenterSize16Bold"><c val="FFFF00">레일건을 사용합니다.</s></c>
+Param/Value/45542E4F=<c val="FFFFFF"> (감전)</c>
+Param/Value/46871B49=</c><c val="FFFF00">무승부: 생존자 없음.</c>
+Param/Value/470B89B9=<c val="FFFFFF"> (레일건)</c>
+Param/Value/48B84844=<s val="ModCenterSize16Bold"><c val="80FF00">999
+Param/Value/4AC918C4=</c><c val="4040FF"> ]</c>
+Param/Value/4BFBA809=<s val="ModCenterSize20Bold">라운드 10 : 전투 개시!</s>
+Param/Value/4F25F63D=<c val="00FF00">우주의 스페이스</c> 맵이 선택되었습니다.
+Param/Value/4F97E408=
+Param/Value/55CCEE3D=<s val="ModCenterSize20Bold"><c val="FF0000">
+Param/Value/5A50E22C=<s val="ModCenterSize32Bold"><c val="80FFFF">매치 종료!<n/><s val="ModCenterSize28Bold"><c val="FF4040">레드팀</c>이 
+Param/Value/5B382D15=<s val="ModCenterSize16Bold"><c val="80FF00">999
+Param/Value/5D333B6B=<c val="FFFF00">킬 못하고 죽음 :<n/><c val="FFFFFF">다음 라운드에 보호막이 적용됩니다.</c>
+Param/Value/5FAE1AC5=<s val="ModCenterSize16Bold"><c val="FFFFFF">봇이 있으면 전적이 계산되지 않습니다.<n/><n/>* 봇 정보<n/></c>
+Param/Value/62859487=승을 달성하였습니다.
+Param/Value/63266638=10초 후 게임이 종료됩니다.
+Param/Value/635C2266=<s val="ModCenterSize16Bold"><c val="80FF00">
+Param/Value/64807EEF=<s val="ModCenterSize14Bold"><c val="FFFF00">플레이어
+Param/Value/648679CC=<c val="FFFFFF"> (화염)</c>
+Param/Value/675B5AED=<s val="ModCenterSize52Bold">모드: 팀 데스매치</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
+Param/Value/6A16CD6F=<s val="ModCenterSize64Bold"><c val="80FF00">
+Param/Value/6B607A69=구버전의 저장소가 발견되어 갱신을 완료하였습니다.
+Param/Value/6D4DACE6=<s val="ModCenterSize20Bold"><c val="80FF00">라운드 종료<n/>
+Param/Value/6D75486B= : 
+Param/Value/6DB99606=<s val="ModCenterSize20Bold">플레이어 정보
+Param/Value/6DBB4CCC=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
+Param/Value/6E63BCC7=
+Param/Value/75BE9F9A=
+Param/Value/79BF271A=<c val="0000FF">]]</c>
+Param/Value/7A315107=순위표
+Param/Value/7B3851A7=<c val="FFFFFF"> (저격)</c>
+Param/Value/7CDDE49B=
+Param/Value/7FA3B2EA= : 
+Param/Value/805A86AA=<s val="ModCenterSize32Bold"><c val="80FF00">라운드 종료<n/><s val="ModCenterSize28Bold"><c val="4040FF">블루</c>팀 생존.
+Param/Value/81A754BE=
+Param/Value/82352365=<s val="ModCenterSize20Bold"><c val="80FFFF">매치 종료!<n/><c val="FFFFFF">
+Param/Value/82CB7827=<s val="ModCenterSize20Bold">코비드 레일건 충전 완료
+Param/Value/8329ACD5=저장소 오류
+Param/Value/8469773E=
+Param/Value/871D1198=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">가운데 버튼으로 게임을 시작합니다.</c></s>
+Param/Value/8785CF2F=..
+Param/Value/87D6811B=승
+Param/Value/87E43999=<c val="FFFF00">서든데스</c><c val="FFFFFF"> >> </c>
+Param/Value/88F712D8=</c> - 
+Param/Value/8CCEFFAC=<c val="4040FF">]</c>
+Param/Value/8E0FE9BE=<s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
+Param/Value/8ECBFDF6=
+Param/Value/8ECE8E44=</c> <c val="FFFFFF">레벨 
+Param/Value/9223E502=
+Param/Value/924837FD=<c val="00FF00">자연의 네이쳐</c> 맵이 선택되었습니다.
+Param/Value/94327A55=<s val="ModCenterSize14Bold"><c val="FFFF00">
+Param/Value/97C8F7EA=<s val="ModCenterSize20Bold"><c val="FF0000">[[</c>
+Param/Value/97E953B0=<n/>    명중률 
+Param/Value/98E836E9=<c val="FFFFFF"> 자멸 (화염)</c>
+Param/Value/99DECE97=<s val="ModCenterSize64Bold">모드: 아레나</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
+Param/Value/9A276EA7=<s val="ModCenterSize16Bold">많은 방이 있는 맵입니다.<n/><n/>지형물: 많은 방<n/>서든데스: (미구현)<n/></s><s val="ModCenterSize16Bold"><c val="FFFF00">(레일건 없음)<n/>(1전1승)</s></c>
+Param/Value/9AB5D30C=<s val="ModCenterSize64Bold">레일건[R] <c val="80FF00">ON</c></c>
+Param/Value/9AFAF184=<s val="ModCenterSize14Bold"><c val="FFFF00">킬/데스
+Param/Value/9B841E08=<s val="ModCenterSize20Bold">봇 있음
+Param/Value/9D172280=<s val="ModCenterSize20Bold"><c val="80FF00">저장소 초기화 완료</c>
+Param/Value/9FE5311C=</c><c val="FF4040"> ]</c>
+Param/Value/A0B687CD=<s val="ModCenterSize64Bold">모드: 아레나</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
+Param/Value/A1755587=완료: 플레이카운트 기준으로 호스트를 설정합니다.
+Param/Value/A481D28E=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">전장을 선택하세요.</c></s>
+Param/Value/A6F44A65=<s val="ModCenterSize32Bold"><c val="80FFFF">매치 종료!<n/><s val="ModCenterSize28Bold"><c val="4040FF">블루팀</c>이 
+Param/Value/A8E7B273=
+Param/Value/A9F8D2BF=<s val="ModCenterSize20Bold">
+Param/Value/AAD0E4C5=<s val="ModCenterSize64Bold">레일건[R] <c val="80FF00">ON</c></c>
+Param/Value/AB40EBD3=<c val="FFFF00">보호막 적용 :<n/><c val="FFFFFF">저격을 1회 막아줍니다. 힘내세요!</c>
+Param/Value/AC79C16E=<c val="FFFFFF">저격의 스나이퍼를 플레이해주셔서 감사드립니다:)<n/>- 제작자 butterflo</c>
+Param/Value/ADA170FF=
+Param/Value/B14DB180=<n/>전투 개시!</s>
+Param/Value/B1A81876=<c val="80FF00">
+Param/Value/B4EA0BC2=<s val="ModCenterSize14Bold">
+Param/Value/B50915CF=<s val="ModCenterSize20Bold"><c val="FF0000">코비드 레일건 충전 완료</c>
+Param/Value/B78D0629=<s val="ModCenterSize20Bold"><c val="80FF00">라운드 종료</c><n/><c val="FF4040">레드</c>팀 생존.
+Param/Value/B8EBF5F5=<s val="ModCenterSize16Bold">
+Param/Value/B98D9155=승
+Param/Value/BAF056EA=<s val="ModCenterSize16Bold"><c val="80FF00">
+Param/Value/BBB2E778=<c val="FFFF00">큐브가 흔들립니다. 구조가 바뀐 것 같습니다.
+Param/Value/BBC7A738=<s val="ModCenterSize14Bold"><c val="FFFFFF">
+Param/Value/BE95257D=<s val="ModCenterSize64Bold">레일건[R] <c val="FF2000">OFF</c></c>
+Param/Value/C45CFF6B=<s val="ModCenterSize52Bold">모드: 팀 데스매치</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">방장: </c>
+Param/Value/C45EA7B4=<s val="ModCenterSize64Bold"><c val="80FF00">
+Param/Value/C6536667=<s val="ModCenterSize16Bold"><c val="80FF00">999
+Param/Value/C714C4F0=<s val="ModCenterSize20Bold"><c val="FFFF00">라운드 준비</c><n/>
+Param/Value/C7BF680A=<c val="00FF00">용암의 볼케이노</c> 맵이 선택되었습니다.
+Param/Value/C840B0AB=<s val="ModCenterSize14Bold"><c val="FFFF00">승
+Param/Value/C9EE629B=<s val="ModCenterSize32Bold">우주의 스페이스</s>
+Param/Value/C9EFA6AA=
+Param/Value/CE2A7A5D=1
+Param/Value/D3832AFB=<s val="ModCenterSize14Bold">
+Param/Value/D3DC98E5=승
+Param/Value/D593C59F=<s val="ModCenterSize32Bold">무한의 큐브</s>
+Param/Value/D612CF94=승
+Param/Value/D7BA8319=<s val="ModCenterSize20Bold"><c val="00FFFF">목표: 라운드 
+Param/Value/D92DE192=
+Param/Value/D99A6E67=</c><c val="4040FF">[ </c><c val="FFFFFF">
+Param/Value/DA7E690F=<c val="FFFF00">
+Param/Value/DE843BEB=<n/>
+Param/Value/E035B4F7=<c val="FFFFFF">
+Param/Value/E13EF125=님!
+Param/Value/E16D6EA1=
+Param/Value/E4216853=<c val="FFFF00">지형이 불안정해집니다! 가까운 언덕으로 올라가세요!
+Param/Value/E5515842=<s val="ModCenterSize14Bold"><c val="FFFFFF">
+Param/Value/E86E9A41=<s val="ModCenterSize32Bold">
+Param/Value/E8ACEBD5=<c val="FFFF00">저장소 오류</c>
+Param/Value/E9B4328E=명 남음
+Param/Value/EC8817AD=</c><c val="FFFFFF"> >> </c>
+Param/Value/ED28EEFE=<s val="ModCenterSize52Bold">모드: 팀 데스매치</s><n/><s val="ModCenterSize32Bold"><c val="FFFF00">방장으로부터 응답이 없습니다!</c>
+Param/Value/EE984843=승
+Param/Value/F03FE3EC=<s val="ModCenterSize16Bold">자연 맵입니다.<n/><n/>지형물: 바위, 나무, 웅덩이<n/>서든데스: 불의 장막<n/><s val="ModCenterSize16Bold"><c val="FFFF40">(숙련자용)<n/>(레일건 없음)</c></s>
+Param/Value/F0A88DF9=<s val="ModCenterSize20Bold"><c val="80FF00">라운드 종료<n/>
+Param/Value/F0F524FF=/
+Param/Value/F3A656CF=봇이 있으면 전적이 계산되지 않습니다.
+Param/Value/F47368FE=저장소 불러오는 중..
+Param/Value/F56629DE=<s val="ModCenterSize14Bold"><c val="FFFF">
+Param/Value/F5B9124B=<c val="FFFF00">180초 경과 : <n/>서든데스가 시작되었습니다. 불의 장막이 움직입니다!<n/>가까운 웅덩이에 들어가면 불의 장막을 피할 수 있습니다.
+Param/Value/F8DFC780=<s val="ModCenterSize64Bold"><c val="FFFF00">◀
+Param/Value/FB641794=<c val="80FFFF">팔로잉 모드<n/></c>엔터키를 누르면 다른 플레이어의 유닛을 팔로잉합니다.
+Param/Value/FD056EDC=</c> 생존.
+Param/Value/FF519FF8=</c><c val="FF4040">[ </c><c val="FFFFFF">
+Unit/LifeArmorName/ZergGroundArmor=???
+Unit/Name/Baneling=관전자
+Unit/Name/Beacon_Protoss=Shrine
+Unit/Name/Beacon_Terran=Singularity
+Unit/Name/Bunker=Newdepot
+Unit/Name/DestructibleRock4x4=Rock
+Unit/Name/Ghost=Agent
+Unit/Name/Pylon=Pylon
+Unit/Name/SpiderMine=TreeDummy
+Unit/Name/SupplyDepot=CubeGate
+Unit/Name/SupplyDepotLowered=CubeGate Open
+Unit/Name/TerranDropPod=Pod
+Variant001/ModeDesc=..
+Variant001/ModeName=아레나
+Variant002/ModeDesc=..
+Variant002/ModeName=팀 데스매치
+e_cmdNotEnoughEnergy=<s val="ModCenterSize16Bold"><c val="FFFF00">에너지가 부족합니다.</c></s>
+e_cmdYouCantIssueCommandsToThatUnit=<s val="ModCenterSize16Bold"><c val="FFFF00">지금은 명령을 내릴 수 없습니다.</c></s>

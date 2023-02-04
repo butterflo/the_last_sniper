@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CBehaviorBuff id="DiveDebuff">
+        <InfoIcon value="Assets\Textures\btn-tips-lab.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+        <Modification MoveSpeedMultiplier="0.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="EMPDecloak">
+        <Modification>
+            <StateFlags index="Cloak" value="1"/>
+            <StateFlags index="SuppressCloak" value="0"/>
+        </Modification>
+        <InfoFlags index="Hidden" value="1"/>
+        <RemoveValidatorArray index="0" removed="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MindBlastStun">
+        <Duration value="10"/>
+        <Modification LifeArmorBonus="1000">
+            <ModifyFlags index="DisableAbils" value="0"/>
+            <ModifyFlags index="Reveal" value="0"/>
+            <ModifyFlags index="SuppressMoving" value="0"/>
+            <ModifyFlags index="SuppressTurning" value="0"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PulseFlameDeBuff">
+        <InfoIcon value="Assets\Textures\btn-tips-walloffire.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="-1"/>
+        <Modification MoveSpeedMultiplier="2" DetectArc="0" RadarArc="0">
+            <VitalRegenArray index="Life" value="-1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ResistLimiterRemoval">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <Modification MoveSpeedMultiplier="10"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Stimpack">
+        <Duration value="1"/>
+        <Modification MoveSpeedMultiplier="1" AttackSpeedMultiplier="1" LifeArmorBonus="87.5"/>
+        <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="StimpackProtect">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel3.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Duration value="-1"/>
+        <Modification LifeArmorBonus="87.5"/>
+    </CBehaviorBuff>
+</Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CTerrain id="UlnarEx1">
+        <ReverbAmbient value=""/>
+        <BlendTextures index="0" value="Valhalla6"/>
+        <BlendTextures index="1" value="DesertWorld5"/>
+        <BlendTextures index="2" value="HybridLabXelNaga4"/>
+        <BlendTextures index="3" value="HybridLabXelNaga7"/>
+        <BlendTextures index="4" removed="1"/>
+        <BlendTextures index="5" removed="1"/>
+        <BlendTextures index="6" removed="1"/>
+        <BlendTextures index="7" removed="1"/>
+        <CliffSets index="0" value="StarShipDarkCliff0"/>
+        <CliffSets index="1" value="ValhallaEx1Cliff0"/>
+        <FixedSkyboxModel value="ShadowSkyboxParallax"/>
+        <NonFixedSkyboxModel value="ShadowSkyboxParallax"/>
+        <HeightFlags index="AirSmoothing" value="0"/>
+    </CTerrain>
+</Catalog>

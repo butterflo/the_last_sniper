@@ -1,0 +1,418 @@
+﻿Abil/Name/EMP=Pulse
+Abil/Name/NovaSnipe=Corvid Railgun
+Abil/Name/Snipe=Snipe
+Abil/Name/Stimpack=Resist
+Attribute001/Name=GameModeHK
+Attribute001/Value001/Name=FFA
+Attribute001/Value002/Name=TDM
+Behavior/Name/DiveDebuff=Diving
+Behavior/Name/PulseFlameDeBuff=BURNING
+Behavior/Name/ResistLimiterRemoval=저항 제한 해제
+Behavior/Name/Stimpack=저항
+Behavior/Name/StimpackProtect=Personal Shield
+Behavior/Tooltip/DiveDebuff=<c val="FFFFFF">Underwater.<n/><n/>Speed -50%</c>
+Behavior/Tooltip/PulseFlameDeBuff=<c val="FFFF00">DIVE INTO CLOSEST POND!<n/></c><n/><c val="FFFFFF">Speed +100%<n/>HP -10/s</c>
+Behavior/Tooltip/StimpackProtect=<c val="FFFFFF">Protects lethal attacks.</c>
+Button/Name/Cancel=Cancel
+Button/Name/EMP=Pulse
+Button/Name/ResearchRavenEnergyUpgrade=Corvid Railgun
+Button/Name/Snipe=Snipe!!
+Button/Name/TerranInfantryArmorLevel3=Resist
+Button/Tooltip/Baneling=???
+Button/Tooltip/EMP=<c val="FFFFFF">Multi-purpose grenade.<n/>Armed with scan and mana-burn ability.
+Button/Tooltip/Ghost=
+Button/Tooltip/ResearchRavenEnergyUpgrade=<c val="FFFFFF">Classified weapon. Long range.</c>
+Button/Tooltip/Snipe=<c val="FFFFFF">You have something on your face,</c>
+Button/Tooltip/TerranInfantryArmorLevel3=<c val="FFFFFF">Hyper-strengthens armor for a short time.<n/>Absorbs all damage.</c>
+DocInfo/Author=butterflo
+DocInfo/DescLong=Top-down view arena shooter.<n/><n/>* retro-neon style visuals<n/>* skill-oriented oldschool gaming<n/>* bot support with various skill levels
+DocInfo/HowToPlayBasic00=[Q] - Aims your weapon. All attacks require manual targeting.
+DocInfo/HowToPlayBasic01=[W] - Hardens your armor. With fast reactions, it will absorb all damage.
+DocInfo/HowToPlayBasic02=[E] - use Pulse. Structure scan. Tactical advantage.
+DocInfo/HowToPlayWinning00=only one objective: SURVIVE
+DocInfo/Name=Sniping Sniper
+DocInfo/PatchNote001=아케이드 게시
+DocInfo/PatchNote002=* 서든데스가 추가되었습니다.
+DocInfo/PatchNote003=* 봇의 실력이 매 라운드마다 바뀌는 방식에서 게임 시작시에 고정되는 방식으로 변경되었습니다.
+DocInfo/PatchNote004=* 이제 봇의 실력을 채팅창 대신 화면 우측의 팁에서 볼 수 있습니다.
+DocInfo/PatchNote005=* 모든 플레이어가 볼수 있었던 '저장소 확인' 팁을 자신만 볼수 있도록 변경하였습니다.
+DocInfo/PatchNote006=
+DocInfo/PatchNote007=@ 관전자가 전체 맵을 볼수 있게 될 경우 채팅을 통해 사람들의 위치를 알려줄 수 있습니다.
+DocInfo/PatchNote008=@ 관전자 활용 방안을 구상중입니다:)
+DocInfo/PatchNote009=* 모드 선택 화면이 추가되었습니다.
+DocInfo/PatchNote010=- 현재 개인전 모드만 구현되었으며, 라운드 5승(설정 가능)을 달성하면 게임이 종료됩니다.
+DocInfo/PatchNote011=
+DocInfo/PatchNote012=* 이제 각 플레이어의 전적을 화면 우측의 팁에서 볼 수 있습니다.
+DocInfo/PatchNote013=
+DocInfo/PatchNote014=* 관전 방식이 변경되어 사망시 전체 맵을 볼 수 있습니다.
+DocInfo/PatchNote015=- 위치 노출 방지를 위해 엔터키를 누르면 시야가 축소되고 관전자 유닛이 생성됩니다.
+DocInfo/PatchNote016=
+DocInfo/PatchNote017=* 서든데스 타이머가 210초에서 180초로 변경되었습니다.
+DocInfo/PatchNote018=
+DocInfo/PatchNote019=@ 테스트 모드 : 분노 게이지
+DocInfo/PatchNote020=@ 채팅창에 -set avengers 1 을 입력하면 테스트 모드가 활성화됩니다.
+DocInfo/PatchNote021=@ 시험용으로 넣은 것이므로 참고 및 피드백 부탁드립니다:)
+DocInfo/PatchNote022=* 이제 게임 시작 시 레일건 사용 여부를 선택할 수 있습니다.
+DocInfo/PatchNote023=* 특정 조건에서 레일건에 저항을 사용할 수 없었던 문제를 수정하였습니다.
+DocInfo/PatchNote024=* 2인이 남은 상태에서 크로스카운터가 일어날 경우 라운드가 종료되지 않던 문제를 수정하였습니다.
+DocInfo/PatchNote025=
+DocInfo/PatchNote026=@ 부정적인 평가라도 도움이 된다면 감사히 받겠습니다.
+DocInfo/PatchNote027=@ 게임에서 진다고 화풀이식으로 평가하는 행위는 삼가주세요.
+DocInfo/PatchNote028=@ 분노의 발동 조건이 확률적으로 정해지는 방식에서 100%를 채우는 방식으로 변경되었습니다.
+DocInfo/PatchNote029=* 새로운 맵이 추가되었습니다.
+DocInfo/PatchNote030=* 새로운 맵이 추가되었습니다.
+DocInfo/PatchNote031=- '자연의 네이쳐'는 나무, 바위, 웅덩이 등의 자연 지형을 활용하는 맵입니다.
+DocInfo/PatchNote032=- 숙련자용 컨셉으로 제작되었으며, 이 맵에서는 레일건을 사용할 수 없습니다.
+DocInfo/PatchNote033=- 곳곳에 바위가 많습니다. 바위는 시야를 가립니다.
+DocInfo/PatchNote034=- 곳곳에 나무가 많습니다. 나무에 파동 스킬을 사용해 보세요. 따뜻해집니다.
+DocInfo/PatchNote035=- 곳곳에 웅덩이가 있습니다. 웅덩이 안에서는 이동이 느려지며 총이 촉촉해집니다.
+DocInfo/PatchNote036=- 따뜻한 나무 근처에 있으면 유닛에 불이 붙습니다!! 으아아!! 가까운 웅덩이에 뛰어드세요!!
+DocInfo/PatchNote037=- 웅덩이에 파동을 사용하면 감전 데미지를 입힐수 있습니다.
+DocInfo/PatchNote038=
+DocInfo/PatchNote039=* 이제 저격으로 멀티킬을 달성하면 메시지가 표시됩니다. 일타이피를 노려보세요!
+DocInfo/PatchNote040=* '자연의 네이쳐' 맵의 불의 장벽 서든데스를 피할 수 있는 방법이 추가되었습니다.
+DocInfo/PatchNote041=* 서든데스로 요원 2인 이상이 동시에 사망할 경우 라운드가 종료되지 않던 문제를 수정하였습니다.
+DocInfo/PatchNote042=* 모드 선택 화면에서 플레이어가 퇴장할 경우 유닛이 중복으로 생성되던 문제를 수정하였습니다.
+DocInfo/PatchNote043=* '자연의 네이쳐' 맵에서 간헐적으로 이동할 수 없는 지역이 생기던 문제를 수정하였습니다.
+DocInfo/PatchNote044=* 팀 데스매치 모드가 추가되었습니다.
+DocInfo/PatchNote045=- 로비 입장 전에 정보창 아래에서 게임 모드를 설정할수 있습니다.
+DocInfo/PatchNote046=- 다른 팀의 요원을 모두 사살하면 라운드를 승리합니다.
+DocInfo/PatchNote047=
+DocInfo/PatchNote048=* 이제 한 게임에 최대 10인까지 플레이할 수 있습니다.
+DocInfo/PatchNote049=* '자연의 네이쳐' 맵의 그래픽을 수정하였습니다.
+DocInfo/PatchNote050=* '자연의 네이쳐' 맵에서 간헐적으로 이동할 수 없는 지역이 생기던 문제를 수정하였습니다.
+DocInfo/PatchNote051=- 이 문제는 저번에도 수정한거 같습니다(..)
+DocInfo/PatchNote052=
+DocInfo/PatchNote053=* 숨어있던 레벨 낮은 벌레들을 잡았습니다.
+DocInfo/PatchNote054=- '용암의 볼케이노'는 지형의 높낮이가 있는 뜨거운 맵입니다.
+DocInfo/PatchNote055=- 이 맵에서는 랜덤한 장애물이 생성되지 않습니다.
+DocInfo/PatchNote056=- 지형이 불안정합니다. 용암 쇄도를 조심하세요!
+DocInfo/PatchNote057= 
+DocInfo/PatchNote058=* 분노 게이지 옵션이 추가되었습니다.
+DocInfo/PatchNote059=- 0킬 상태에서 사살당하면 분노 게이지가 일정량 상승합니다.
+DocInfo/PatchNote060=- 분노 게이지가 100%를 넘어가면 '분노' 스킬을 사용할 수 있습니다. 크킄..
+DocInfo/PatchNote061=- '우주의 스페이스'와 '용암의 볼케이노'에서 사용할 수 있습니다.
+DocInfo/PatchNote062=- 밸런스를 위해 킬 달성시 분노 게이지가 초기화됩니다.
+DocInfo/PatchNote063=- 1승을 남겨놓은 상태에서는 분노 게이지가 상승하지 않습니다.
+DocInfo/PatchNote064=
+DocInfo/PatchNote065=* 이제 '자연의 네이쳐' 맵에서 관전자 모드로 상대 팀의 플레이어를 볼 수 없습니다.
+DocInfo/PatchNote066=* '자연의 네이쳐' 맵에서 채팅으로 상대방의 위치를 알려주기 어려워졌습니다.
+DocInfo/PatchNote067=* Minor tweaks.
+DocInfo/PatchNote068=- Spectatlings are now cloaked by default.
+DocInfo/PatchNote069=- Anti-following : casting snipe ability does not follow enemy units anymore.
+DocInfo/PatchNote070=* Leaderboard is now displayed on the top-right corner.
+DocInfo/PatchNote071=@ "Sniping Sniper" is WoL compatible!
+DocInfo/PatchNote072=
+DocInfo/PatchNote073=* Fixed black bar bug.
+DocInfo/PatchNote074=* Removed idle worker button.
+DocInfo/PatchNote075=
+DocInfo/PatchNote076=* Just some comments
+DocInfo/PatchNote077=- I know there are some users against the previous anti-following patch.
+DocInfo/PatchNote078=- If I had left that following ability as is, new players wouldn't have much chance against experienced players.
+DocInfo/PatchNote079=- Players who knows about following behavior would benefit a lot from it. Just by knowing.
+DocInfo/PatchNote080=- ..and I think precise controls should be rewarded more in this game.
+DocInfo/PatchNote081=- Added prepare time before each round.
+DocInfo/PatchNote082=- Corvid Railgun now does not follow or target units.
+DocInfo/PatchNote083=@ Translated to English
+DocInfo/PatchNote084=@ Global Publish
+DocInfo/PatchNote085=
+DocInfo/PatchNote086=- Changed effect of Corvid Railgun.
+DocInfo/PatchNote087=
+DocInfo/PatchNote088=- Data bank is now fixed.
+DocInfo/PatchNote089=- Fixed issue where Fury ability would not search for its target.
+DocInfo/PatchNote090=- 'Spatial Space' : Droppods does not kill spectatlings anymore.
+DocInfo/PatchNote091=- 'Natural Nature' : Flame Wall model does not linger anymore.
+DocInfo/PatchNote092=* Fury ability is now replaced with Personal Shield.
+DocInfo/PatchNote093=- Personal Shield is applied if an agent gets killed without getting any score.
+DocInfo/PatchNote094=- TDM mode is now fixed.
+DocInfo/PatchNote095=- Personal Shield offers one-time protection against lethal attacks.
+DocInfo/PatchNote096=- Please remember, you were a n00b once too.
+DocInfo/PatchNote098=- Fury glitch is now fixed.
+DocInfo/PatchNote099=- Increased waiting time for kicking not-responding host.
+DocInfo/PatchNote100=
+DocInfo/PatchNote101=- 'Spatial Space' Arena remake & tweaks.
+DocInfo/PatchNote102=- 'Natural Nature' Arena remake & tweaks.
+LoadingScreen/Tip=<c val="FFCC00">concept & mapping</c> : butterflo
+MapInfo/Player00/Name=중립
+MapInfo/Player01/Name=Agent B
+MapInfo/Player02/Name=Agent C
+MapInfo/Player03/Name=Agent E
+MapInfo/Player04/Name=Agent G
+MapInfo/Player05/Name=Agent K
+MapInfo/Player06/Name=Agent M
+MapInfo/Player07/Name=Agent Q
+MapInfo/Player08/Name=Agent S
+MapInfo/Player09/Name=Agent W
+MapInfo/Player10/Name=Agent 29
+MapInfo/Player11/Name=CPU
+MapInfo/Player12/Name=적대
+Param/Value/012C5604=P LEFT
+Param/Value/01B4A8EB=
+Param/Value/02052D3A=<s val="ModCenterSize64Bold">MODE: FFA</s><n/><s val="ModCenterSize32Bold"><c val="FFFF00">host not responding!</c>
+Param/Value/0239C6A3=2strk <c val="FF2000">x
+Param/Value/028D620B=<c val="0000FF">]]</c>
+Param/Value/04125415=
+Param/Value/04FEC1FE=<s val="ModCenterSize24Bold"><c val="FFFF00">ROUND 
+Param/Value/08E5C837=<s val="ModCenterSize16Bold"><c val="FF0080">wins
+Param/Value/0A251F6A=<n/>
+Param/Value/0AA112D3= ( 
+Param/Value/0B160C4A=<c val="FFFFFF"> self infliction (ELECTROCUTED)</c>
+Param/Value/0B497C5C=<s val="ModCenterSize32Bold"><c val="FF2000">FURY GAUGE LIMIT!!</c>
+Param/Value/0C4A1CAA= ROUNDS
+Param/Value/0C5F12B7=%
+Param/Value/0D4E0DE2=<s val="ModCenterSize32Bold"><c val="00FF80">Natural Nature</c></s><n/><s val="ModCenterSize20Bold">ENV: <c val="80FFFF">Rocks, Trees, Ponds</c><n/>SuddenDeath: Flame Wall<n/><s val="ModCenterSize16Bold"><c val="FFFF40">FOR EXPERIENCED PLAYERS - RAILGUN DISABLED</c></s>
+Param/Value/0E725E58=%</c> <c val="FFFFFF">( 
+Param/Value/0FCE3B69=Thank you for playing Sniping&Sniper. brought to you by: butterflo
+Param/Value/1007E6D5= WINS
+Param/Value/10931E19=% )
+Param/Value/13865F6A=%</c><n/><c val="FF0000">
+Param/Value/13971080=
+Param/Value/156A81A5=P LEFT
+Param/Value/18A14074=
+Param/Value/19648436=<s val="ModCenterSize32Bold"><c val="80FFFF">OBJECTIVE: WIN 
+Param/Value/1A2ABCCC=<s val="ModCenterSize64Bold">FURY <c val="FFFF00">ON</c></c>
+Param/Value/1B9DD2DE=
+Param/Value/1C17B1DC=</c><c val="4040FF"> ]</c>
+Param/Value/1CE4D532=
+Param/Value/1D64CBAB=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">SELECT ARENA</c></s>
+Param/Value/1DB86D59=</c> WON 
+Param/Value/1EFB40A4=<s val="ModCenterSize32Bold"><c val="FF2000">Volcanic Volcano</c></s><n/><s val="ModCenterSize20Bold">ENV: <c val="FFFF00">HILLS (Fixed Location)</c><n/>SuddenDeath: Lava<n/></s><s val="ModCenterSize16Bold">RAILGUN ENABLED</s>
+Param/Value/1F65E5CD=
+Param/Value/215FD1AD=2
+Param/Value/241A8428=<c val="4040FF">]</c>
+Param/Value/24B0B4AC=<s val="ModCenterSize32Bold"><c val="80FF00">ROUND FINISHED<n/><s val="ModCenterSize28Bold">
+Param/Value/26147290=<s val="ModCenterSize64Bold">FURY <c val="FFFFFF">OFF</c></c>
+Param/Value/262999D0=</c><c val="FF4040"> ]</c>
+Param/Value/27305B67=<s val="ModCenterSize20Bold"><c val="80FF00">
+Param/Value/27A0FA00=<c val="80FF00">Bank OK!</c>
+Param/Value/27B58FA1=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">SELECT ARENA</c></s>
+Param/Value/2A01837A=<s val="ModCenterSize64Bold"><c val="FFFF00">>
+Param/Value/2B77EAC4=:
+Param/Value/2BCDEA2E=<s val="ModCenterSize20Bold"><c val="80FFFF">SPECTATOR MODE<n/></c>To prevent chat abusing, Pressing Enter cancels spectator mode and creates spectator unit instead.
+Param/Value/2C7A97B2=<s val="ModCenterSize64Bold"><c val="80FF00">5 WINS
+Param/Value/2DEDE9CC=<s val="ModCenterSize20Bold"><c val="FFFF00">180s :<n/>Sudden Death engaged
+Param/Value/30A67177=</c> <c val="FFFF00">Acrcy 
+Param/Value/31B2C2B7=<c val="4040FF">]</c>
+Param/Value/31E708CF=% -> after 
+Param/Value/32DFDC2E=<s val="ModCenterSize16Bold"><c val="80FF00">
+Param/Value/34476E9A=<s val="ModCenterSize20Bold"><c val="80FF00">FURY READY!</c></c><n/>PRESS ENTER
+Param/Value/34727F74=<s val="ModCenterSize20Bold"><c val="80FF00">
+Param/Value/34B581E0= : 
+Param/Value/34CAA9AA= WINS
+Param/Value/34F86591=
+Param/Value/361E4633=<s val="ModCenterSize32Bold"><c val="FF4040">[</c>
+Param/Value/36465514=<s val="ModCenterSize20Bold"><c val="80FF00">Botmatch</c></s>
+Param/Value/36F996CE=%</c><n/><c val="FF0000">
+Param/Value/3806D306= 
+Param/Value/3B7AFF33=<s val="ModCenterSize32Bold"><c val="FF4040">[</c>
+Param/Value/3C0B1FD1=<s val="ModCenterSize20Bold"><c val="80FF00">Player stats</c></s>
+Param/Value/3CF24334= ROUNDS
+Param/Value/3D98DA6C=</c> IS FURIOUS!!
+Param/Value/3E2ADC65=3S <c val="80FF00">x
+Param/Value/3FE50DCD=<s val="ModCenterSize40Bold"><c val="FF0000">[[</c>
+Param/Value/3FFDF66B=</c> )<n/>
+Param/Value/402E45C5=<s val="ModCenterSize20Bold"><c val="FFFFFF">Welcome <c val="80FF00">
+Param/Value/405222D5=2S <c val="FF2000">x
+Param/Value/40C6FB21=<s val="ModCenterSize32Bold"><c val="80FFFF">OBJECTIVE: WIN 
+Param/Value/41935367=<s val="ModCenterSize24Bold">For new players. Fury gauge builds up if you get killed without any score.</s>
+Param/Value/42DB3628=
+Param/Value/4439CF04=<s val="ModCenterSize20Bold"><c val="80FF00">
+Param/Value/45542E4F=<c val="FFFFFF"> (ELECTROCUTED)</c>
+Param/Value/46871B49=</c><c val="FFFF00">DRAW</c>
+Param/Value/46FCF166=</c> : new record!<n/>before: 
+Param/Value/470B89B9=<c val="FFFFFF"> (RAILED)</c>
+Param/Value/48B84844=<s val="ModCenterSize16Bold"><c val="80FF00">999
+Param/Value/4AC918C4=</c><c val="4040FF"> ]</c>
+Param/Value/4BFBA809=<s val="ModCenterSize20Bold">라운드 10 : 전투 개시!</s>
+Param/Value/4CCAD568=</c> )<n/>
+Param/Value/4E91EB00=<s val="ModCenterSize16Bold"><c val="FFFF00">can't see anything?<n/>make sure your 'Shaders' setting is *not* on 'Low'.<n/>you can find it on 'Graphics' tab of 'Options' menu.
+Param/Value/4F97E408=
+Param/Value/4FC01AF9=<s val="ModCenterSize20Bold"><c val="80FF00">
+Param/Value/5226C6CC=<s val="ModCenterSize20Bold"><c val="80FFFF">SPECTATOR MODE<n/></c>To prevent chat abusing, Pressing Enter cancels spectator mode and creates spectator unit instead.
+Param/Value/52BA7EC8=</c><c val="FFFF00">Accuracy 
+Param/Value/5315A212=<s val="ModCenterSize16Bold"><c val="80FF00">999
+Param/Value/54A36050=<n/>
+Param/Value/54A4CCC2=<s val="ModCenterSize16Bold"><c val="80FF00">
+Param/Value/55CCEE3D=<s val="ModCenterSize40Bold"><c val="FF0000">
+Param/Value/5A50E22C=<s val="ModCenterSize32Bold"><c val="80FFFF">MATCH OVER!<n/><s val="ModCenterSize28Bold"><c val="FF4040">RED TEAM </c>WON 
+Param/Value/5B382D15=<s val="ModCenterSize16Bold"><c val="80FF00">999
+Param/Value/5BEB2BA9=<s val="ModCenterSize20Bold">New record!
+Param/Value/5D333B6B=<s val="ModCenterSize20Bold"><c val="FFFF00">Killed w/o any score :<n/><c val="FFFFFF">Personal Shield will be applied on next round.</c>
+Param/Value/5FAE1AC5=<s val="ModCenterSize16Bold"><c val="FFFFFF">Stats are not recorded in botmatches.<n/><n/>* Bot info<n/></s>
+Param/Value/609A151A=<s val="ModCenterSize64Bold">FURY <c val="FFFFFF">OFF</c></c>
+Param/Value/610E709A=<s val="ModCenterSize20Bold">0 SCORE DEATH:<n/>FURY GAUGE <c val="FF2000">+
+Param/Value/62859487= ROUNDS
+Param/Value/63266638=
+Param/Value/635C2266=<s val="ModCenterSize16Bold"><c val="80FF00">
+Param/Value/648679CC=<c val="FFFFFF"> (BURNT)</c>
+Param/Value/65E5F022=:
+Param/Value/675B5AED=<s val="ModCenterSize52Bold">MODE: TDM</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">HOST: </c>
+Param/Value/6801631B=</c> / 
+Param/Value/69146317=</c> / 
+Param/Value/6A16CD6F=<s val="ModCenterSize64Bold"><c val="80FF00">
+Param/Value/6A302FA6=<s val="ModCenterSize16Bold"><c val="80FF00">player
+Param/Value/6D75486B= : 
+Param/Value/6DB99606=<s val="ModCenterSize20Bold">Player stats</s>
+Param/Value/6DBB4CCC=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">SELECT ARENA</c></s>
+Param/Value/6E63BCC7=
+Param/Value/70E4BF66=:
+Param/Value/71E2BFAE= : </c><c val="FFFF00">TRIPLE STREAK!!</c>
+Param/Value/71FECDB2= ROUNDS
+Param/Value/724CE7D3=<s val="ModCenterSize32Bold"><c val="FF2000">WARNING!<n/><s val="ModCenterSize28Bold">
+Param/Value/744D6766=<s val="ModCenterSize32Bold"><c val="FF4040">[</c>
+Param/Value/7526E373=</c><c val="FFFFFF"> - skill level</c><c val="FF0000"><n/>
+Param/Value/75BE9F9A=
+Param/Value/78185861=<s val="ModCenterSize64Bold">FURY <c val="FF2000">OFF</c></c>
+Param/Value/78EF325A=</c><c val="FF4040">[ </c><c val="FFFFFF">
+Param/Value/796BF2F0=<s val="ModCenterSize16Bold"><c val="80FF00">acrcy(rnd)
+Param/Value/79BF271A=<c val="0000FF">]]</c>
+Param/Value/7A315107=Leaderboard
+Param/Value/7B3851A7=<c val="FFFFFF"> (SNIPED)</c>
+Param/Value/7CDDE49B=
+Param/Value/7FA3B2EA= : 
+Param/Value/7FD79AFE=<s val="ModCenterSize32Bold"><c val="80FFFF">OBJECTIVE: WIN 
+Param/Value/805A86AA=<s val="ModCenterSize32Bold"><c val="80FF00">ROUND FINISHED<n/><s val="ModCenterSize28Bold"><c val="4040FF">BLUE TEAM</c> wins!
+Param/Value/81A754BE=
+Param/Value/82352365=<s val="ModCenterSize32Bold"><c val="80FFFF">MATCH OVER!<n/><s val="ModCenterSize28Bold">
+Param/Value/82CB7827=Corvid Railgun is now available
+Param/Value/8329ACD5=<s val="ModCenterSize20Bold"><c val="FFFFFF">Bank ERROR</c>
+Param/Value/8469773E=
+Param/Value/84F2EB2E=
+Param/Value/86AF59D0=</c><c val="4040FF">[ </c><c val="FFFFFF">
+Param/Value/871D1198=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">Click the center button to begin.</c></s>
+Param/Value/87587D15=</c><c val="FFFFFF"> mastery </c><c val="FF0000"><n/>
+Param/Value/8785CF2F=..
+Param/Value/87D6811B= ROUNDS
+Param/Value/87E43999=<c val="FFFF00">SuddenDeath</c><c val="FFFFFF"> >>> </c>
+Param/Value/88B09F8A=<s val="ModCenterSize16">didn't fire
+Param/Value/88F712D8=</c> - 
+Param/Value/8B9E0B38=Player stats
+Param/Value/8CCEFFAC=<c val="4040FF">]</c>
+Param/Value/8E0FE9BE=<s val="ModCenterSize32Bold"><c val="80FF00">HOST: </c>
+Param/Value/8E42F9D1=<s val="ModCenterSize16">
+Param/Value/8ECBFDF6=
+Param/Value/9223E502=
+Param/Value/94327A55=<s val="ModCenterSize16"><c val="FFFF00">
+Param/Value/97C8F7EA=<s val="ModCenterSize40Bold"><c val="FF0000">[[</c>
+Param/Value/98E836E9=<c val="FFFFFF"> self infliction (BURNT)</c>
+Param/Value/99562843=<s val="ModCenterSize16Bold"><c val="80FF00">k/d
+Param/Value/99711029= : </c><c val="FF2000">DOUBLE STREAK!</c>
+Param/Value/99DECE97=<s val="ModCenterSize64Bold">MODE: FFA</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">HOST: </c>
+Param/Value/9AB5D30C=<s val="ModCenterSize64Bold">Railgun[R] <c val="80FF00">ON</c></c>
+Param/Value/9B2BAC0A=<s val="ModCenterSize20Bold"><c val="80FF00">
+Param/Value/9B4F4EC4=
+Param/Value/9B841E08=<s val="ModCenterSize20Bold">Botmatch</s>
+Param/Value/9D172280=<s val="ModCenterSize20Bold"><c val="80FF00">Bank INIT</c>
+Param/Value/9FE5311C=</c><c val="FF4040"> ]</c>
+Param/Value/A0B687CD=<s val="ModCenterSize64Bold">MODE: FFA</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">HOST: </c>
+Param/Value/A15738CC=
+Param/Value/A1755587=<s val="ModCenterSize20Bold">Complete: host player selected with the most playcount.
+Param/Value/A21904A5=%
+Param/Value/A3F867EF=%
+Param/Value/A4813803=4strk <c val="00FFFF">x
+Param/Value/A481D28E=<n/><s val="ModCenterSize20Bold"><c val="80FFFF">SELECT ARENA</c></s>
+Param/Value/A645C7C1= : </c><c val="00FFFF">QUADRA STREAK!!!</c>
+Param/Value/A6F44A65=<s val="ModCenterSize32Bold"><c val="80FFFF">MATCH OVER!<n/><s val="ModCenterSize28Bold"><c val="4040FF">BLUE TEAM</c> WON 
+Param/Value/A7C53D2C=</c> / 
+Param/Value/A8E7B273=
+Param/Value/A9F8D2BF=<s val="ModCenterSize32Bold">
+Param/Value/AAD0E4C5=<s val="ModCenterSize64Bold">Railgun[R] <c val="80FF00">ON</c></c>
+Param/Value/AB40EBD3=<s val="ModCenterSize20Bold"><c val="FFFF00">Shield Active :</c><n/><c val="FFFFFF">One-time protection from lethal damage. Keep it up!</c>
+Param/Value/ABEBC544= : </c><c val="00FFFF">QUADRA STREAK!!!</c>
+Param/Value/AC72D3B8=</c> <c val="FFFF00">BOT 
+Param/Value/AC79C16E=<s val="ModCenterSize20Bold"><c val="FFFFFF">Thank you for playing Sniping & Sniper.<n/>brought to you by: butterflo</c>
+Param/Value/AD5F0BBC=<c val="80FF00">Bank INIT.</c>
+Param/Value/ADA170FF=
+Param/Value/B0821122=% )
+Param/Value/B0C7C08D=</c> - 
+Param/Value/B0DB768B=<s val="ModCenterSize24Bold">For new players. Fury gauge builds up if you get killed without any score.</s>
+Param/Value/B14DB180=<n/><s val="ModCenterSize32Bold">FIGHT!</s>
+Param/Value/B159A188=%</c><n/>CURRENT FURY GAUGE : <c val="FF2000">
+Param/Value/B1A81876=<c val="80FF00">
+Param/Value/B4EA0BC2=<s val="ModCenterSize16">
+Param/Value/B50915CF=<s val="ModCenterSize20Bold"><c val="FF0000">Corvid Railgun Ready</c></s>
+Param/Value/B76022EA=
+Param/Value/B78D0629=<s val="ModCenterSize32Bold"><c val="80FF00">ROUND FINISHED<n/><s val="ModCenterSize28Bold"><c val="FF404F">RED TEAM</c> wins!
+Param/Value/B8EBF5F5=<s val="ModCenterSize20Bold">
+Param/Value/BA2EC24D= : </c><c val="FF2000">DOUBLE STREAK!</c>
+Param/Value/BA4C2BA9=4S <c val="00FFFF">x
+Param/Value/BAF056EA=<s val="ModCenterSize16Bold"><c val="80FF00">
+Param/Value/BB046AA1=<s val="ModCenterSize20Bold">0 SCORE DEATH (VICTORY IMMINIENT) :<n/>Fury Gauge is disabled when players are one round from victory.
+Param/Value/BBC7A738=<s val="ModCenterSize16">
+Param/Value/BE95257D=<s val="ModCenterSize64Bold">Railgun[R] <c val="FF2000">OFF</c></c>
+Param/Value/C38BDA67=New record!
+Param/Value/C45CFF6B=<s val="ModCenterSize52Bold">MODE: TDM</s><n/><s val="ModCenterSize32Bold"><c val="80FF00">HOST: </c>
+Param/Value/C45EA7B4=<s val="ModCenterSize64Bold"><c val="80FF00">
+Param/Value/C714C4F0=<s val="ModCenterSize24Bold"><c val="FFFF00">Round begins in</c><n/><s val="ModCenterSize32Bold">
+Param/Value/C9EE629B=<s val="ModCenterSize32Bold"><c val="00FFFF">Spatial Space</c></s><n/><s val="ModCenterSize20Bold">ENV: <c val="80FF80">Micro Supply Depots, Big Pylons</c><n/>SuddenDeath: Drop Pods<n/><s val="ModCenterSize16Bold"><c val="FFFF80">AT LEAST *MEDIUM* SHADER REQUIRED
+Param/Value/C9EFA6AA=
+Param/Value/CA56B0E5=<s val="ModCenterSize20Bold"><c val="80FFFF">SPECTATOR MODE<n/></c>To prevent chat abusing, Pressing Enter cancels spectator mode and creates spectator unit instead.
+Param/Value/CCC58D08=
+Param/Value/CD710FF8=
+Param/Value/CDC7B8C0=<s val="ModCenterSize20Bold"><c val="80FFFF">FOLLOW CAM MODE<n/></c>Press Enter to follow other unit.
+Param/Value/CE065606=</c> <c val="FFFF00">BOT 
+Param/Value/CE2A7A5D=1
+Param/Value/D1361B04=<s val="ModCenterSize20Bold"><c val="80FF00">
+Param/Value/D2AD047F=
+Param/Value/D3832AFB=<s val="ModCenterSize16">
+Param/Value/D3DC98E5= WINS
+Param/Value/D4774FFE=<n/>
+Param/Value/D5009B66=%</c> <c val="FFFFFF">( 
+Param/Value/D612CF94= ROUNDS
+Param/Value/D7BD0014=<s val="ModCenterSize20Bold">SCORE: <n/>FURY GAUGE RESET
+Param/Value/D92DE192=
+Param/Value/D99A6E67=</c><c val="4040FF">[ </c><c val="FFFFFF">
+Param/Value/DA7E690F=<c val="80FF00">
+Param/Value/DE843BEB=<n/>
+Param/Value/DECEBC7D= ( 
+Param/Value/DF8CF70A=<s val="ModCenterSize16Bold"><c val="FFFF00">in Natural Nature arena, players may have different screens.
+Param/Value/E035B4F7=<c val="FF0080">
+Param/Value/E074CA0E=<s val="ModCenterSize20Bold"><c val="80FF00">
+Param/Value/E0A3E97B=<s val="ModCenterSize20Bold"><c val="80FF00">
+Param/Value/E13EF125=
+Param/Value/E16D6EA1=
+Param/Value/E4216853=<s val="ModCenterSize20Bold"><c val="FFFF00">Alert : Lava rising<n/>
+Param/Value/E5515842=<s val="ModCenterSize16"><c val="80FF00">
+Param/Value/E5AF1C4B= : 
+Param/Value/E7486B14=</c>: NEW RECORD!
+Param/Value/E7B2E9AD=:
+Param/Value/E86E9A41=<s val="ModCenterSize32Bold">
+Param/Value/E87E199B=</c> / 
+Param/Value/E8ACEBD5=<s val="ModCenterSize20Bold"><c val="FFFFFF">Bank ERROR</c>
+Param/Value/E9B4328E=P LEFT
+Param/Value/EBCE972D=%<n/>
+Param/Value/EC8817AD=</c><c val="FFFFFF"> >>> </c>
+Param/Value/ED28EEFE=<s val="ModCenterSize52Bold">MODE: TDM</s><n/><s val="ModCenterSize32Bold"><c val="FFFF00">host not responding!</c>
+Param/Value/EDB80808=<s val="ModCenterSize20Bold"><c val="80FFFF">SPECTATOR MODE<n/></c>To prevent chat abusing, Pressing Enter cancels spectator mode and creates spectator unit instead.
+Param/Value/EE984843= WINS
+Param/Value/F03FE3EC=
+Param/Value/F0A88DF9=<s val="ModCenterSize32Bold"><c val="80FF00">ROUND FINISHED<n/><s val="ModCenterSize28Bold">
+Param/Value/F0F524FF=/
+Param/Value/F19903EE=%<n/>
+Param/Value/F3A656CF=봇이 있으면 전적이 계산되지 않습니다.
+Param/Value/F47368FE=<s val="ModCenterSize20Bold">Loading bank..
+Param/Value/F56629DE=<s val="ModCenterSize16Bold"><c val="80FFFF">
+Param/Value/F5B9124B=<s val="ModCenterSize20Bold"><c val="FFFF00">180s :<n/>Sudden Death Engaged
+Param/Value/F78EDF2F=3strk <c val="80FF00">x
+Param/Value/F8DFC780=<s val="ModCenterSize64Bold"><c val="FFFF00"><
+Param/Value/F906C240=
+Param/Value/FB641794=<s val="ModCenterSize20Bold"><c val="80FFFF">FOLLOW CAM MODE<n/></c>Press Enter to follow other unit.
+Param/Value/FBA12766= : 
+Param/Value/FD056EDC=</c> WINS
+Param/Value/FD877FED=
+Param/Value/FF519FF8=</c><c val="FF4040">[ </c><c val="FFFFFF">
+Param/Value/FFBB4409= : </c><c val="FFFF00">TRIPLE STREAK!!</c>
+Unit/LifeArmorName/ZergGroundArmor=???
+Unit/Name/Baneling=Spectatling
+Unit/Name/Beacon_Protoss=Shrine
+Unit/Name/Beacon_Terran=Singularity
+Unit/Name/DestructibleRock4x4=Rock
+Unit/Name/Ghost=Agent
+Unit/Name/Pylon=Pylon
+Unit/Name/SpiderMine=TreeDummy
+Unit/Name/SupplyDepot=Depot
+Unit/Name/TerranDropPod=Pod
+Variant001/ModeDesc=..
+Variant001/ModeName=FFA
+Variant002/ModeDesc=..
+Variant002/ModeName=TDM

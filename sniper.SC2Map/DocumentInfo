@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <Icon>
+        <Value>v3_225.png</Value>
+    </Icon>
+    <Dependencies>
+        <Value>bnet:Liberty (Mod)/0.0/999,file:Mods/Liberty.SC2Mod</Value>
+        <Value>bnet:Liberty (Campaign)/0.0/999,file:Campaigns/Liberty.SC2Campaign</Value>
+        <Value>bnet:Liberty Story (Campaign)/0.0/999,file:Campaigns/LibertyStory.SC2Campaign</Value>
+        <Value>bnet:군단의 심장 (모드)/0.0/999,file:Mods/Swarm.SC2Mod</Value>
+        <Value>bnet:군단의 심장 (캠페인)/0.0/999,file:Campaigns/Swarm.SC2Campaign</Value>
+        <Value>bnet:군단의 심장 이야기 (캠페인)/0.0/999,file:Campaigns/SwarmStory.SC2Campaign</Value>
+        <Value>bnet:공허의 유산 (모드)/0.0/999,file:Mods/Void.SC2Mod</Value>
+        <Value>bnet:공허의 유산 (캠페인)/0.0/999,file:Campaigns/Void.SC2Campaign</Value>
+        <Value>bnet:공허의 유산 이야기 (캠페인)/0.0/999,file:Campaigns/VoidStory.SC2Campaign</Value>
+    </Dependencies>
+    <Screenshot>
+        <File>
+            <Value>v3_800.png</Value>
+        </File>
+        <CaptionId>
+            <Value>1</Value>
+        </CaptionId>
+        <Flags>
+            <Value> </Value>
+        </Flags>
+    </Screenshot>
+    <HowToPlayAdvanced>
+        <ListType>
+            <Value>Plain</Value>
+        </ListType>
+    </HowToPlayAdvanced>
+    <PatchNote>
+        <Version>
+            <Value>1.0</Value>
+            <Value>1.1</Value>
+            <Value>1.5</Value>
+            <Value>1.6</Value>
+            <Value>1.8</Value>
+            <Value>1.9</Value>
+            <Value>1.12</Value>
+            <Value>1.21</Value>
+            <Value>1.22</Value>
+            <Value>1.24</Value>
+            <Value>1.28</Value>
+            <Value>1.33</Value>
+            <Value>1.35</Value>
+            <Value>1.42</Value>
+            <Value>1.43</Value>
+            <Value>1.44</Value>
+            <Value>1.45</Value>
+            <Value>2.0</Value>
+            <Value>2.1</Value>
+            <Value>2.2</Value>
+            <Value>2.3</Value>
+            <Value>2.4</Value>
+        </Version>
+        <Date>
+            <Value>8/2/2012</Value>
+            <Value>8/2/2012</Value>
+            <Value>8/6/2012</Value>
+            <Value>8/7/2012</Value>
+            <Value>8/21/2012</Value>
+            <Value>8/25/2012</Value>
+            <Value>9/22/2012</Value>
+            <Value>12/7/2012</Value>
+            <Value>2/16/2013</Value>
+            <Value>3/19/2013</Value>
+            <Value>4/14/2013</Value>
+            <Value>5/16/2013</Value>
+            <Value>8/18/2013</Value>
+            <Value>1/27/2014</Value>
+            <Value>1/29/2014</Value>
+            <Value>1/15/2015</Value>
+            <Value>6/24/2015</Value>
+            <Value>1/16/2016</Value>
+            <Value>1/20/2016</Value>
+            <Value>1/24/2016</Value>
+            <Value>6/23/2017</Value>
+            <Value>2/2/2019</Value>
+        </Date>
+        <Notes>
+            <Value>1</Value>
+            <Value>2,3,4,5,6,7,8</Value>
+            <Value>9,10,11,12,13,14,15,16,17,18,19,20,21</Value>
+            <Value>22,23,24,25,26,27,28</Value>
+            <Value>30,31,32,33,34,35,36,37,38,39</Value>
+            <Value>40,41,42,43</Value>
+            <Value>44,45,46,47,48,49,50,51,52,53</Value>
+            <Value>29,54,55,56,57,58,59,60,61,62,63,64,65,66</Value>
+            <Value>67,68,69</Value>
+            <Value>71,72,73,74,75,76,77,78,79,80</Value>
+            <Value>83,84,85,70</Value>
+            <Value>94,98,99,100,101,102</Value>
+            <Value>88,89</Value>
+            <Value>81,82,86,87,90,91</Value>
+            <Value>92,93,95,96</Value>
+            <Value>97</Value>
+            <Value>103</Value>
+            <Value>104,105,106,107,108,109,110,111,112,113</Value>
+            <Value>114</Value>
+            <Value>115,116,117,118,119</Value>
+            <Value>120,121,122,123</Value>
+            <Value>124,125,126</Value>
+        </Notes>
+    </PatchNote>
+    <Preload>
+        <Value>Bank;DISC</Value>
+    </Preload>
+</DocInfo>

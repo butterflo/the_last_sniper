@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CSound id="Alert_BaseUnderAttackKlaxon">
+        <Category value="UIMovie"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Doodad_DevourerTissueStasisTubeStandLoop">
+        <Category value="Ambient"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Doodad_SparkBurstLong">
+        <Category value="Ambient"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Doodad_SparkBurstShort">
+        <Category value="Ambient"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Doodad_SteamBurstLarge">
+        <Category value="Ambient"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="Doodad_XelNagaArtifactVaultClose">
+        <Category value="Ambient"/>
+        <Mode value="3DHead"/>
+    </CSound>
+    <CSound id="Ghost_Death">
+        <AssetArray index="0" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death01.wav" PortraitModel="GhostPortrait" Speaker="ConversationState/Characters/CharGhost"/>
+        <AssetArray index="1" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death02.wav"/>
+        <AssetArray index="2" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death03.wav"/>
+        <AssetArray index="3" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death04.wav"/>
+        <AssetArray index="4" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death05.wav"/>
+        <AssetArray index="5" removed="1"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Ghost_SnipeLaunch">
+        <AssetArray index="0" File="0000a2bc.ogg" FacialGroup=""/>
+        <AssetArray File="00021666.ogg" FacialGroup=""/>
+        <AssetArray File="0002519e.ogg" FacialGroup=""/>
+        <Category value="Ambient"/>
+        <Pitch value="-10.000000,10.000000"/>
+        <Spread value="360.000000"/>
+    </CSound>
+    <CSound id="Ghost_SnipeZoom" parent="Spell">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="0002ee4b.ogg" FacialGroup=""/>
+        <Category value="Ambient"/>
+        <DupeMaximumMethod value="Replace"/>
+        <Pitch value="0.000000,10.000000"/>
+        <Spread value="360.000000"/>
+    </CSound>
+    <CSound id="Mothership_AttackImpact">
+        <Category value="Ambient"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Mothership_CloakFieldOn">
+        <AssetArray index="0" File="protect3.wav" FacialGroup=""/>
+        <AssetArray index="1" removed="1"/>
+        <Category value="Ambient"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Mothership_VortexLoop">
+        <Category value="Ambient"/>
+        <Pitch value="16.000000,16.000000"/>
+        <Spread value="360.000000"/>
+    </CSound>
+    <CSound id="Music_EndCreditsD">
+        <Pitch value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="Nova_SnipeLaunch">
+        <AssetArray index="0" File="Assets\Sounds\Taldarim01_St_TempleDeath_Implode.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Taldarim01_St_TempleDeath_Implode_Alt.wav" FacialGroup=""/>
+        <Category value="Ambient"/>
+        <Mode value="2D"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="NullCircuit_Explode">
+        <Category value="Ambient"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <Pitch value="-4.000000,-4.000000"/>
+        <SpeakerMix index="LFE" value="5.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="OrbitalCommand_ScannerSweep">
+        <Category value="Ambient"/>
+        <Mode value="3DWorld"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="RaynorSnipeSound">
+        <AssetArray index="0" File="Assets\Sounds\Taldarim01_St_TempleDeath_Implode.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Taldarim01_St_TempleDeath_Implode_Alt.wav" FacialGroup=""/>
+        <Category value="Ambient"/>
+        <Mode value="3DHead"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="Raynor_PenetratorRoundChargeUp">
+        <Category value="Ambient"/>
+        <Mode value="3DHead"/>
+        <Pitch value="-20.000000,-20.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="SC_Shell_Kerrigan_Psi_PowerBall">
+        <AssetArray index="0" File="Assets\Sounds\Kerrigan_LoadShell_Psi_Ball.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="SwarmHost_EmptyBubbleLaunch">
+        <Category value="Ambient"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="THorner05SScientist00056">
+        <Category value="Ambient"/>
+        <Pitch value="-4.000000,0.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="TUILavaRising">
+        <Category value="UIMovie"/>
+    </CSound>
+    <CSound id="TerranDropPodImpact">
+        <Category value="Ambient"/>
+        <DupeDestroyCount value="16"/>
+        <Pitch value="-4.000000,4.000000"/>
+    </CSound>
+    <CSound id="Tychus04BriefingAlarm">
+        <Category value="UIMovie"/>
+        <Mode value="3DHead"/>
+        <Pitch value="-4.000000,4.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="UI_CelestialArray_entry">
+        <AssetArray File="Assets\Sounds\UI_CelestialArray_swap1.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\UI_CelestialArray_swap2.wav" FacialGroup=""/>
+        <Category value="Ambient"/>
+    </CSound>
+    <CSound id="UI_TutorialSelect">
+        <Category value="Ambient"/>
+        <Pitch value="-3.000000,-3.000000"/>
+        <Volume value="-6.000000,-6.000000"/>
+    </CSound>
+    <CSound id="Uni_DeathFXFireLarge">
+        <Category value="UIMovie"/>
+        <Mode value="2D"/>
+    </CSound>
+    <CSound id="VoidRay_WeaponEnd">
+        <Category value="Ambient"/>
+    </CSound>
+    <CSound id="Zerg_ExplosionSlime">
+        <Category value="Ambient"/>
+        <Pitch value="2.000000,2.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="buzzer" parent="Movie">
+        <AssetArray File="buzzer.wav" FacialGroup=""/>
+        <Category value="Ambient"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+</Catalog>

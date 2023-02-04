@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CButton id="EMP">
+        <Hotkey value="Button/Hotkey/E"/>
+        <Icon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+        <AlertIcon value="Assets\Textures\btn-tips-terran-energynova.dds"/>
+    </CButton>
+    <CButton id="ResearchRavenEnergyUpgrade">
+        <Hotkey value="Button/Hotkey/R"/>
+    </CButton>
+    <CButton id="Snipe">
+        <Hotkey value="Button/Hotkey/Q"/>
+    </CButton>
+    <CButton id="TerranInfantryArmorLevel3">
+        <Hotkey value="Button/Hotkey/W"/>
+    </CButton>
+</Catalog>

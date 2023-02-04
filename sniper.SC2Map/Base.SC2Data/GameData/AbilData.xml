@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CAbilEffectTarget id="EMP">
+        <Flags index="NoDeceleration" value="1"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Flags index="WaitToSpend" value="0"/>
+        <RangeSlop value="0"/>
+        <CmdButtonArray index="Execute" State="Available"/>
+        <FollowRange value="0"/>
+        <CursorEffect index="0" removed="1"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="NovaSnipe">
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost index="0">
+            <Vital index="Energy" value="100"/>
+            <Charge Link="Abil/Snipe"/>
+            <Cooldown Link="Abil/Snipe" TimeStart="60" TimeUse="0"/>
+        </Cost>
+        <TargetFilters index="0" value="-;Self,Structure,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range index="0" value="50"/>
+        <RangeSlop value="0"/>
+        <CastIntroTime index="0" value="4"/>
+        <FinishTime index="0" removed="1"/>
+        <FollowRange value="0"/>
+        <UninterruptibleArray index="Cast" value="0"/>
+        <UninterruptibleArray index="Finish" value="0"/>
+        <AINotifyEffect value=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Snipe">
+        <TargetFilters index="0" value="-;Self,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <RangeSlop value="0"/>
+        <FollowRange value="0"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <AINotifyEffect value=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="Stimpack">
+        <Cost index="0">
+            <Vital index="Life" value="0"/>
+            <Vital index="Energy" value="50"/>
+        </Cost>
+        <CmdButtonArray index="Execute" State="Available" Requirements=""/>
+    </CAbilEffectInstant>
+</Catalog>

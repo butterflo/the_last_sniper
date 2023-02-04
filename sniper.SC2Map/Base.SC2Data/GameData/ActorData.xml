@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <!--                                                                                         -->
+    <!-- Baneling .............................................................................. -->
+    <!--                                                                                         -->
+    <CActorUnit id="Baneling">
+        <On Terms="UnitBirth" Send="SetTintColor 255,64,0"/>
+        <Scale value="0.500000"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-zerg-enduringcorruption.dds"/>
+        <WalkAnimMoveSpeed value="3"/>
+    </CActorUnit>
+    <CActorUnit id="Beacon_Terran">
+        <On Terms="ActorCreation" Send="SetTintColor {192,255,128 4.000000}"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Civilian Biodome ...................................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="Biodome">
+        <On Terms="ActorCreation" Send="ModelSwap Biodome 1"/>
+    </CActorUnit>
+    <CActorSound id="BlackholeSound" parent="SoundContinuous">
+        <FogVisibility value="Visible"/>
+        <EditorCategories value=""/>
+        <On Terms="UnitBirth.Beacon_Terran" Send="Create"/>
+        <Sound value="Mothership_VortexLoop"/>
+        <SoundFlags index="UpdateVisibility" value="0"/>
+    </CActorSound>
+    <!--                                                                                         -->
+    <!-- Bunker                                                                                  -->
+    <!--                                                                                         -->
+    <CActorUnit id="Bunker">
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+        <StatusBarFlags index="Custom" value="0"/>
+    </CActorUnit>
+    <CActorDoodad id="BunkerWrecked">
+        <Footprint value="Footprint6x6PathingBlocker"/>
+    </CActorDoodad>
+    <CActorDoodad id="FanVent">
+        <Footprint value="Footprint2x2DoodadBlockLOS"/>
+    </CActorDoodad>
+    <!-- ...Fire!............................................................................... -->
+    <CActorRegionCircle id="FirebatTreeKiller">
+        <On index="0" Terms="Effect.EMPSearch; At Effect" Send="Create"/>
+        <On index="1" Terms="ActorCreation" Send="QueryRegion ::Self TreeBurnQuery AgainstCenter"/>
+        <On index="2" Terms="Effect.EMPSearch; At Effect" Send="Destroy"/>
+        <On index="3" removed="1"/>
+        <On index="4" removed="1"/>
+        <Radius value="2.000000"/>
+    </CActorRegionCircle>
+    <CActorTerrainDeformer id="ForestMold4">
+        <EditorCategories value="DoodadType:Environment"/>
+        <Footprint value="Footprint1x1"/>
+        <InfluenceRange value="4.000000"/>
+        <HeightDelta value="-4.000000"/>
+        <TerrainDeformerFlags index="UseUnitFootprint" value="1"/>
+        <TerrainDeformerFlags index="RestoreOnDestroy" value="1"/>
+        <Flags index="AddToExternalFinder" value="1"/>
+    </CActorTerrainDeformer>
+    <CActorTerrainDeformer id="ForestMold8">
+        <EditorCategories value="DoodadType:Environment"/>
+        <Footprint value="Footprint1x1"/>
+        <InfluenceRange value="8.000000"/>
+        <HeightDelta value="-1.000000"/>
+        <TerrainDeformerFlags index="UseUnitFootprint" value="1"/>
+        <TerrainDeformerFlags index="RestoreOnDestroy" value="1"/>
+        <Flags index="AddToExternalFinder" value="1"/>
+    </CActorTerrainDeformer>
+    <!--                                                                                         -->
+    <!-- Ghost ................................................................................. -->
+    <!--                                                                                         -->
+    <CActorUnit id="Ghost">
+        <Scale value="0.500000,0.500000,0.100000"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <On index="45" Terms="Abil.Snipe.SourceCastStart" Send="AnimBaselineStop"/>
+        <On index="46" Terms="Abil.Snipe.SourceCastStart" Send="AnimPlay SpellA Spell,A"/>
+        <On index="47" Terms="Abil.Snipe.SourceCastStop" Send="AnimClear SpellA"/>
+        <On index="48" Terms="Abil.Snipe.SourceCastStop" Send="AnimBaselineStart"/>
+        <On index="49" Terms="Abil.Snipe.SourceChannelStart" Send="AnimPlay SpellB Spell,B PlayForever"/>
+        <On index="50" Terms="Abil.Snipe.SourceChannelStop" Send="AnimClear SpellB"/>
+        <On index="51" Terms="Abil.Snipe.SourceFinishStart" Send="AnimPlay SpellC Spell,C"/>
+        <On index="52" Terms="UnitMovementUpdate.*.Walk; AnimPlaying SpellC" Send="AnimClear SpellC"/>
+        <On index="53" Terms="Abil.EMP.SourceCastStart" Send="AnimPlay SpellC Spell,C 0 0.000000 0.300000"/>
+        <On index="54" Terms="Abil.attack.ReadyStart" Send="AnimGroupApply Ready"/>
+        <On index="55" Terms="Behavior.GhostHoldFireB.On" Send="AnimGroupApply Cover"/>
+        <On index="56" Terms="Behavior.GhostHoldFireB.On" Send="AnimPlay MorphStart Cover,Start"/>
+        <On index="57" Terms="Behavior.GhostHoldFireB.On" Send="AnimClear MorphEnd"/>
+        <On index="58" Terms="Behavior.GhostHoldFireB.Off" Send="AnimPlay MorphEnd Cover,End"/>
+        <On index="59" Terms="Behavior.GhostHoldFireB.Off" Send="AnimClear MorphStart"/>
+        <On index="60" Terms="Behavior.GhostHoldFireB.Off" Send="AnimGroupRemove Cover"/>
+        <On index="61" Terms="WeaponStart.*.AttackStart; WeaponTargetElevation GE 20.000000" Send="AnimBracketStart Attack Attack,Superior"/>
+        <On index="62" Terms="WeaponStart.*.AttackStart; WeaponTargetElevation LE -20.000000" Send="AnimBracketStart Attack Attack,Inferior"/>
+        <On index="63" Terms="WeaponStart.*.AttackStart" Send="AnimBracketStart Attack Attack"/>
+        <On index="64" Terms="WeaponStop.*.AttackStop" Send="AnimBracketStop Attack"/>
+        <On index="65" Terms="Abil.attack.ReadyStop" Send="AnimGroupRemove Ready"/>
+        <On index="66" Terms="Abil.NovaSnipe.SourceCastStart"/>
+        <On index="67" Terms="Abil.NovaSnipe.SourceCastStart"/>
+        <On index="68" Terms="Abil.NovaSnipe.SourceCastStop"/>
+        <On index="69" Terms="Abil.NovaSnipe.SourceCastStop"/>
+        <On index="70" Terms="Abil.NovaSnipe.SourceChannelStart"/>
+        <On index="71" Terms="Abil.NovaSnipe.SourceChannelStop"/>
+        <On Terms="Abil.NovaSnipe.SourceFinishStart" Send="AnimPlay SpellC Spell,C"/>
+        <On Terms="Signal.*.GlowRed" Send="HaloSetColor 255,0,0"/>
+        <On Terms="Signal.*.GlowBlue" Send="HaloSetColor 0,0,255"/>
+        <On Terms="Signal.*.GlowSet" Send="HaloStart"/>
+        <ModelFlags index="OutlineEmitter" value="0"/>
+    </CActorUnit>
+    <CActorAction id="GhostEMPAttack"/>
+    <CActorModel id="GhostEMPAttackImpactEffect">
+        <On Terms="ActorCreation" Send="SetTintColor 255,255,128"/>
+        <Scale value="0.750000"/>
+    </CActorModel>
+    <CActorAction id="GhostSnipeAttack"/>
+    <CActorBeamSimple id="GhostSnipeAttackBeam">
+        <On Terms="ActorCreation" Send="SetTintColor {255,255,255 4.000000}"/>
+    </CActorBeamSimple>
+    <CActorDoodad id="HavenFoliage">
+        <FogVisibility value="Dimmed"/>
+        <DoodadFlags index="PauseAnimsWhileFogged" value="0"/>
+        <Footprint value=""/>
+        <ModelFlags index="IgnoreWalkables" value="0"/>
+        <ModelFlags index="NeedsVolumeMonitoring" value="1"/>
+        <ModelFlags index="UseSyncSeed" value="1"/>
+    </CActorDoodad>
+    <CActorDoodad id="HavenTree">
+        <FogVisibility value="Dimmed"/>
+        <DoodadFlags index="PauseAnimsWhileFogged" value="0"/>
+        <Footprint value=""/>
+        <ModelFlags index="IgnoreWalkables" value="0"/>
+        <ModelFlags index="NeedsVolumeMonitoring" value="1"/>
+        <ModelFlags index="UseSyncSeed" value="1"/>
+        <On Terms="Signal.*.TreeFire" Send="Create 10SlotBag"/>
+    </CActorDoodad>
+    <CActorModel id="MindBlastStun">
+        <Model value="MindBlastImpact"/>
+    </CActorModel>
+    <CActorAction id="NovaSnipeAttack">
+        <LaunchAssets Model="GhostSnipeAttackLaunch"/>
+    </CActorAction>
+    <CActorBeamSimple id="NovaSnipeAttackBeam">
+        <On Terms="ActorCreation" Send="SetTintColor {128,255,255 16.000000}"/>
+        <Model value="LaserDrillTripodBiggerAttackBeam"/>
+    </CActorBeamSimple>
+    <CActorAction id="PulseFlameActor" parent="AoEAttackBase">
+        <EditorCategories value=""/>
+    </CActorAction>
+    <CActorUnit id="Pylon">
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+    </CActorUnit>
+    <CActorModel id="ScannerSweepModel">
+        <On index="5" Terms="ActorDestruction" Target="ScannerSweepVisual" Send="Destroy"/>
+        <On index="6" removed="1"/>
+    </CActorModel>
+    <CActorSound id="SnipeZoomSound" parent="SoundOneShot">
+        <EditorCategories value=""/>
+        <On Terms="Abil.Snipe.SourceCastStart" Send="Create"/>
+        <Sound value="Ghost_SnipeZoom"/>
+    </CActorSound>
+    <CActorSound id="SnipeZoomSound2" parent="SoundOneShot">
+        <EditorCategories value=""/>
+        <On Terms="Abil.NovaSnipe.SourceCastStart" Send="Create"/>
+        <Sound value="Raynor_PenetratorRoundChargeUp"/>
+    </CActorSound>
+    <CActorUnit id="SupplyDepot">
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="SupplyDepotLowered">
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+        <StatusBarFlags index="Custom" value="0"/>
+    </CActorUnit>
+    <CActorDoodad id="TerrazineProtectorCapped">
+        <ModelFlags index="WireframeRender" value="1"/>
+    </CActorDoodad>
+    <CActorQueryResponse id="TreeBurnQuery">
+        <OnResponse index="0" Target="_Burnable" Send="Signal TreeFire"/>
+        <OnResponse index="1" removed="1"/>
+    </CActorQueryResponse>
+    <CActorDoodad id="WreckedBattlecruiser">
+        <Footprint value="Footprint6x6PathingBlocker"/>
+    </CActorDoodad>
+    <!-- Nuke                                                                                    -->
+    <CActorSplat id="nukeCursorSplat">
+        <On index="0" Terms="Abil.Snipe.SourceCastStart"/>
+        <On index="1" Terms="ActorDestruction" Target="CursorRegion" Send="Destroy"/>
+        <On index="2" Terms="ActorOrphan" Target=""/>
+        <On index="3" Terms="Effect.SnipeDamage"/>
+        <On Terms="Abil.Snipe.SourceCastStop" Send="Destroy"/>
+        <On Terms="Abil.NovaSnipe.SourceCastStart" Send="Create"/>
+        <On Terms="Abil.NovaSnipe.SourceCastStop" Send="Destroy"/>
+        <On Terms="Abil.NovaSnipe.SourceCastStart" Send="SetScale 4.000000 4.000000"/>
+        <On Terms="Effect.NovaSnipe" Send="Destroy"/>
+    </CActorSplat>
+</Catalog>

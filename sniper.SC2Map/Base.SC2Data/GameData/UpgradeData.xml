@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CUpgrade default="1" id="ZergGroundArmors">
+        <EffectArray index="15" Operation="Set" Reference="Unit,BanelingBurrowed,LifeArmorName[0]" Value="Unit/LifeArmorName/ZergGroundArmor"/>
+    </CUpgrade>
+</Catalog>
