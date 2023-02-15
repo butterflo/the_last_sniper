@@ -70,14 +70,14 @@
         <Radius value="2.000000"/>
     </CActorRegionCircle>
     <CActorTerrainDeformer id="ForestMold4">
+        <Flags index="AddToExternalFinder" value="1"/>
+        <FogVisibility value="Visible"/>
         <EditorCategories value="DoodadType:Environment"/>
         <Footprint value="Footprint1x1"/>
-        <InfluenceRange value="4.000000"/>
+        <InfluenceRange value="4.500000"/>
         <HeightDelta value="-4.000000"/>
         <TerrainDeformerFlags index="UseUnitFootprint" value="1"/>
         <TerrainDeformerFlags index="RestoreOnDestroy" value="1"/>
-        <Flags index="AddToExternalFinder" value="1"/>
-        <FogVisibility value="Visible"/>
     </CActorTerrainDeformer>
     <CActorTerrainDeformer id="ForestMold8">
         <EditorCategories value="DoodadType:Environment"/>
@@ -93,12 +93,6 @@
     <!-- Ghost ................................................................................. -->
     <!--                                                                                         -->
     <CActorUnit id="Ghost">
-        <Scale value="0.500000,0.500000,0.100000"/>
-        <StatusBarFlags index="Shields" value="0"/>
-        <StatusBarFlags index="Life" value="0"/>
-        <StatusBarFlags index="Energy" value="0"/>
-        <StatusBarFlags index="Cargo" value="0"/>
-        <StatusBarFlags index="Duration" value="0"/>
         <On index="45" Terms="Abil.Snipe.SourceCastStart" Send="AnimBaselineStop"/>
         <On index="46" Terms="Abil.Snipe.SourceCastStart" Send="AnimPlay SpellA Spell,A"/>
         <On index="47" Terms="Abil.Snipe.SourceCastStop" Send="AnimClear SpellA"/>
@@ -130,7 +124,13 @@
         <On Terms="Signal.*.GlowRed" Send="HaloSetColor 255,0,0"/>
         <On Terms="Signal.*.GlowBlue" Send="HaloSetColor 0,0,255"/>
         <On Terms="Signal.*.GlowSet" Send="HaloStart"/>
+        <Scale value="0.500000,0.500000,0.100000"/>
         <ModelFlags index="OutlineEmitter" value="0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
     </CActorUnit>
     <CActorAction id="GhostEMPAttack"/>
     <CActorModel id="GhostEMPAttackImpactEffect">

@@ -168,6 +168,9 @@ DocInfo/PatchNote135=* 유닛의 체력 및 에너지를 밝은 맵에서도 더
 DocInfo/PatchNote136=* 대부분 깨져 있었던 영어 로컬라이징을 수정하였습니다.
 DocInfo/PatchNote137=* 지역간 게임 버전을 동기화하였습니다.
 DocInfo/PatchNote138=* 게임 타이틀 이미지를 업데이트하였습니다.
+DocInfo/PatchNote139=* 우주의 스페이스: 이제 레일건이 벙커를 파괴합니다.
+DocInfo/PatchNote140=* 자연의 네이쳐: 작은 물웅덩이의 크기를 감전 효과의 반경에 맞게 조절하였습니다.
+DocInfo/PatchNote141=* 이제 AI가 레일건을 사용합니다.
 Effect/Name/SnipeDamage=저격 피해
 LoadingScreen/Tip=<s val="Sniper16Bold"><c val="800000">developer</c>  <c val="FFFFFF">butterflo</c>
 MapInfo/Player00/Name=중립

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CFoW default="1">
         <Color value="255,0,0,0"/>
@@ -8,6 +8,7 @@
         <Color value="255,0,0,0"/>
         <UnhideRadius value="0"/>
         <BlendSpeed value="3"/>
+        <Hidden value="0"/>
     </CFoW>
     <CFoW id="BlackNoUnhide">
         <Color value="255,0,0,0"/>

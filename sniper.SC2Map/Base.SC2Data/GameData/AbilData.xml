@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CAbilEffectTarget id="EMP">
         <Flags index="NoDeceleration" value="1"/>
         <Flags index="RequireTargetVision" value="0"/>
-        <Flags index="WaitToSpend" value="0"/>
         <RangeSlop value="0"/>
+        <CursorEffect index="0" removed="1"/>
         <CmdButtonArray index="Execute" State="Available"/>
         <FollowRange value="0"/>
-        <CursorEffect index="0" removed="1"/>
     </CAbilEffectTarget>
     <CAbilEffectTarget id="NovaSnipe">
         <Flags index="RequireTargetVision" value="0"/>
@@ -21,23 +20,25 @@
         <RangeSlop value="0"/>
         <CastIntroTime index="0" value="4"/>
         <FinishTime index="0" removed="1"/>
-        <FollowRange value="0"/>
         <UninterruptibleArray index="Cast" value="0"/>
         <UninterruptibleArray index="Finish" value="0"/>
         <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ResearchRavenEnergyUpgrade"/>
+        <FollowRange value="0"/>
     </CAbilEffectTarget>
     <CAbilEffectTarget id="Snipe">
+        <Flags index="RequireTargetVision" value="0"/>
         <TargetFilters index="0" value="-;Self,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
         <RangeSlop value="0"/>
-        <FollowRange value="0"/>
-        <Flags index="RequireTargetVision" value="0"/>
         <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Snipe"/>
+        <FollowRange value="0"/>
     </CAbilEffectTarget>
     <CAbilEffectInstant id="Stimpack">
         <Cost index="0">
             <Vital index="Life" value="0"/>
             <Vital index="Energy" value="50"/>
         </Cost>
-        <CmdButtonArray index="Execute" State="Available" Requirements=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TerranInfantryArmorLevel3" State="Available" Requirements=""/>
     </CAbilEffectInstant>
 </Catalog>

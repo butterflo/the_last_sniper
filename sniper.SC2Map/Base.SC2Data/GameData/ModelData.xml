@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CModel id="ArtifactShrine">
         <ScaleMax value="2.000000,2.000000,2.000000"/>
@@ -33,11 +33,6 @@
         <ScaleMin value="0.700000,0.700000,0.700000"/>
         <AnimSpeed value="0.250000"/>
         <Flags index="FOW" value="0"/>
-    </CModel>
-    <CModel id="FirebatAttackLaunch">
-        <AnimSpeed value="4.000000"/>
-        <ScaleMax value="3.000000,15.000000,3.000000"/>
-        <ScaleMin value="3.000000,15.000000,3.000000"/>
     </CModel>
     <CModel id="Ghost">
         <SelectionRadius value="0.050000"/>

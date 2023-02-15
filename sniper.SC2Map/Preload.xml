@@ -7,13 +7,13 @@
 <Asset path="assets\textures\ui_scorescreen_splash_tvalerian02a.dds" Type="Image"/>
 <Asset path="assets\textures\ui_scorescreen_splash_tvalerian02b.dds" Type="Image"/>
 <Actor id="SYSTEM_ActorConfig"/>
+<Actor id="DecalSpace" Variations="12"/>
 <Actor id="BunkerWrecked"/>
 <Actor id="DecalProtoss" Variations="0"/>
 <Actor id="FanVent" Variations="1"/>
 <Actor id="HavenFoliage"/>
 <Actor id="HavenTree"/>
 <Actor id="Lavafall" Variations="5"/>
-<Actor id="TarsonisArrow"/>
 <Actor id="TerrainObjectZhakulLibraryLargeDoodad"/>
 <Actor id="TOZhakulDasLibraryPitDoodad" Variations="1"/>
 <Actor id="TTosh01FlameGeyser" Variations="1"/>
@@ -26,8 +26,8 @@
 <Effect id="PulseZapRepeat"/>
 <Effect id="PulseZapRepeatSmall"/>
 <Effect id="ResistForceSearch"/>
-<Effect id="SnipeDamage2"/>
-<Effect id="SnipeDamage22"/>
+<Effect id="SnipeDamageAOE0_25"/>
+<Effect id="SnipeDamageAOE1_00"/>
 <Light id="Agria"/>
 <Light id="Ulnar"/>
 <Light id="AgriaSunset"/>

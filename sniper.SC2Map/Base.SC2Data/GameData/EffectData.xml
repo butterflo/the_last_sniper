@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CEffectDamage id="EMPDamage">
         <Death value="Electrocute"/>
@@ -9,21 +9,18 @@
     </CEffectLaunchMissile>
     <CEffectModifyUnit id="EMPModifyUnit">
         <ValidatorArray index="0" removed="1"/>
-        <VitalArray index="Energy" Change="0" ChangeFraction="-1"/>
+        <VitalArray index="Energy">
+            <Change value="0"/>
+            <ChangeFraction value="-1"/>
+        </VitalArray>
     </CEffectModifyUnit>
     <CEffectEnumArea id="EMPSearch">
-        <AreaArray index="0" Radius="2" Effect="EMPSet"/>
         <SearchFilters value="-;PreventReveal,Hidden,Invulnerable"/>
+        <AreaArray index="0" Radius="2"/>
     </CEffectEnumArea>
     <CEffectSet id="EMPSet">
         <EffectArray index="0" value="EMPApplyDecloakBehavior"/>
         <EffectArray index="2" removed="1"/>
-    </CEffectSet>
-    <CEffectDamage id="FirebatUFull">
-        <Amount value="999"/>
-    </CEffectDamage>
-    <CEffectSet id="FlameThrowerDamageSet">
-        <EffectArray index="1" removed="1"/>
     </CEffectSet>
     <CEffectDamage id="MindBlast">
         <Amount value="0"/>
@@ -34,8 +31,9 @@
     </CEffectSet>
     <CEffectDamage id="NovaSnipe">
         <ImpactLocation Value="TargetUnitOrPoint"/>
-        <Amount value="0"/>
+        <ArmorReduction value="1"/>
         <Kind value="Spell"/>
+        <Amount value="0"/>
         <SearchFilters value="-;Invulnerable"/>
     </CEffectDamage>
     <CEffectApplyBehavior id="PulseFlameApplyBehavior">
@@ -97,14 +95,16 @@
         <Amount value="100"/>
         <SearchFilters value="-;Player,Ally,Invulnerable"/>
     </CEffectDamage>
-    <CEffectDamage id="SnipeDamage2" parent="SnipeDamage">
-        <Marker Link="Effect/SnipeDamage2"/>
+    <CEffectDamage id="SnipeDamageAOE0_25" parent="SnipeDamage">
+        <Marker Link="Effect/SnipeDamageAOE0_25"/>
         <AreaArray Radius="0.25" Fraction="1"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Structure,Invulnerable"/>
     </CEffectDamage>
-    <CEffectDamage id="SnipeDamage22" parent="SnipeDamage">
-        <Marker Link="Effect/SnipeDamage22"/>
+    <CEffectDamage id="SnipeDamageAOE1_00" parent="SnipeDamage">
+        <Marker Link="Effect/SnipeDamageAOE1_00"/>
         <Death value="Fire"/>
         <AreaArray Radius="1" Fraction="1"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Invulnerable"/>
     </CEffectDamage>
     <CEffectApplyBehavior id="Stimpack">
         <ValidatorArray index="0" removed="1"/>

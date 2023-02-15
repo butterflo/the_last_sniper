@@ -5,39 +5,6 @@
         <AbilArray index="6" removed="1"/>
         <!--BehaviorArray Link="SOACheatDeathSupply4"/-->
     </CUnit>
-    <CUnit id="Baneling">
-        <FlagArray index="Untargetable" value="1"/>
-        <FlagArray index="Uncursorable" value="1"/>
-        <LifeStart value="999"/>
-        <LifeMax value="999"/>
-        <LifeArmor value="999"/>
-        <LifeRegenRate value="999"/>
-        <Sight value="5"/>
-        <AbilArray index="1" Link="move"/>
-        <AbilArray index="2" Link="attack"/>
-        <AbilArray index="3" removed="1"/>
-        <AbilArray index="4" removed="1"/>
-        <AbilArray index="5" removed="1"/>
-        <AbilArray index="6" removed="1"/>
-        <WeaponArray index="0" Link="Firebat"/>
-        <WeaponArray index="1" removed="1"/>
-        <CardLayouts index="0">
-            <LayoutButtons index="3" Face="" Type="Undefined" AbilCmd="" Column="0"/>
-            <LayoutButtons index="7" Face="Attack" AbilCmd="attack,Execute" Row="0"/>
-            <LayoutButtons index="8" removed="1"/>
-            <LayoutButtons index="9" removed="1"/>
-            <LayoutButtons index="10" removed="1"/>
-            <LayoutButtons index="11" removed="1"/>
-            <LayoutButtons index="12" removed="1"/>
-            <LayoutButtons index="13" removed="1"/>
-        </CardLayouts>
-        <Radius value="0.0625"/>
-        <SeparationRadius value="0"/>
-        <InnerRadius value="0"/>
-        <EquipmentArray index="0" removed="1"/>
-        <KillDisplay value="Never"/>
-        <Speed value="3"/>
-    </CUnit>
     <CUnit id="Beacon_Protoss">
         <FlagArray index="Unselectable" value="1"/>
         <FlagArray index="Uncursorable" value="1"/>
@@ -73,14 +40,12 @@
         <FogVisibility value="Dimmed"/>
         <Collide index="Burrow" value="0"/>
         <Collide index="Ground" value="0"/>
-        <Collide index="Structure" value="0"/>
         <Collide index="RoachBurrow" value="0"/>
         <Collide index="ForceField" value="0"/>
         <Attributes index="Armored" value="0"/>
         <Attributes index="Mechanical" value="0"/>
-        <LifeStart value="10000"/>
-        <LifeMax value="10000"/>
-        <LifeRegenRate value="10000"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
         <Sight value="0"/>
         <AbilArray index="0" removed="1"/>
         <AbilArray index="1" removed="1"/>
@@ -116,6 +81,7 @@
         <MinimapRadius value="0"/>
         <Mass value="0"/>
         <TacticalAIThink value=""/>
+        <LifeArmor value="0"/>
     </CUnit>
     <CUnit id="DestructibleRock4x4">
         <FlagArray index="Untooltipable" value="1"/>

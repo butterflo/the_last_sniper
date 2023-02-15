@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CSound id="Alert_BaseUnderAttackKlaxon">
         <Category value="UIMovie"/>
@@ -25,7 +25,7 @@
         <Mode value="3DHead"/>
     </CSound>
     <CSound id="Ghost_Death">
-        <AssetArray index="0" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death01.wav" PortraitModel="GhostPortrait" Speaker="ConversationState/Characters/CharGhost"/>
+        <AssetArray index="0" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death01.wav"/>
         <AssetArray index="1" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death02.wav"/>
         <AssetArray index="2" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death03.wav"/>
         <AssetArray index="3" File="LocalizedData\Sounds\TerranUnitVO\Ghost\Ghost_Death04.wav"/>
@@ -101,7 +101,7 @@
         <Volume value="0.000000,0.000000"/>
     </CSound>
     <CSound id="SC_Shell_Kerrigan_Psi_PowerBall">
-        <AssetArray index="0" File="Assets\Sounds\Kerrigan_LoadShell_Psi_Ball.ogg" FacialGroup=""/>
+        <AssetArray index="0" File="Assets\Sounds\Kerrigan_LoadShell_Psi_Ball.ogg"/>
     </CSound>
     <CSound id="SwarmHost_EmptyBubbleLaunch">
         <Category value="Ambient"/>

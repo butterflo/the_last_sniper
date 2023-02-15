@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CGame id="Dflt">
+        <AIBuilds index="0">
+            <AttributeId value=""/>
+            <Name value=""/>
+            <MenuTooltip value=""/>
+            <Race value=""/>
+            <MaxDiff value="0"/>
+        </AIBuilds>
+        <AIBuilds index="1">
+            <AttributeId value=""/>
+            <Name value=""/>
+            <MenuTooltip value=""/>
+            <Race value=""/>
+            <MaxDiff value="0"/>
+            <BuildScriptNum value="0"/>
+        </AIBuilds>
+        <AIBuilds index="2">
+            <AttributeId value=""/>
+            <Name value=""/>
+            <MenuTooltip value=""/>
+            <Race value=""/>
+            <MaxDiff value="0"/>
+            <BuildScriptNum value="0"/>
+        </AIBuilds>
+        <AIBuilds index="3">
+            <AttributeId value=""/>
+            <Name value=""/>
+            <MenuTooltip value=""/>
+            <Race value=""/>
+            <MaxDiff value="0"/>
+            <BuildScriptNum value="0"/>
+        </AIBuilds>
+        <AIBuilds index="4">
+            <AttributeId value=""/>
+            <Name value=""/>
+            <MenuTooltip value=""/>
+            <Race value=""/>
+            <MaxDiff value="0"/>
+            <BuildScriptNum value="0"/>
+        </AIBuilds>
+        <AIBuilds index="5">
+            <AttributeId value=""/>
+            <Name value=""/>
+            <MenuTooltip value=""/>
+            <Race value=""/>
+            <MaxDiff value="0"/>
+            <BuildScriptNum value="0"/>
+        </AIBuilds>
+        <AIBuilds index="6">
+            <AttributeId value=""/>
+            <Name value=""/>
+            <MenuTooltip value=""/>
+            <Race value=""/>
+            <MaxDiff value="0"/>
+            <BuildScriptNum value="0"/>
+        </AIBuilds>
+    </CGame>
+</Catalog>

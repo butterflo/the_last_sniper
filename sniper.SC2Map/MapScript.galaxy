@@ -473,7 +473,7 @@ const int gv_const_maxdisc = 10;
 //--------------------------------------------------------------------------------------------------
 // Global Structures
 //--------------------------------------------------------------------------------------------------
-struct gs_DISC {
+struct gs_disc {
     string[7] lv_dummy_array;
     int[gv_const_maxdisc + 1] lv_playerhandle;
     int[gv_const_maxdisc + 1] lv_bANK_MATCH_TOTAL;
@@ -515,11 +515,11 @@ int[gv_var_forest_array + 1] gv_forest_pool_type;
 timer gv_sUDDEN_TIMER;
 bool gv_suddendeath_halt;
 actor[gv_const_maxdisc + 1] gv_sNIPER_FIREFX;
-bool gv_rAILGUN_ENABLED;
-timer gv_rAILGUN_TIMER;
-bool[gv_const_maxdisc + 1] gv_rAILGUN_ZOOM_FLAG;
-bool gv_rAILGUN_UNLOCKED;
-revealer[gv_const_maxdisc + 1] gv_rEVEAL;
+bool gv_railgun_allowed;
+timer gv_railgun_timer;
+bool[gv_const_maxdisc + 1] gv_railgun_zoom_active;
+bool gv_railgun_charged;
+revealer[gv_const_maxdisc + 1] gv_railgun_revealer;
 unit[gv_const_maxdisc + 1] gv_sNIPER;
 int[gv_const_maxdisc + 1] gv_sNIPER_TAG;
 int[gv_const_maxdisc + 1] gv_shots_total;
@@ -536,7 +536,7 @@ bool[gv_const_maxdisc + 1] gv_aI_active;
 bool[gv_const_maxdisc + 1] gv_aI_donot_move;
 bool gv_aI_halt;
 bank[gv_const_maxdisc + 1] gv_bANK;
-gs_DISC gv_disc;
+gs_disc gv_disc;
 bank[gv_const_maxdisc + 1] gv_disc_array;
 
 void InitGlobals () {
@@ -566,8 +566,8 @@ void InitGlobals () {
         gv_coverage_group_array[init_i] = UnitGroupEmpty();
     }
     gv_sUDDEN_TIMER = TimerCreate();
-    gv_rAILGUN_ENABLED = true;
-    gv_rAILGUN_TIMER = TimerCreate();
+    gv_railgun_allowed = true;
+    gv_railgun_timer = TimerCreate();
     for (init_i = 0; init_i <= gv_const_maxdisc; init_i += 1) {
         gv_sNIPER_TAG[init_i] = c_textTagNone;
     }
@@ -612,6 +612,7 @@ void gf_activate_spectator (int lp_player);
 int gf_AI_getplayer (region lp_area);
 void gf_AI_pulse (unit lp_target_unit, int lp_player);
 void gf_AI_snipe (int lp_player, unit lp_target_unit);
+void gf_AI_railgun (int lp_player, unit lp_target_unit);
 fixed gf_AI_compute_snipe_target_variance (int lp_target_player);
 void gf_AI_search_loop (int lp_p);
 void gf_AI_attempt_move (int lp_player, point lp_destination, bool lp_queue);
@@ -647,7 +648,7 @@ trigger gt_railgun_timer;
 trigger gt_railgun_zoomout;
 trigger gt_railgun_cancel;
 trigger gt_railgun_line_damage;
-trigger gt_railgun_block;
+trigger gt_railgun_force_nontarget;
 trigger gt_death_track;
 trigger gt_playerexit_track;
 trigger gt_board_init;
@@ -1095,15 +1096,15 @@ void gf_input_disable () {
     TriggerStop(gt_spectator_enter);
     TriggerStop(gt_AI_loop);
     TriggerStop(gt_death_track);
-    gv_rAILGUN_UNLOCKED = false;
+    gv_railgun_charged = false;
     gv_suddendeath_halt = true;
     gv_aI_halt = true;
     lv_i = 1;
     for ( ; ( (auto8540075C_ai >= 0 && lv_i <= auto8540075C_ae) || (auto8540075C_ai < 0 && lv_i >= auto8540075C_ae) ) ; lv_i += auto8540075C_ai ) {
-        gv_rAILGUN_ZOOM_FLAG[lv_i] = false;
+        gv_railgun_zoom_active[lv_i] = false;
         gv_spectator_enabled[lv_i] = false;
     }
-    TimerPause(gv_rAILGUN_TIMER, true);
+    TimerPause(gv_railgun_timer, true);
 }
 
 void gf_finish_round (int lp_result) {
@@ -1362,7 +1363,7 @@ bool auto_gf_activate_spectator_TriggerFunc (bool testConds, bool runActions) {
     autoBD4E2422_val = gv_const_gametype;
     if (autoBD4E2422_val == 1) {
         VisRevealerCreate(lp_player, gv_spawn);
-        gv_rEVEAL[lp_player] = VisRevealerLastCreated();
+        gv_railgun_revealer[lp_player] = VisRevealerLastCreated();
         gv_spectator_follow_target[lp_player] = UnitGetOwner(UnitGroupRandomUnit(UnitGroup("Ghost", c_playerAny, RegionEntireMap(), UnitFilter(0, 0, (1 << c_targetFilterMissile), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32))), 0), c_unitCountAlive));
     }
     else if (autoBD4E2422_val == 2) {
@@ -1501,6 +1502,43 @@ bool auto_gf_AI_snipe_TriggerFunc (bool testConds, bool runActions) {
     return true;
 }
 
+trigger auto_gf_AI_railgun_Trigger = null;
+int auto_gf_AI_railgun_lp_player;
+unit auto_gf_AI_railgun_lp_target_unit;
+
+void gf_AI_railgun (int lp_player, unit lp_target_unit) {
+    auto_gf_AI_railgun_lp_player = lp_player;
+    auto_gf_AI_railgun_lp_target_unit = lp_target_unit;
+
+    if (auto_gf_AI_railgun_Trigger == null) {
+        auto_gf_AI_railgun_Trigger = TriggerCreate("auto_gf_AI_railgun_TriggerFunc");
+    }
+
+    TriggerExecute(auto_gf_AI_railgun_Trigger, false, false);
+}
+
+bool auto_gf_AI_railgun_TriggerFunc (bool testConds, bool runActions) {
+    int lp_player = auto_gf_AI_railgun_lp_player;
+    unit lp_target_unit = auto_gf_AI_railgun_lp_target_unit;
+
+    // Variable Declarations
+    int lv_target_player;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_target_player = UnitGetOwner(lp_target_unit);
+
+    // Implementation
+    if ((RandomInt(1, 1000) <= gv_disc.lv_aCTION_RATE[lv_target_player])) {
+        gv_aI_donot_move[lp_player] = true;
+        UnitIssueOrder(gv_sNIPER[lp_player], OrderTargetingPoint(AbilityCommand("NovaSnipe", 0), RegionRandomPoint(RegionCircle(UnitGetPosition(lp_target_unit), gf_AI_compute_snipe_target_variance(lv_target_player)))), c_orderQueueReplace);
+        Wait(RandomFixed(4.0, 5.0), c_timeGame);
+        gv_aI_donot_move[lp_player] = false;
+    }
+
+    return true;
+}
+
 fixed gf_AI_compute_snipe_target_variance (int lp_target_player) {
     // Variable Declarations
     fixed lv_v;
@@ -1531,32 +1569,56 @@ bool auto_gf_AI_search_loop_TriggerFunc (bool testConds, bool runActions) {
 
     // Variable Declarations
     unit lv_target;
+    int lv_action_idx;
 
     // Automatic Variable Declarations
-    string autoF0F98170_val;
+    int autoC6879BA7_val;
 
     // Variable Initialization
 
     // Implementation
     while ((gv_aI_halt == false)) {
+        Wait(1.0, c_timeGame);
         if ((UnitIsAlive(gv_sNIPER[lp_p]) == false)) {
             break;
         }
 
-        lv_target = UnitGroupRandomUnit(UnitGroupSearch("Ghost", lp_p, UnitGetPosition(gv_sNIPER[lp_p]), 10.0, UnitFilter(0, 0, (1 << c_targetFilterPlayer) | (1 << c_targetFilterAlly) | (1 << c_targetFilterNeutral) | (1 << c_targetFilterMissile) | (1 << c_targetFilterCloaked), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32)) | (1 << (c_targetFilterInvulnerable - 32))), 0), c_unitCountAlive);
-        if ((UnitGetType(lv_target) == "Ghost")) {
+        lv_action_idx = RandomInt(1, 3);
+        autoC6879BA7_val = lv_action_idx;
+        if (autoC6879BA7_val == 1) {
+            lv_target = UnitGroupRandomUnit(UnitGroupSearch("Ghost", lp_p, UnitGetPosition(gv_sNIPER[lp_p]), 10.0, UnitFilter(0, 0, (1 << c_targetFilterPlayer) | (1 << c_targetFilterAlly) | (1 << c_targetFilterNeutral) | (1 << c_targetFilterMissile) | (1 << c_targetFilterCloaked), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32)) | (1 << (c_targetFilterInvulnerable - 32))), 0), c_unitCountAlive);
+            if ((UnitIsValid(lv_target) == false)) {
+                continue;
+            }
+
             gf_AI_snipe(lp_p, lv_target);
         }
-        else {
+        else if (autoC6879BA7_val == 2) {
             lv_target = UnitGroupRandomUnit(UnitGroupSearch(null, lp_p, UnitGetPosition(gv_sNIPER[lp_p]), 10.0, UnitFilter(0, 0, (1 << c_targetFilterPlayer) | (1 << c_targetFilterAlly) | (1 << c_targetFilterNeutral) | (1 << c_targetFilterMissile) | (1 << c_targetFilterCloaked), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32)) | (1 << (c_targetFilterInvulnerable - 32))), 0), c_unitCountAlive);
-            autoF0F98170_val = UnitGetType(lv_target);
-            if (autoF0F98170_val == "Beacon_Protoss") {
-                gf_AI_pulse(lv_target, lp_p);
+            if ((UnitIsValid(lv_target) == false)) {
+                continue;
             }
-            else {
-            }
+
+            gf_AI_pulse(lv_target, lp_p);
         }
-        Wait(1.0, c_timeGame);
+        else if (autoC6879BA7_val == 3) {
+            if ((gv_railgun_charged == false)) {
+                continue;
+            }
+
+            lv_target = UnitGroupRandomUnit(UnitGroupSearch("Ghost", lp_p, UnitGetPosition(gv_sNIPER[lp_p]), 100.0, UnitFilter(0, 0, (1 << c_targetFilterPlayer) | (1 << c_targetFilterAlly) | (1 << c_targetFilterNeutral) | (1 << c_targetFilterMissile) | (1 << c_targetFilterCloaked), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32)) | (1 << (c_targetFilterInvulnerable - 32))), 0), c_unitCountAlive);
+            if ((UnitIsValid(lv_target) == false)) {
+                continue;
+            }
+
+            if ((DistanceBetweenPoints(UnitGetPosition(gv_sNIPER[lp_p]), UnitGetPosition(lv_target)) <= 10.0)) {
+                continue;
+            }
+
+            gf_AI_railgun(lp_p, lv_target);
+        }
+        else {
+        }
     }
     return true;
 }
@@ -1856,7 +1918,7 @@ bool gt_init_btnswitch_Func (bool testConds, bool runActions) {
         SoundtrackDefault(PlayerGroupAll(), c_soundtrackCategoryMusic, "Music_Silence", c_soundtrackCueAny, c_soundtrackIndexAny);
         SoundtrackDefault(PlayerGroupAll(), c_soundtrackCategoryAmbience, "Ambience_Haven", c_soundtrackCueAny, c_soundtrackIndexAny);
         gv_environment = 1;
-        gv_rAILGUN_ENABLED = false;
+        gv_railgun_allowed = false;
         DialogDestroyAll();
         UIDisplayMessage(PlayerGroupAll(), c_messageAreaSubtitle, StringExternal("Param/Value/924837FD"));
         TriggerExecute(gt_init_scorecap, true, false);
@@ -1872,7 +1934,7 @@ bool gt_init_btnswitch_Func (bool testConds, bool runActions) {
         SoundtrackDefault(PlayerGroupAll(), c_soundtrackCategoryMusic, "Music_Silence", c_soundtrackCueAny, c_soundtrackIndexAny);
         SoundtrackDefault(PlayerGroupAll(), c_soundtrackCategoryAmbience, "Ambience_Redstone", c_soundtrackCueAny, c_soundtrackIndexAny);
         gv_environment = 2;
-        gv_rAILGUN_ENABLED = true;
+        gv_railgun_allowed = true;
         DialogDestroyAll();
         UIDisplayMessage(PlayerGroupAll(), c_messageAreaSubtitle, StringExternal("Param/Value/C7BF680A"));
         TriggerExecute(gt_init_scorecap, true, false);
@@ -1897,8 +1959,8 @@ bool gt_init_btnswitch_Func (bool testConds, bool runActions) {
         TriggerExecute(gt_init_game, true, false);
     }
     else if (auto891FAAD3_val == gv_btn_ffa_railgun) {
-        gv_rAILGUN_ENABLED = !(gv_rAILGUN_ENABLED);
-        libNtve_gf_SetDialogItemText(gv_btn_ffa_railgun, gf_btntext_railgun(gv_rAILGUN_ENABLED), PlayerGroupAll());
+        gv_railgun_allowed = !(gv_railgun_allowed);
+        libNtve_gf_SetDialogItemText(gv_btn_ffa_railgun, gf_btntext_railgun(gv_railgun_allowed), PlayerGroupAll());
     }
     else {
     }
@@ -1937,7 +1999,7 @@ bool gt_init_scorecap_Func (bool testConds, bool runActions) {
     auto9DF95D60_val = gv_environment;
     if (auto9DF95D60_val == 0) {
         DialogCreate(760, 246, c_anchorCenter, 0, 300, true);
-        libNtve_gf_CreateDialogItemButton(DialogLastCreated(), 710, 196, c_anchorCenter, 0, 0, StringToText(""), gf_btntext_railgun(gv_rAILGUN_ENABLED), "");
+        libNtve_gf_CreateDialogItemButton(DialogLastCreated(), 710, 196, c_anchorCenter, 0, 0, StringToText(""), gf_btntext_railgun(gv_railgun_allowed), "");
         gv_btn_ffa_railgun = DialogControlLastCreated();
         libNtve_gf_CreateDialogItemImage(DialogLastCreated(), 710, 196, c_anchorCenter, 0, 0, StringToText(""), "Assets\\Textures\\ui_scorescreen_splash_tvalerian02b.dds", c_triggerImageTypeNormal, false, Color(100,100,100), c_triggerBlendModeLighten);
         DialogSetVisible(DialogLastCreated(), PlayerGroupAll(), true);
@@ -1978,7 +2040,7 @@ bool gt_init_game_Func (bool testConds, bool runActions) {
     }
     gf_parse_is_active();
     TriggerExecute(gt_coverage, true, true);
-    auto8013FC96_val = gv_rAILGUN_ENABLED;
+    auto8013FC96_val = gv_railgun_allowed;
     if (auto8013FC96_val == false) {
         auto78398097_var = 1;
         for ( ; auto78398097_var <= auto78398097_ae; auto78398097_var += 1 ) {
@@ -2162,14 +2224,14 @@ bool gt_init_prestage_Func (bool testConds, bool runActions) {
     lv_area_team2 = RegionCircle(RegionRandomPoint(gv_spawn), 2.0);
     autoD7DD8EB2_val = gv_environment;
     if (autoD7DD8EB2_val == 0) {
-        TimerStart(gv_rAILGUN_TIMER, 60.0, false, c_timeGame);
+        TimerStart(gv_railgun_timer, 60.0, false, c_timeGame);
         TimerStart(gv_sUDDEN_TIMER, 180.0, false, c_timeGame);
     }
     else if (autoD7DD8EB2_val == 1) {
         TimerStart(gv_sUDDEN_TIMER, 180.0, false, c_timeGame);
     }
     else if (autoD7DD8EB2_val == 2) {
-        TimerStart(gv_rAILGUN_TIMER, 60.0, false, c_timeGame);
+        TimerStart(gv_railgun_timer, 60.0, false, c_timeGame);
         TimerStart(gv_sUDDEN_TIMER, (60.0 + RandomInt(0, 120)), false, c_timeGame);
     }
     else {
@@ -2444,7 +2506,7 @@ bool gt_reset_Func (bool testConds, bool runActions) {
         }
 
         TextTagDestroy(gv_sNIPER_TAG[autoA915A936_var]);
-        VisRevealerDestroy(gv_rEVEAL[autoA915A936_var]);
+        VisRevealerDestroy(gv_railgun_revealer[autoA915A936_var]);
         VisExploreArea(autoA915A936_var, RegionEntireMap(), false, false);
     }
     HelpPanelDestroyAllTips();
@@ -3039,7 +3101,7 @@ bool gt_shotline_track_Func (bool testConds, bool runActions) {
         lv_current_location = libNtve_gf_PointOffsetTowardsPoint(lv_fIRE_OFFSET, (IntToFixed(lv_i) * 0.5), lv_tARGET_OFFSET);
         auto467CEF3A_val = gf_is_path_open(lv_current_location, lv_fIRE_OFFSET, gv_environment);
         if (auto467CEF3A_val == true) {
-            UnitCreateEffectPoint(lv_u, "SnipeDamage2", lv_current_location);
+            UnitCreateEffectPoint(lv_u, "SnipeDamageAOE0_25", lv_current_location);
         }
         else if (auto467CEF3A_val == false) {
             libNtve_gf_CreateExplosionAtPoint(libNtve_ge_ExplosionSize_Small, libNtve_ge_ExplosionType_Terran, libNtve_gf_PointOffsetTowardsPoint(lv_fIRE_OFFSET, (IntToFixed((lv_i - 1)) * 0.5), lv_tARGET_OFFSET));
@@ -3174,7 +3236,7 @@ bool gt_resist_track_Func (bool testConds, bool runActions) {
             return false;
         }
 
-        if (!(((EventUnitDamageEffect() == "SnipeDamage") || (EventUnitDamageEffect() == "SnipeDamage2") || (EventUnitDamageEffect() == "SnipeDamage22")))) {
+        if (!(((EventUnitDamageEffect() == "SnipeDamage") || (EventUnitDamageEffect() == "SnipeDamageAOE0_25") || (EventUnitDamageEffect() == "SnipeDamageAOE1_00")))) {
             return false;
         }
     }
@@ -3468,7 +3530,7 @@ bool gt_railgun_timer_Func (bool testConds, bool runActions) {
 
     // Conditions
     if (testConds) {
-        if (!((gv_rAILGUN_ENABLED == true))) {
+        if (!((gv_railgun_allowed == true))) {
             return false;
         }
     }
@@ -3479,10 +3541,10 @@ bool gt_railgun_timer_Func (bool testConds, bool runActions) {
     }
 
     HelpPanelAddTip(PlayerGroupAll(), libNtve_gf_FormatTipTitle(StringExternal("Param/Value/82CB7827"), libNtve_ge_TipType_NormalTip), StringToText(""), StringExternal("Param/Value/B50915CF"), "Assets\\Textures\\btn-upgrade-terran-corvidreactor.dds");
-    gv_rAILGUN_UNLOCKED = true;
+    gv_railgun_charged = true;
     lv_i = 1;
     for ( ; ( (autoCDCA25FE_ai >= 0 && lv_i <= autoCDCA25FE_ae) || (autoCDCA25FE_ai < 0 && lv_i >= autoCDCA25FE_ae) ) ; lv_i += autoCDCA25FE_ai ) {
-        gv_rAILGUN_ZOOM_FLAG[lv_i] = false;
+        gv_railgun_zoom_active[lv_i] = false;
     }
     return true;
 }
@@ -3490,7 +3552,7 @@ bool gt_railgun_timer_Func (bool testConds, bool runActions) {
 //--------------------------------------------------------------------------------------------------
 void gt_railgun_timer_Init () {
     gt_railgun_timer = TriggerCreate("gt_railgun_timer_Func");
-    TriggerAddEventTimer(gt_railgun_timer, gv_rAILGUN_TIMER);
+    TriggerAddEventTimer(gt_railgun_timer, gv_railgun_timer);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -3505,7 +3567,7 @@ bool gt_railgun_zoomout_Func (bool testConds, bool runActions) {
 
     // Conditions
     if (testConds) {
-        if (!(((UnitGetPropertyFixed(gv_sNIPER[EventPlayer()], c_unitPropEnergy, c_unitPropCurrent) >= 100.0) && (gv_rAILGUN_UNLOCKED == true) && (gv_rAILGUN_ZOOM_FLAG[EventPlayer()] == false)))) {
+        if (!(((UnitGetPropertyFixed(gv_sNIPER[EventPlayer()], c_unitPropEnergy, c_unitPropCurrent) >= 100.0) && (gv_railgun_charged == true) && (gv_railgun_zoom_active[EventPlayer()] == false)))) {
             return false;
         }
     }
@@ -3515,9 +3577,9 @@ bool gt_railgun_zoomout_Func (bool testConds, bool runActions) {
         return true;
     }
 
-    gv_rAILGUN_ZOOM_FLAG[EventPlayer()] = true;
+    gv_railgun_zoom_active[EventPlayer()] = true;
     VisRevealerCreate(EventPlayer(), gv_spawn);
-    gv_rEVEAL[EventPlayer()] = VisRevealerLastCreated();
+    gv_railgun_revealer[EventPlayer()] = VisRevealerLastCreated();
     CameraSetValue(EventPlayer(), c_cameraValueDistance, 50.0, 1.0, -1, 50);
     return true;
 }
@@ -3540,7 +3602,7 @@ bool gt_railgun_cancel_Func (bool testConds, bool runActions) {
 
     // Conditions
     if (testConds) {
-        if (!((gv_rAILGUN_ZOOM_FLAG[EventPlayer()] == true))) {
+        if (!((gv_railgun_zoom_active[EventPlayer()] == true))) {
             return false;
         }
     }
@@ -3550,8 +3612,8 @@ bool gt_railgun_cancel_Func (bool testConds, bool runActions) {
         return true;
     }
 
-    gv_rAILGUN_ZOOM_FLAG[EventPlayer()] = false;
-    VisRevealerDestroy(gv_rEVEAL[EventPlayer()]);
+    gv_railgun_zoom_active[EventPlayer()] = false;
+    VisRevealerDestroy(gv_railgun_revealer[EventPlayer()]);
     CameraSetValue(EventPlayer(), c_cameraValueDistance, 10.0, 1.0, -1, 50);
     return true;
 }
@@ -3582,7 +3644,7 @@ bool gt_railgun_line_damage_Func (bool testConds, bool runActions) {
 
     // Conditions
     if (testConds) {
-        if (!((gv_rAILGUN_UNLOCKED == true))) {
+        if (!((gv_railgun_charged == true))) {
             return false;
         }
     }
@@ -3592,17 +3654,17 @@ bool gt_railgun_line_damage_Func (bool testConds, bool runActions) {
         return true;
     }
 
-    gv_rAILGUN_ZOOM_FLAG[EventPlayer()] = false;
+    gv_railgun_zoom_active[EventPlayer()] = false;
     lv_fIRE_OFFSET = UnitGetPosition(EventUnit());
     lv_tARGET_OFFSET = EventUnitTargetPoint();
     lv_distancia = DistanceBetweenPoints(lv_fIRE_OFFSET, lv_tARGET_OFFSET);
     auto682E4D88_ae = FixedToInt((lv_distancia / 1.0));
     lv_i = 1;
     for ( ; ( (auto682E4D88_ai >= 0 && lv_i <= auto682E4D88_ae) || (auto682E4D88_ai < 0 && lv_i >= auto682E4D88_ae) ) ; lv_i += auto682E4D88_ai ) {
-        UnitCreateEffectPoint(EventUnit(), "SnipeDamage22", libNtve_gf_PointOffsetTowardsPoint(lv_fIRE_OFFSET, (IntToFixed(lv_i) * 1.0), lv_tARGET_OFFSET));
+        UnitCreateEffectPoint(EventUnit(), "SnipeDamageAOE1_00", libNtve_gf_PointOffsetTowardsPoint(lv_fIRE_OFFSET, (IntToFixed(lv_i) * 1.0), lv_tARGET_OFFSET));
     }
     CameraShakeStart(EventPlayer(), c_cameraPositionTarget, c_cameraDirectionXYZ, 2.5, 10.0, 100.0, 0.1);
-    VisRevealerDestroy(gv_rEVEAL[EventPlayer()]);
+    VisRevealerDestroy(gv_railgun_revealer[EventPlayer()]);
     CameraSetValue(EventPlayer(), c_cameraValueDistance, 10.0, 1.0, -1, 50);
     return true;
 }
@@ -3614,9 +3676,9 @@ void gt_railgun_line_damage_Init () {
 }
 
 //--------------------------------------------------------------------------------------------------
-// Trigger: railgun_block
+// Trigger: railgun_force_nontarget
 //--------------------------------------------------------------------------------------------------
-bool gt_railgun_block_Func (bool testConds, bool runActions) {
+bool gt_railgun_force_nontarget_Func (bool testConds, bool runActions) {
     // Automatic Variable Declarations
     // Conditions
     if (testConds) {
@@ -3635,9 +3697,9 @@ bool gt_railgun_block_Func (bool testConds, bool runActions) {
 }
 
 //--------------------------------------------------------------------------------------------------
-void gt_railgun_block_Init () {
-    gt_railgun_block = TriggerCreate("gt_railgun_block_Func");
-    TriggerAddEventUnitAbility(gt_railgun_block, null, AbilityCommand("NovaSnipe", 0), c_abilEffectStagePrep, false);
+void gt_railgun_force_nontarget_Init () {
+    gt_railgun_force_nontarget = TriggerCreate("gt_railgun_force_nontarget_Func");
+    TriggerAddEventUnitAbility(gt_railgun_force_nontarget, null, AbilityCommand("NovaSnipe", 0), c_abilEffectStagePrep, false);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -4100,7 +4162,7 @@ void InitTriggers () {
     gt_railgun_zoomout_Init();
     gt_railgun_cancel_Init();
     gt_railgun_line_damage_Init();
-    gt_railgun_block_Init();
+    gt_railgun_force_nontarget_Init();
     gt_death_track_Init();
     gt_playerexit_track_Init();
     gt_board_init_Init();
