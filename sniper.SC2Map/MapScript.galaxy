@@ -3546,6 +3546,8 @@ bool gt_railgun_timer_Func (bool testConds, bool runActions) {
     for ( ; ( (autoCDCA25FE_ai >= 0 && lv_i <= autoCDCA25FE_ae) || (autoCDCA25FE_ai < 0 && lv_i >= autoCDCA25FE_ae) ) ; lv_i += autoCDCA25FE_ai ) {
         gv_railgun_zoom_active[lv_i] = false;
     }
+    Wait(5.0, c_timeGame);
+    HelpPanelDestroyAllTips();
     return true;
 }
 

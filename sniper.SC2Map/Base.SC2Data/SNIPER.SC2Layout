@@ -49,6 +49,14 @@
       <Height val="200"/>
       <Width val="800"/>
     </Frame>
+
+    <Frame type="MessageDisplay" name="ErrorDisplay">
+      <Anchor side="Top" relative="$parent/AlertPanel" pos="3.0" offset="0"/>
+      <Anchor side="Left" relative="$parent" pos="0.7" offset="10"/>
+      <MaxMessages val="4"/>
+      <Width val="550"/>
+      <Height val="128"/>
+    </Frame>
   </Frame>
 
   <Frame type="Frame" name="GameUI/UIContainer/ConsoleUIContainer" file="GameUI">
@@ -89,13 +97,13 @@
       <Visible val='False'/>
     </Frame>
 
-    <Frame type='ControlGroupPanel' name='ControlGroupPanel'>
+    <Frame type="ControlGroupPanel" name="ControlGroupPanel">
       <Anchor side="Bottom" relative="$parent" pos="Min" offset="-500"/>
     </Frame>
 
     <Frame type="CommandPanel" name="CommandPanel">
       <Anchor side="Bottom" relative="$parent" pos="1.0" offset="-18"/>
-      <Anchor side="Right" relative="$parent" pos="0.57" offset="-21"/>
+      <Anchor side="Right" relative="$parent" pos="0.99" offset="-20"/>
       <Height val="80"/>
       <Width val="270"/>
       <Frame type="CommandButton" name="CommandButton00">
@@ -152,10 +160,16 @@
     </Frame>
 
     <Frame type="InfoPanel" name="InfoPanel">
+      <Anchor side="Left" relative="$parent" pos=".714" offset="0"/>
+      <Anchor side="Right" relative="$parent" pos="1" offset="0"/>
+      <Anchor side="Bottom" relative="$parent" pos="0.98" offset="0"/>
       <Frame type="InfoPaneUnit" name="InfoPaneUnit">
         <Anchor side="Top" relative="$parent" pos="Max" offset="0"/>
       </Frame>
       <Frame type="Frame" name="UnitPanel">
+        <Frame type="BehaviorBar" name="BehaviorBar">
+          <Anchor side="Left" relative="$parent" pos=".48" offset="10"/>
+        </Frame>
         <Frame type="UnitWireframe" name="UnitWireframe">
           <Anchor side="Top" relative="$parent" pos="0" offset="-20"/>
           <Anchor side="Left" relative="$parent" pos=".57" offset="0"/>

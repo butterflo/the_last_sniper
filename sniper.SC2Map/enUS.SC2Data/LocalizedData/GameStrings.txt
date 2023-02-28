@@ -171,6 +171,8 @@ DocInfo/PatchNote138=* Updated game logo.
 DocInfo/PatchNote139=* The Last Station: railgun now destroys bunkers.
 DocInfo/PatchNote140=* The Last Forest: adjusted the size of small pond to match the electrocuting effect AoE.
 DocInfo/PatchNote141=* Bots now use railgun when available.
+DocInfo/PatchNote142=* Player status and the skill bar are now displayed on the lower right to not obstruct field of view.
+DocInfo/PatchNote143=* Minor UI changes.
 Effect/Name/EMPLaunchMissile=Pulse Grenade
 Effect/Name/EMPSearch=Pulse Grenade
 Effect/Name/EMPSet=Pulse Grenade
@@ -226,7 +228,7 @@ Param/Value/5A50E22C=<s val="Sniper24Bold"><c val="80FFFF">Game over<n/><c val="
 Param/Value/5F7FA20E=<c val="FFFF00">Alert: the host needs to choose a map to continue.<n/>Otherwise the host will be ejected.</c>
 Param/Value/62859487= rounds
 Param/Value/63266638=This session will now close in 10 seconds.
-Param/Value/64807EEF=<s val="ModCenterSize14Bold"><c val="FFFF00">Player
+Param/Value/64807EEF=<s val="Sniper16Bold"><c val="FFFF00">Player
 Param/Value/668086AC=<s val="Sniper64Bold"><c val="FFFFFF">Railgun [R] <c val="80FF00">ON</c></c>
 Param/Value/675B5AED=<s val="Sniper48Bold"><c val="FFFFFF">MODE: Team Match</c></s><n/><n/><s val="Sniper24Bold"><c val="80FF00">HOST: </c>
 Param/Value/6D4DACE6=<s val="Sniper24Bold"><c val="80FF00">Round complete<n/></c><c val="FFFF00">draw : no survivors</c>
@@ -245,7 +247,7 @@ Param/Value/8CCEFFAC=<c val="4040FF">]</c>
 Param/Value/8E0FE9BE=<s val="Sniper24Bold"><c val="80FF00">HOST: </c><c val="FFFFFF">
 Param/Value/8E24C481=9999
 Param/Value/924837FD=Map selected: <c val="00FF00">"The Last Forest"</c>
-Param/Value/94327A55=<s val="ModCenterSize14Bold"><c val="FFFF00">
+Param/Value/94327A55=<s val="Sniper16Bold"><c val="FFFF00">
 Param/Value/97C8F7EA=<s val="ModCenterSize20Bold"><c val="FF0000">[[</c>
 Param/Value/9FE5311C=</c><c val="FF4040"> ]</c>
 Param/Value/A0B687CD=<s val="Sniper48Bold"><c val="FFFFFF">MODE: Deathmatch</c></s><n/><n/><s val="Sniper24Bold"><c val="80FF00">HOST: </c>
@@ -258,13 +260,13 @@ Param/Value/B50915CF=<s val="Sniper16Bold"><c val="FF0000">RAILGUN READY</c></s>
 Param/Value/B78D0629=<s val="Sniper24Bold"><c val="80FF00">Round complete</c><n/><c val="FF4040">Red team</c> wins
 Param/Value/C714C4F0=<s val="Sniper24Bold"><c val="FFFF00">Round begins in</c><n/>
 Param/Value/C7BF680A=Map selected: <c val="00FF00">"The Last Volcano"</c>
-Param/Value/C840B0AB=<s val="ModCenterSize14Bold"><c val="FFFF00">Wins
+Param/Value/C840B0AB=<s val="Sniper16Bold"><c val="FFFF00">Wins
 Param/Value/C9EE629B=<s val="Sniper24Bold"><c val="FFFFFF">The Last Station</c></s>
 Param/Value/CE2A7A5D=1
 Param/Value/D612CF94= rounds
 Param/Value/D99A6E67=</c><c val="4040FF">[ </c><c val="FFFFFF">
 Param/Value/E4216853=<c val="FFFF00">Alert: lava warning!
-Param/Value/E5515842=<s val="ModCenterSize14Bold"><c val="80FF00">
+Param/Value/E5515842=<s val="Sniper16Bold"><c val="80FF00">
 Param/Value/E9B4328E=P LEFT
 Param/Value/F03FE3EC=<s val="Sniper16Bold"><c val="FFFFFF">Fight in woods.<n/><n/>Spawns: rocks, trees, ponds<n/>Timer: wall of fire<n/><n/><c val="FFFF40">(No railgun)</c></s></c>
 Param/Value/F0A88DF9=<s val="Sniper24Bold"><c val="80FF00">Round complete<n/>
@@ -299,6 +301,6 @@ Variant001/ModeDesc=..
 Variant001/ModeName=FFA
 Variant002/ModeDesc=..
 Variant002/ModeName=TDM
-e_cmdCooldown=<s val="ModCenterSize16Bold"><c val="FFFF00">Cooldown is active</c></s>
-e_cmdNotEnoughEnergy=<s val="ModCenterSize16Bold"><c val="FFFF00">Not enough energy.</c></s>
-e_cmdYouCantIssueCommandsToThatUnit=<s val="ModCenterSize16Bold"><c val="FFFF00">Cannot accept orders now.</c></s>
+e_cmdCooldown=<s val="Sniper16Bold"><c val="FFFF00">Cooldown is active</c></s>
+e_cmdNotEnoughEnergy=<s val="Sniper16Bold"><c val="FFFF00">Not enough energy.</c></s>
+e_cmdYouCantIssueCommandsToThatUnit=<s val="Sniper16Bold"><c val="FFFF00">Cannot accept orders now.</c></s>
