@@ -173,6 +173,7 @@ DocInfo/PatchNote140=* The Last Forest: adjusted the size of small pond to match
 DocInfo/PatchNote141=* Bots now use railgun when available.
 DocInfo/PatchNote142=* Player status and the skill bar are now displayed on the lower right to not obstruct field of view.
 DocInfo/PatchNote143=* Minor UI changes.
+DocInfo/Website=https://butterflo.me/sniper
 Effect/Name/EMPLaunchMissile=Pulse Grenade
 Effect/Name/EMPSearch=Pulse Grenade
 Effect/Name/EMPSet=Pulse Grenade

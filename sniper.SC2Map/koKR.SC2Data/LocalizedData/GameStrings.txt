@@ -173,6 +173,7 @@ DocInfo/PatchNote140=* 자연의 네이쳐: 작은 물웅덩이의 크기를 감
 DocInfo/PatchNote141=* 이제 AI가 레일건을 사용합니다.
 DocInfo/PatchNote142=* 시야를 방해하지 않기 위해, 플레이어의 상태와 스킬바가 이제 화면 우측 하단에 표시됩니다.
 DocInfo/PatchNote143=* UI를 일부 다듬었습니다.
+DocInfo/Website=https://butterflo.me/sniper
 Effect/Name/SnipeDamage=저격 피해
 LoadingScreen/Tip=<s val="Sniper16Bold"><c val="800000">developer</c>  <c val="FFFFFF">butterflo</c>
 MapInfo/Player00/Name=중립
